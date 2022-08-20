@@ -11,15 +11,17 @@
 
 
 ### Setup ###
+from enum import unique
 from bs4            import BeautifulSoup
 from urllib.request import urlopen
 from os             import listdir
 from os.path        import isfile, join
-import pandas       as p
+import pandas       as pd
+import numpy        as np
 
 dir_project_root         = 'C:\Projects\Python\DatasetGenerator'
 dir_dataset_raw          = dir_project_root + '\datasets\\raw'
-dir_dataset_transformed  = dir_project_root + '\datasets\transformed'
+dir_dataset_transformed  = dir_project_root + '\datasets\\transformed'
 dir_dataset_modelled     = dir_project_root + '\datasets\modelled'
 
 dir_dataset_raw_given_names = dir_dataset_raw + '\given_names'
@@ -51,23 +53,44 @@ for url_current_dataset in relative_urls_names_datasets:
 
 ### Create transformed Dataset of Given Names With Sex ###
 # Open all raw given names datasets and create a list of unique names with sex.
-# Using a dictionary with the key as the given name and value as the sex to
-# easily guarantee unique names. This does mean that where a given name appears
-# alongside multiple sexes the last appearance will determine the sex we use in
-# our dataset. For our purposes of getting a simple list of names relatively
-# quickly this is acceptable.
-unique_given_names = dict()
-def add_given_names_to_dict(dict, name, sex):
-  dict[name] = sex
+all_given_names_list = []
+def collect_given_names(list, name, sex, source):
+  name_cleaned = str(name).strip().lower().capitalize()
+
+  if len(name_cleaned) >= 0:
+    list.append([name_cleaned, sex, source])
+
 
 for f in listdir(dir_dataset_raw_given_names):
   current_raw_file = join(dir_dataset_raw_given_names, f)
+  print(current_raw_file)
 
   if isfile(current_raw_file):
-    current_dataset = p.read_csv(current_raw_file)
+    current_dataset = pd.read_csv(current_raw_file)
 
+    # Input files either have a single Name and Sex column or a column each for
+    # Boy Names and Girl Names. Refactoring required if this changes at the
+    # moment I'd rather not get bogged down into a smarter solution but
+    # something to think about.
     if 'Name' in current_dataset.columns:
-      current_dataset.apply(lambda row: add_given_names_to_dict(unique_given_names, row['Name'], row['Sex']), axis='columns')
+      current_dataset.apply(lambda row: collect_given_names(all_given_names_list, row['Name'], row['Sex'], current_raw_file), axis='columns')
     else:
-      current_dataset.apply(lambda row: add_given_names_to_dict(unique_given_names, row['Girl Names'], 'Female'), axis='columns')
-      current_dataset.apply(lambda row: add_given_names_to_dict(unique_given_names, row['Boy Names'], 'Male'), axis='columns')
+      current_dataset.apply(lambda row: collect_given_names(all_given_names_list, row['Girl Names'], 'Female', current_raw_file), axis='columns')
+      current_dataset.apply(lambda row: collect_given_names(all_given_names_list, row['Boy Names'], 'Male', current_raw_file), axis='columns')
+
+# Uniquefy list of names and then set a subset of sexes to non-binary.
+# Pending release of the ABS Article on non-binary sex based on Census 2021 data
+# which is due in September 2022 I will set a random 20% of th enames to non-binary.
+# https://www.abs.gov.au/articles/non-binary-sex-2021-census
+unique_given_names = pd.DataFrame(all_given_names_list, columns=['name', 'sex', 'source']).drop_duplicates(subset=['name'])
+unique_given_names.reset_index(drop = True, inplace = True)
+unique_given_names['id'] = unique_given_names.index
+mask = unique_given_names['id'] % 5 == 0
+unique_given_names.loc[mask, 'sex'] = 'Non-Binary'
+unique_given_names.to_csv(
+    path_or_buf = join(dir_dataset_transformed, 'given_names.csv')
+  , sep         = ','
+  , columns     = ('id', 'name', 'sex')
+  , header      = True
+  , index       = False
+)

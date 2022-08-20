@@ -56,7 +56,7 @@ def collect_given_names(list, name, sex, source):
   name_cleaned = str(name).strip().lower().capitalize()
 
   if len(name_cleaned) >= 0:
-    list.append([name_cleaned, sex, source])
+    list.append([name_cleaned, sex.lower(), source])
 
 
 for f in listdir(dir_dataset_raw_given_names):
@@ -84,7 +84,7 @@ unique_given_names = pd.DataFrame(all_given_names_list, columns=['given_name', '
 unique_given_names.reset_index(drop = True, inplace = True)
 unique_given_names['id'] = unique_given_names.index
 mask = unique_given_names['id'] % 5 == 0
-unique_given_names.loc[mask, 'sex'] = 'Non-Binary'
+unique_given_names.loc[mask, 'sex'] = 'non-binary'
 unique_given_names.to_csv(
     path_or_buf = join(dir_dataset_transformed, 'given_names.csv')
   , sep         = ','

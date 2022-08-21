@@ -1,6 +1,6 @@
 ### Setup ###
 from os.path  import join
-from random   import randint
+from random   import randint, shuffle
 from datetime import date
 import pandas as pd
 
@@ -76,6 +76,8 @@ days_in_month_by_month_number = {
 # some sort.
 organisation_size = 1000
 
+
+# Start: Generate Employee Type #
 default_employee_type_mix = {
     'permanent full time': .50
   , 'permanent part time': .10
@@ -90,8 +92,10 @@ default_employee_type_mix_validation_result = validate_mix_percentages(default_e
 employee_type_list = []
 for key, value in default_employee_type_mix.items():
   employee_type_list.extend(key for i in range(int(organisation_size * value)))
+employee_type_list = shuffle(employee_type_list)
+# End: Generate Employee Type #
 
-
+# Start: Generate Employee Name and Sex #
 default_sex_mix = {
       'male'      : .40
     , 'female'    : .40
@@ -107,16 +111,18 @@ for key, value in default_sex_mix.items():
       , given_names_by_sex[key].iloc[[randint(0, len(given_names_by_sex[key]) - 1)]]['given_name'].values[0]
       , key
     ])
+employee_name_and_sex_list = shuffle(employee_name_and_sex_list)
+# End: Generate Employee Name and Sex #
 
-
+# Start: Generate Employee Age #
 default_age_mix = {
       'high': {'mix': .25, 'lower_age': 55, 'upper_age': 65}
     , 'mid' : {'mix': .50, 'lower_age': 30, 'upper_age': 54}
     , 'low' : {'mix': .25, 'lower_age': 20, 'upper_age': 29}
 }
 
-age_list     = []
-current_year = date.today().year
+employee_age_list = []
+current_year      = date.today().year
 for key, value in default_age_mix.items():
   year_lower_bound = current_year - value['upper_age']
   year_upper_bound = current_year - value['lower_age']
@@ -125,7 +131,11 @@ for key, value in default_age_mix.items():
     month        = randint(1, 12)
     day_of_month = randint(1, days_in_month_by_month_number[month])
     year         = randint(year_lower_bound, year_upper_bound)
-    age_list.append(date(year, month, day_of_month))
+    employee_age_list.append(date(year, month, day_of_month))
+employee_age_list = shuffle(employee_age_list)
+# End: Generate Employee Age #
+
+# Merge Lists.
 
 
 ### Configure team demogrpahic cariables ###

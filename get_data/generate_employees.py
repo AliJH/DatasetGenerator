@@ -89,10 +89,9 @@ default_employee_type_mix = {
 }
 default_employee_type_mix_validation_result = validate_mix_percentages(default_employee_type_mix)
 
-employee_type_list = []
+employee_type_list = list([])
 for key, value in default_employee_type_mix.items():
   employee_type_list.extend(key for i in range(int(organisation_size * value)))
-employee_type_list = shuffle(employee_type_list)
 # End: Generate Employee Type #
 
 # Start: Generate Employee Name and Sex #
@@ -103,7 +102,7 @@ default_sex_mix = {
 }
 default_sex_mix_validation_result = validate_mix_percentages(default_sex_mix)
 
-employee_name_and_sex_list = []
+employee_name_and_sex_list = list([])
 for key, value in default_sex_mix.items():
   for i in range(int(organisation_size * value)):
     employee_name_and_sex_list.append([
@@ -111,7 +110,6 @@ for key, value in default_sex_mix.items():
       , given_names_by_sex[key].iloc[[randint(0, len(given_names_by_sex[key]) - 1)]]['given_name'].values[0]
       , key
     ])
-employee_name_and_sex_list = shuffle(employee_name_and_sex_list)
 # End: Generate Employee Name and Sex #
 
 # Start: Generate Employee Age #
@@ -121,7 +119,7 @@ default_age_mix = {
     , 'low' : {'mix': .25, 'lower_age': 20, 'upper_age': 29}
 }
 
-employee_age_list = []
+employee_age_list = list([])
 current_year      = date.today().year
 for key, value in default_age_mix.items():
   year_lower_bound = current_year - value['upper_age']
@@ -132,11 +130,39 @@ for key, value in default_age_mix.items():
     day_of_month = randint(1, days_in_month_by_month_number[month])
     year         = randint(year_lower_bound, year_upper_bound)
     employee_age_list.append(date(year, month, day_of_month))
-employee_age_list = shuffle(employee_age_list)
 # End: Generate Employee Age #
 
 # Merge Lists.
+# Start: Prepare lists for merging.
+# Shuffling is required otherwise final output will be skewed towards position
+# of mix types across the different mixes.
+shuffle(employee_type_list)
+shuffle(employee_name_and_sex_list)
+shuffle(employee_age_list)
 
+# Lengths may differ between lists due to rounding of the mix type values when
+# applied to the organisation size.
+min_employee_list_length = min(
+    len(employee_type_list)
+  , len(employee_name_and_sex_list)
+  , len(employee_age_list)
+) + 1
+
+
+employee_demographics_list = list([])
+for i in range(0, min_employee_list_length):
+  employee_demographics_list.append([
+      employee_type_list[i]
+    , employee_name_and_sex_list[i][0]
+    , employee_name_and_sex_list[i][1]
+    , employee_name_and_sex_list[i][2]
+    , employee_age_list[i]
+  ])
+
+employees = pd.DataFrame(
+    employee_demographics_list
+  , columns=['employee_type', 'family_name', 'given_name', 'sex', 'date_of_birth']
+)
 
 ### Configure team demogrpahic cariables ###
 # Will be implemented as part of the employee title generation

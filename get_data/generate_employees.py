@@ -157,19 +157,64 @@ for i in range(0, min_employee_list_length):
     , employee_name_and_sex_list[i][1]
     , employee_name_and_sex_list[i][2]
     , employee_age_list[i]
+    , '' # Placeholder for position
+    , '' # Placeholder for team
+    , '' # Placeholder for department
+    , '' # Placeholder for division
   ])
 
 employees = pd.DataFrame(
     employee_demographics_list
-  , columns=['employee_type', 'family_name', 'given_name', 'sex', 'date_of_birth']
+  , columns=['employee_type', 'family_name', 'given_name', 'sex', 'date_of_birth', 'position', 'team', 'department', 'division']
 )
 
-### Configure team demogrpahic variables ###
-# Will be implemented as part of the employee title generation
-# default_level_mix = {
-#     'level 0': .25
-#   , 'level 1': .50
-#   , 'level 2': .25 
-# }
 
+### Associate Employees with Teams and Positions ###
+company_executive_leadership_team = pd.read_csv(join(dir_dataset_transformed, 'company_executive_leadership_team.csv'))
+company_position_modifiers        = pd.read_csv(join(dir_dataset_transformed, 'company_position_modifiers.csv'))
+company_teams                     = pd.read_csv(join(dir_dataset_transformed, 'company_teams.csv'))
+company_departments               = company_teams.filter(['department', 'division']).drop_duplicates().dropna().reset_index(drop = True)
+company_department_head_positions = company_position_modifiers.query('level_name == "Department Head"').reset_index(drop = True)
 
+employees_processed  = 0
+employees_to_process = len(employees)
+
+# Pick out ELT and Department Heads first, they should all be over 30 (sorry young people).
+for i in range(0, len(company_executive_leadership_team)):
+  employees.loc[i, 'position']      = company_executive_leadership_team.loc[i, 'executive']
+  employees.loc[i, 'team']          = 'Executive Leadership Team'
+  employees.loc[i, 'division']      = company_executive_leadership_team.loc[i, 'division']
+  employees.loc[i, 'employee_type'] = 'executive leader'
+
+  current_employee_age_years = current_year - employees.loc[i, 'date_of_birth'].year
+  if current_employee_age_years < 30:
+    employees.loc[i, 'date_of_birth'] = date(
+        employees.loc[i, 'date_of_birth'].year + 30 - current_employee_age_years
+      , employees.loc[i, 'date_of_birth'].month
+      , employees.loc[i, 'date_of_birth'].day
+    )
+
+  employees_processed  += 1
+  employees_to_process -= 1
+
+# ToDo find a neater way to describe via logic/variable names that we are piggy backing off
+# of the employee iteration to iterate through the departments list.
+company_executive_leadership_team_length = len(company_executive_leadership_team)
+company_departments_length = len(company_departments)
+for i in range(employees_processed, employees_processed + company_departments_length):
+  employees.loc[i, 'position']   = company_department_head_positions.loc[randint(0, len(company_department_head_positions) - 1), 'modifier']
+  employees.loc[i, 'team']       = 'Senior Leadership Team'
+  employees.loc[i, 'department'] = company_departments.loc[i - company_executive_leadership_team_length, 'department']
+  employees.loc[i, 'division']   = company_departments.loc[i - company_executive_leadership_team_length, 'division']
+  employees.loc[i, 'employee_type'] = 'senior leader'
+
+  current_employee_age_years = current_year - employees.loc[i, 'date_of_birth'].year
+  if current_employee_age_years < 30:
+    employees.loc[i, 'date_of_birth'] = date(
+        employees.loc[i, 'date_of_birth'].year + 30 - current_employee_age_years
+      , employees.loc[i, 'date_of_birth'].month
+      , employees.loc[i, 'date_of_birth'].day
+    )
+
+  employees_processed  += 1
+  employees_to_process -= 1

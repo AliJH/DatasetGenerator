@@ -164,11 +164,12 @@ employees = pd.DataFrame(
   , columns=['employee_type', 'family_name', 'given_name', 'sex', 'date_of_birth']
 )
 
-### Configure team demogrpahic cariables ###
+### Configure team demogrpahic variables ###
 # Will be implemented as part of the employee title generation
 # default_level_mix = {
 #     'level 0': .25
 #   , 'level 1': .50
 #   , 'level 2': .25 
 # }
+
 

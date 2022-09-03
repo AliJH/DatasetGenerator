@@ -1,8 +1,17 @@
+# Major to do, 2022-09-03 was the day I realised that Python for loops
+# do not have their own scope. Need to either abstract away via functions
+# or re-name variables to reduce chance of incorrect re-use.
+
+# More general to do, refactor this code so that it is somewhat readable.
+
+
 ### Setup ###
 from os.path  import join
 from random   import randint, shuffle
 from datetime import date
 import pandas as pd
+import numpy  as np
+import math
 
 dir_project_root         = 'C:\Projects\Python\DatasetGenerator'
 dir_dataset_raw          = dir_project_root + '\datasets\\raw'
@@ -158,21 +167,37 @@ for i in range(0, min_employee_list_length):
     , employee_name_and_sex_list[i][2]
     , employee_age_list[i]
     , '' # Placeholder for position
+    , '' # Placeholder for level
     , '' # Placeholder for team
     , '' # Placeholder for department
     , '' # Placeholder for division
+    , '' # Placeholder for employee id
+    , '' # Placeholder for reports to
   ])
 
 employees = pd.DataFrame(
     employee_demographics_list
-  , columns=['employee_type', 'family_name', 'given_name', 'sex', 'date_of_birth', 'position', 'team', 'department', 'division']
+  , columns=[
+      'employee_type'
+    , 'family_name'
+    , 'given_name'
+    , 'sex'
+    , 'date_of_birth'
+    , 'position'
+    , 'level'
+    , 'team'
+    , 'department'
+    , 'division'
+    , 'employee_id'
+    , 'reports_to'
+  ]
 )
 
 
 ### Associate Employees with Teams and Positions ###
 company_executive_leadership_team = pd.read_csv(join(dir_dataset_transformed, 'company_executive_leadership_team.csv'))
 company_position_modifiers        = pd.read_csv(join(dir_dataset_transformed, 'company_position_modifiers.csv'))
-company_teams                     = pd.read_csv(join(dir_dataset_transformed, 'company_teams.csv'))
+company_teams                     = pd.read_csv(join(dir_dataset_transformed, 'company_teams.csv')).replace(np.nan, '', regex=True)
 company_departments               = company_teams.filter(['department', 'division']).drop_duplicates().dropna().reset_index(drop = True)
 company_department_head_positions = company_position_modifiers.query('level_name == "Department Head"').reset_index(drop = True)
 
@@ -220,4 +245,41 @@ for i in range(employees_processed, employees_processed + company_departments_le
 
   employees_processed  += 1
   employees_to_process -= 1
-  
+
+
+organisation_size_minus_leaders      = organisation_size - employees_processed
+company_teams_length                 = len(company_teams)
+employees_processed_at_current_team  = employees_processed
+employees_to_process_at_current_team = employees_to_process
+
+for team_index in range(0, company_teams_length):
+  division    = company_teams.loc[team_index, 'division']
+  department  = company_teams.loc[team_index, 'department']
+  team        = company_teams.loc[team_index, 'team']
+
+  titles        = company_teams.loc[team_index, 'titles'].split('|')
+  titles_length = len(titles) - 1
+  level_mix     = {
+      'level_2_mix': company_teams.loc[team_index, 'level_2_mix']
+    , 'level_1_mix': company_teams.loc[team_index, 'level_1_mix']
+    , 'level_0_mix': company_teams.loc[team_index, 'level_0_mix']
+  }
+
+  # Round team sizes natually and once we get to the final team cap numbers to remaining employees.
+  size = round(organisation_size_minus_leaders * company_teams.loc[team_index, 'company_size_mix'])
+
+  # I should try and write some abstraction for iterating through the team mixes, for now just
+  # so that I can see some output we'll generate random titles.
+  for employee_index in range(employees_processed_at_current_team, min(employees_processed_at_current_team + size, organisation_size)):
+    employees.loc[employee_index, 'division']      = division
+    employees.loc[employee_index, 'department']    = department
+    employees.loc[employee_index, 'team']          = team
+    employees.loc[employee_index, 'position']      = titles[randint(0, titles_length)]
+
+    employees_processed  += 1
+    employees_to_process -= 1
+
+  employees_processed_at_current_team  = employees_processed
+  employees_to_process_at_current_team = employees_to_process
+
+employees.to_csv(join(dir_dataset_modelled, 'test_employees.csv'))

@@ -11,7 +11,6 @@ from random   import randint, shuffle
 from datetime import date
 import pandas as pd
 import numpy  as np
-import math
 
 dir_project_root         = 'C:\Projects\Python\DatasetGenerator'
 dir_dataset_raw          = dir_project_root + '\datasets\\raw'
@@ -166,11 +165,11 @@ for i in range(0, min_employee_list_length):
     , employee_name_and_sex_list[i][1]
     , employee_name_and_sex_list[i][2]
     , employee_age_list[i]
+    , '' # Placeholder for division
+    , '' # Placeholder for department
+    , '' # Placeholder for team
     , '' # Placeholder for position
     , '' # Placeholder for level
-    , '' # Placeholder for team
-    , '' # Placeholder for department
-    , '' # Placeholder for division
     , '' # Placeholder for employee id
     , '' # Placeholder for reports to
   ])
@@ -183,11 +182,11 @@ employees = pd.DataFrame(
     , 'given_name'
     , 'sex'
     , 'date_of_birth'
+    , 'division'
+    , 'department'
+    , 'team'
     , 'position'
     , 'level'
-    , 'team'
-    , 'department'
-    , 'division'
     , 'employee_id'
     , 'reports_to'
   ]
@@ -196,22 +195,60 @@ employees = pd.DataFrame(
 
 ### Associate Employees with Teams and Positions ###
 company_executive_leadership_team = pd.read_csv(join(dir_dataset_transformed, 'company_executive_leadership_team.csv'))
-company_position_modifiers        = pd.read_csv(join(dir_dataset_transformed, 'company_position_modifiers.csv'))
 company_teams                     = pd.read_csv(join(dir_dataset_transformed, 'company_teams.csv')).replace(np.nan, '', regex=True)
-company_departments               = company_teams.filter(['department', 'division']).drop_duplicates().dropna().reset_index(drop = True)
+company_departments               = company_teams.filter(['department', 'division']).drop_duplicates().replace(r'^\s*$', np.nan, regex=True).dropna().reset_index(drop = True)
+
+company_position_modifiers        = pd.read_csv(join(dir_dataset_transformed, 'company_position_modifiers.csv'))
 company_department_head_positions = company_position_modifiers.query('level_name == "Department Head"').reset_index(drop = True)
 
 employees_processed  = 0
 employees_to_process = len(employees)
 
+
+# lets try iterating through the teams and assigning them a start and end employee list offset
+# then maybe we can apply a map against that range of the employee list rather than iterating
+# through it
+company_teams.insert(1, 'employee_offset_start', -1)
+company_teams.insert(2, 'employee_offset_end'  , -1)
+
+company_elt_team_offset_start             = 0
+company_elt_team_offset_end               = len(company_executive_leadership_team)
+company_department_head_team_offset_start = company_elt_team_offset_end + 1
+company_department_head_team_offset_end   = company_department_head_team_offset_start + len(company_departments)
+
+next_team_offset_start = company_department_head_team_offset_end + 1
+for i in range(0, len(company_teams)):
+  current_team_size = round(organisation_size * company_teams.loc[i, 'company_size_mix'])
+
+  company_teams.loc[i, 'employee_offset_start'] = next_team_offset_start 
+  # Once we get to the final team there is a chance that the offset end will be greater
+  # than the organisation size, simple guard against that.
+  company_teams.loc[i, 'employee_offset_end']   = min(next_team_offset_start + current_team_size, organisation_size - 1)
+
+  next_team_offset_start += current_team_size + 1
+
+
 # Pick out ELT and Department Heads first, they should all be over 30 (sorry young people).
 minimum_age_for_leaders = 30
 
-for i in range(0, len(company_executive_leadership_team)):
-  employees.loc[i, 'position']      = company_executive_leadership_team.loc[i, 'executive']
-  employees.loc[i, 'team']          = 'Executive Leadership Team'
-  employees.loc[i, 'division']      = company_executive_leadership_team.loc[i, 'division']
+# We'll use the index of the employee record as an employee id.
+# Need to record the employee id of the CEO so that we can have them report to nobody
+# and have the rest of the ELT report to them.
+ceo_employee_id = company_executive_leadership_team.index[company_executive_leadership_team['executive'] == 'Chief Executive Officer'].tolist()[0]
+
+for i in range(company_elt_team_offset_start, company_elt_team_offset_end):
   employees.loc[i, 'employee_type'] = 'executive leader'
+  employees.loc[i, 'division'     ] = company_executive_leadership_team.loc[i, 'division']
+  employees.loc[i, 'department'   ] = ''
+  employees.loc[i, 'team'         ] = 'Executive Leadership Team'
+  employees.loc[i, 'position'     ] = company_executive_leadership_team.loc[i, 'executive']
+  employees.loc[i, 'level'        ] = 5 # should be made to dynamically get the level for the ELT positions but I am tired
+  employees.loc[i, 'employee_id'  ] = i
+  employees.loc[i, 'reports_to'   ] = ceo_employee_id
+
+  # Set the CEO to report to nobody.
+  if i == ceo_employee_id:
+    employees.loc[i, 'reports_to'] = -1
 
   current_employee_age_years = current_year - employees.loc[i, 'date_of_birth'].year
   if current_employee_age_years < minimum_age_for_leaders:
@@ -228,12 +265,19 @@ for i in range(0, len(company_executive_leadership_team)):
 # of the employee iteration to iterate through the departments list.
 company_executive_leadership_team_length = len(company_executive_leadership_team)
 company_departments_length = len(company_departments)
-for i in range(employees_processed, employees_processed + company_departments_length):
-  employees.loc[i, 'position']      = company_department_head_positions.loc[randint(0, len(company_department_head_positions) - 1), 'modifier']
-  employees.loc[i, 'team']          = 'Senior Leadership Team'
-  employees.loc[i, 'department']    = company_departments.loc[i - company_executive_leadership_team_length, 'department']
-  employees.loc[i, 'division']      = company_departments.loc[i - company_executive_leadership_team_length, 'division']
+for i in range(company_department_head_team_offset_start, company_department_head_team_offset_end):
+  current_slt_department_index = i - company_executive_leadership_team_length - 1
+  current_slt_position_index   = randint(0, len(company_department_head_positions) - 1)
+  current_slt_head_query       = 'team == "Executive Leadership Team" and division == "' + company_departments.loc[current_slt_department_index, 'division'] + '"'
+
   employees.loc[i, 'employee_type'] = 'senior leader'
+  employees.loc[i, 'division'     ] = company_departments.loc[current_slt_department_index, 'division']
+  employees.loc[i, 'department'   ] = company_departments.loc[current_slt_department_index, 'department']
+  employees.loc[i, 'team'         ] = 'Senior Leadership Team'
+  employees.loc[i, 'position'     ] = company_department_head_positions.loc[current_slt_position_index, 'modifier']
+  employees.loc[i, 'level'        ] = company_department_head_positions.loc[current_slt_position_index, 'level']
+  employees.loc[i, 'employee_id'  ] = i
+  employees.loc[i, 'reports_to'   ] = employees.query(current_slt_head_query).reset_index().loc[0, 'employee_id']
 
   current_employee_age_years = current_year - employees.loc[i, 'date_of_birth'].year
   if current_employee_age_years < minimum_age_for_leaders:
@@ -252,10 +296,16 @@ company_teams_length                 = len(company_teams)
 employees_processed_at_current_team  = employees_processed
 employees_to_process_at_current_team = employees_to_process
 
+
+level_0_title_modifiers = ['Graduate', 'Junior', 'Associate']
+
 for team_index in range(0, company_teams_length):
   division    = company_teams.loc[team_index, 'division']
   department  = company_teams.loc[team_index, 'department']
   team        = company_teams.loc[team_index, 'team']
+
+  current_department_head_query = 'team == "Senior Leadership Team" and department == "' + department + '" and division == "' + division + '"'
+  department_head_id = employees.query(current_slt_head_query).reset_index().loc[0, 'employee_id']
 
   titles        = company_teams.loc[team_index, 'titles'].split('|')
   titles_length = len(titles) - 1
@@ -271,10 +321,30 @@ for team_index in range(0, company_teams_length):
   # I should try and write some abstraction for iterating through the team mixes, for now just
   # so that I can see some output we'll generate random titles.
   for employee_index in range(employees_processed_at_current_team, min(employees_processed_at_current_team + size, organisation_size)):
-    employees.loc[employee_index, 'division']      = division
-    employees.loc[employee_index, 'department']    = department
-    employees.loc[employee_index, 'team']          = team
-    employees.loc[employee_index, 'position']      = titles[randint(0, titles_length)]
+    # Make the first employee the team leader.
+    if employee_index == employees_processed_at_current_team:
+      team_leader_id = employee_index
+      employees.loc[employee_index, 'position'  ] = 'Team Leader'
+      employees.loc[employee_index, 'level'     ] = 3
+      employees.loc[employee_index, 'reports_to'] = department_head_id
+    else:
+      # To do remove this randomisation of levels and change it to use the defined team mixes.
+      level = randint(0, 3)
+
+      if level == 0:
+        employees.loc[employee_index, 'position'  ] = level_0_title_modifiers[randint(0, len(level_0_title_modifiers) - 1)] + ' ' + titles[randint(0, titles_length)]
+      elif level == 1:
+        employees.loc[employee_index, 'position'  ] = titles[randint(0, titles_length)]
+      else:
+        employees.loc[employee_index, 'position'  ] = 'Senior ' + titles[randint(0, titles_length)]
+
+      employees.loc[employee_index, 'level'     ] = level
+      employees.loc[employee_index, 'reports_to'] = team_leader_id
+
+    employees.loc[employee_index, 'division'   ] = division
+    employees.loc[employee_index, 'department' ] = department
+    employees.loc[employee_index, 'team'       ] = team
+    employees.loc[employee_index, 'employee_id'] = employee_index
 
     employees_processed  += 1
     employees_to_process -= 1

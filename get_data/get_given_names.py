@@ -78,7 +78,7 @@ for f in listdir(dir_dataset_raw_given_names):
 
 # Uniquefy list of names and then set a subset of sexes to non-binary.
 # Pending release of the ABS Article on non-binary sex based on Census 2021 data
-# which is due in September 2022 I will set a random 20% of th enames to non-binary.
+# which is due in September 2022 I will set a random 20% of the names to non-binary.
 # https://www.abs.gov.au/articles/non-binary-sex-2021-census
 unique_given_names = pd.DataFrame(all_given_names_list, columns=['given_name', 'sex', 'source']).drop_duplicates(subset=['given_name'])
 unique_given_names.reset_index(drop = True, inplace = True)

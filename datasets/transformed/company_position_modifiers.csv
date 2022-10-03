@@ -1,0 +1,13 @@
+modifier,modifier_type,level,level_name
+Junior,pre,0,Team Member
+Graduate,pre,0,Team Member
+Associate,pre,0,Team Member
+Vanilla,pre,1,Team Member
+Senior,pre,2,Team Member
+Principal,pre,3,Team Leader
+Team Leader,replace,3,Team Leader
+Lead,pre,3,Team Leader
+Manager,replace,4,Department Head
+Associate Director,replace,4,Department Head
+Director,replace,4,Department Head
+Chief,pre,5,Executive Leadership Team

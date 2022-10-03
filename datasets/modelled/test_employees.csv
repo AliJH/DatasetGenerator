@@ -1,0 +1,1001 @@
+,employee_type,family_name,given_name,sex,date_of_birth,division,department,team,position,level,employee_id,reports_to
+0,executive leader,Houston,Bronte,female,1992-10-09,Office of the CEO,,Executive Leadership Team,Chief Executive Officer,5,0,-1
+1,executive leader,Corona,Madison,non-binary,1992-01-21,Finance,,Executive Leadership Team,Chief Financial Officer,5,1,0
+2,executive leader,Callahan,Theresa,female,1992-03-13,IT,,Executive Leadership Team,Chief Information Officer,5,2,0
+3,executive leader,Fitzpatrick,Reece,male,1979-10-12,Operations,,Executive Leadership Team,Chief Operating Officer,5,3,0
+4,executive leader,Correa,Kelsey,female,1959-08-26,People,,Executive Leadership Team,Chief People Officer,5,4,0
+5,contractor,Wilkins,Violet,female,1972-10-08,,,,,,,
+6,senior leader,Hail,Felix,male,1976-07-19,Finance,Accounting,Senior Leadership Team,Director,4,6,1
+7,senior leader,Barnes,Douglas,male,1974-08-28,Finance,Audit,Senior Leadership Team,Manager,4,7,1
+8,senior leader,Valdez,Georgia,female,1961-02-15,Finance,Financial Planning and Analysis,Senior Leadership Team,Manager,4,8,1
+9,senior leader,Wheeler,James,male,1981-03-05,People,Projects and Planning,Senior Leadership Team,Manager,4,9,4
+10,senior leader,Farrell,Tracy,non-binary,1992-07-21,People,Training and Development,Senior Leadership Team,Manager,4,10,4
+11,senior leader,Kent,Ashlee,female,1992-09-19,IT,Technology Support,Senior Leadership Team,Manager,4,11,2
+12,senior leader,Barker,Louis,male,1965-10-21,IT,Operations and Infrastructure,Senior Leadership Team,Director,4,12,2
+13,senior leader,Hurst,David,non-binary,1992-01-26,IT,Corporate Applications,Senior Leadership Team,Associate Director,4,13,2
+14,senior leader,Boyer,Vanessa,female,1992-06-04,Operations,Sales,Senior Leadership Team,Manager,4,14,3
+15,senior leader,Wu,Matthew,male,1984-12-03,Operations,Marketing,Senior Leadership Team,Manager,4,15,3
+16,senior leader,Cabrera,Rosemary,non-binary,1983-05-25,Operations,Warehouse,Senior Leadership Team,Director,4,16,3
+17,senior leader,Hebert,Tania,non-binary,1992-07-23,Office of the CEO,,Office of the CEO,Team Leader,3,17,3
+18,permanent full time,Rosario,Terrence,non-binary,1975-12-10,Office of the CEO,,Office of the CEO,Administration Officer,1,18,17
+19,permanent full time,Montoya,Mackenzie,female,2000-11-02,Office of the CEO,,Office of the CEO,Executive Officer,1,19,17
+20,permanent full time,Saunders,Aiden,male,1991-05-18,Office of the CEO,,Office of the CEO,Business Support Officer,1,20,17
+21,permanent full time,Blair,Connor,male,2002-12-21,Office of the CEO,,Office of the CEO,Associate Business Support Officer,0,21,17
+22,contractor,Jefferson,Xavier,non-binary,1965-02-26,Finance,,Office of the CFO,Team Leader,3,22,3
+23,permanent full time,Ford,Josephine,non-binary,1968-09-02,Finance,,Office of the CFO,Senior Analyst,2,23,22
+24,permanent full time,Li,Aurora,female,1960-10-13,Finance,,Office of the CFO,Graduate Analyst,0,24,22
+25,permanent full time,Novak,Mila,non-binary,1975-06-03,Finance,,Office of the CFO,Administration Officer,1,25,22
+26,permanent full time,Colon,Jai,male,2002-03-22,Finance,,Office of the CFO,Senior Administration Officer,2,26,22
+27,permanent part time,Glenn,Leonardo,male,1990-04-21,Finance,,Treasury,Team Leader,3,27,3
+28,permanent full time,Yates,Nathan,male,1964-07-14,Finance,,Treasury,Senior Accountant,2,28,27
+29,temporary part time,Knapp,Karen,female,1972-01-15,Finance,,Treasury,Senior Treasury Analyst,3,29,27
+30,temporary full time,Maxwell,Melissa,non-binary,1997-09-06,Finance,,Treasury,Senior Accountant,3,30,27
+31,permanent full time,Lester,Harley,male,1998-10-05,Finance,,Treasury,Senior Planning Officer,3,31,27
+32,permanent full time,Greene,Mason,male,1960-01-22,Finance,Accounting,Accounts Payable,Team Leader,3,32,3
+33,permanent full time,Mcgee,Frederick,male,2001-10-23,Finance,Accounting,Accounts Payable,Business Support Officer,1,33,32
+34,permanent part time,Glass,Bryan,male,1984-08-28,Finance,Accounting,Accounts Payable,Senior Accountant,3,34,32
+35,temporary full time,Cameron,Luca,male,1991-11-27,Finance,Accounting,Accounts Payable,Senior Business Support Officer,2,35,32
+36,permanent part time,Schroeder,Maria,female,2002-10-15,Finance,Accounting,Accounts Payable,Senior Accountant,3,36,32
+37,temporary part time,Dyer,Linda,non-binary,1977-11-08,Finance,Accounting,Accounts Payable,Graduate Accountant,0,37,32
+38,permanent part time,Cruz,Jeffrey,male,1992-01-23,Finance,Accounting,Accounts Payable,Senior Accountant,2,38,32
+39,permanent part time,Willis,Kelsey,female,1995-04-15,Finance,Accounting,Accounts Payable,Associate Business Support Officer,0,39,32
+40,permanent full time,Moore,Jamie,male,1973-12-19,Finance,Accounting,Accounts Payable,Business Support Officer,1,40,32
+41,temporary full time,Robles,Maggie,female,1987-11-20,Finance,Accounting,Accounts Payable,Accountant,1,41,32
+42,temporary full time,Mendoza,Fletcher,male,2000-01-25,Finance,Accounting,Accounts Receivable,Team Leader,3,42,3
+43,permanent full time,Villalobos,Parker,male,2001-09-09,Finance,Accounting,Accounts Receivable,Senior Accountant,3,43,42
+44,temporary full time,Lynch,Olive,female,1976-11-13,Finance,Accounting,Accounts Receivable,Graduate Business Support Officer,0,44,42
+45,contractor,Leonard,Mikaela,female,1985-06-10,Finance,Accounting,Accounts Receivable,Graduate Accountant,0,45,42
+46,contractor,Rocha,Maureen,female,1982-10-25,Finance,Accounting,Accounts Receivable,Associate Accountant,0,46,42
+47,contractor,Salazar,Joseph,male,1986-12-10,Finance,Accounting,Accounts Receivable,Accountant,1,47,42
+48,temporary full time,Merritt,Jodi,female,1974-02-18,Finance,Accounting,Accounts Receivable,Business Support Officer,1,48,42
+49,casual,Mendoza,Carla,female,2002-02-20,Finance,Accounting,Accounts Receivable,Business Support Officer,1,49,42
+50,permanent part time,Bonilla,Reuben,non-binary,1967-06-25,Finance,Accounting,Accounts Receivable,Associate Accountant,0,50,42
+51,permanent full time,Myers,Shannon,non-binary,1981-12-08,Finance,Accounting,Accounts Receivable,Graduate Business Support Officer,0,51,42
+52,permanent full time,Haynes,Kathryn,female,1976-07-08,Finance,Accounting,Payroll,Team Leader,3,52,3
+53,permanent part time,Parsons,Finn,non-binary,1992-09-30,Finance,Accounting,Payroll,Senior Accountant,2,53,52
+54,permanent full time,Tyler,Archer,male,1978-12-08,Finance,Accounting,Payroll,Senior Business Support Officer,2,54,52
+55,temporary part time,Mayer,Jasper,male,1968-08-18,Finance,Accounting,Payroll,Senior Accountant,2,55,52
+56,permanent full time,Porter,Louise,female,1977-09-10,Finance,Accounting,Payroll,Junior Accountant,0,56,52
+57,contractor,Solomon,Rhiannon,female,1963-02-18,Finance,Accounting,Payroll,Associate Accountant,0,57,52
+58,permanent part time,Howe,Luca,male,1968-09-25,Finance,Accounting,Payroll,Senior Business Support Officer,3,58,52
+59,permanent part time,Harvey,Kieran,non-binary,1997-03-07,Finance,Accounting,Payroll,Senior Accountant,3,59,52
+60,permanent part time,Acosta,Bella,female,1986-01-10,Finance,Accounting,Payroll,Senior Business Support Officer,2,60,52
+61,permanent full time,Brock,Gemma,female,1982-01-21,Finance,Accounting,Payroll,Business Support Officer,1,61,52
+62,temporary full time,Sanchez,Stella,female,1976-03-28,Finance,Audit,Financial Audit,Team Leader,3,62,3
+63,temporary full time,Flowers,Jodie,female,1971-07-05,Finance,Audit,Financial Audit,Audit Analyst,1,63,62
+64,permanent full time,Bernal,Kane,male,1961-10-10,Finance,Audit,Financial Audit,Senior Auditor,2,64,62
+65,contractor,Mcdaniel,Riley,male,1986-01-10,Finance,Audit,Financial Audit,Auditor,1,65,62
+66,permanent full time,Monroe,Hazel,female,1999-08-03,Finance,Audit,Financial Audit,Graduate Auditor,0,66,62
+67,permanent full time,Mercado,Ross,male,1959-06-08,Finance,Audit,Governance and Risk,Team Leader,3,67,3
+68,permanent full time,Paul,Oscar,male,2001-11-22,Finance,Audit,Governance and Risk,Risk Analyst,1,68,67
+69,temporary full time,Farley,Phoebe,non-binary,1992-10-09,Finance,Audit,Governance and Risk,Senior Legal Advisor,2,69,67
+70,temporary full time,Nielsen,Jarrod,male,1961-06-05,Finance,Audit,Governance and Risk,Senior Governance and Risk Advisor,2,70,67
+71,permanent full time,Gibson,Sam,male,1963-04-23,Finance,Audit,Governance and Risk,Graduate Governance and Risk Advisor,0,71,67
+72,temporary part time,Hickman,Tayla,female,1975-07-24,Finance,Financial Planning and Analysis,Planning,Team Leader,3,72,3
+73,contractor,Prince,Tammy,female,1986-12-26,Finance,Financial Planning and Analysis,Planning,Graduate Forecast Analyst,0,73,72
+74,permanent full time,Curtis,Stuart,non-binary,1964-01-08,Finance,Financial Planning and Analysis,Planning,Graduate Forecast Analyst,0,74,72
+75,permanent full time,Hobbs,Adrian,male,1974-06-25,Finance,Financial Planning and Analysis,Planning,Planning Officer,1,75,72
+76,permanent full time,Ellison,Denise,female,1982-07-15,Finance,Financial Planning and Analysis,Planning,Senior Planning Officer,3,76,72
+77,permanent part time,Conley,Evelyn,female,1957-06-11,Finance,Financial Planning and Analysis,Planning,Senior Planning Officer,3,77,72
+78,permanent part time,Ahmed,Candice,non-binary,1996-09-27,Finance,Financial Planning and Analysis,Planning,Senior Forecast Analyst,3,78,72
+79,temporary part time,Christian,Kerrie,female,1972-11-11,Finance,Financial Planning and Analysis,Planning,Associate Forecast Analyst,0,79,72
+80,contractor,Sherman,Isla,non-binary,1987-02-03,Finance,Financial Planning and Analysis,Planning,Junior Forecast Analyst,0,80,72
+81,contractor,Stephenson,Annette,non-binary,1970-11-07,Finance,Financial Planning and Analysis,Planning,Senior Forecast Analyst,2,81,72
+82,permanent full time,Hinton,Hunter,male,1958-05-24,Finance,Financial Planning and Analysis,Analytics,Team Leader,3,82,3
+83,permanent full time,Trevino,Jeffrey,male,1957-10-17,Finance,Financial Planning and Analysis,Analytics,Associate Reporting Analyst,0,83,82
+84,permanent part time,Mccarty,Kellie,non-binary,1973-12-10,Finance,Financial Planning and Analysis,Analytics,Associate Reporting Analyst,0,84,82
+85,permanent full time,Hawkins,Craig,male,2002-12-24,Finance,Financial Planning and Analysis,Analytics,Forecast Analyst,1,85,82
+86,permanent part time,Whitney,Drew,male,1987-02-28,Finance,Financial Planning and Analysis,Analytics,Senior Reporting Analyst,2,86,82
+87,casual,Guerra,Summer,female,1968-11-30,Finance,Financial Planning and Analysis,Analytics,Senior Forecast Analyst,3,87,82
+88,permanent part time,Pope,Isabella,female,1997-11-25,Finance,Financial Planning and Analysis,Analytics,Graduate Reporting Analyst,0,88,82
+89,permanent full time,House,Madonna,non-binary,1962-11-26,Finance,Financial Planning and Analysis,Analytics,Graduate Forecast Analyst,0,89,82
+90,permanent part time,Cross,Kirra,female,1976-11-20,Finance,Financial Planning and Analysis,Analytics,Senior Forecast Analyst,3,90,82
+91,temporary full time,Bowman,Ebony,female,1957-06-28,Finance,Financial Planning and Analysis,Analytics,Associate Reporting Analyst,0,91,82
+92,temporary part time,Clements,Tristan,male,1997-01-20,Finance,,Facilities Management,Team Leader,3,92,3
+93,casual,Baxter,Donald,male,1994-12-04,Finance,,Facilities Management,Graduate Helpdesk Officer,0,93,92
+94,temporary part time,Sherman,Teresa,female,1976-08-27,Finance,,Facilities Management,Graduate Facilities Officer,0,94,92
+95,casual,Spencer,Garry,male,1973-09-16,Finance,,Facilities Management,Junior Facilities Officer,0,95,92
+96,permanent part time,Kent,Denise,female,1970-09-11,Finance,,Facilities Management,Senior Helpdesk Officer,3,96,92
+97,temporary full time,Flowers,Connor,male,1967-10-13,Finance,,Facilities Management,Facilities Officer,1,97,92
+98,permanent full time,Powell,Matthew,male,1976-10-03,Finance,,Facilities Management,Senior Business Support Officer,2,98,92
+99,permanent full time,Cardenas,Ross,male,1972-12-12,Finance,,Facilities Management,Senior Helpdesk Officer,2,99,92
+100,temporary full time,Floyd,Kevin,male,1985-08-22,Finance,,Facilities Management,Facilities Officer,1,100,92
+101,temporary full time,Galvan,Christina,non-binary,1995-11-18,Finance,,Facilities Management,Facilities Officer,1,101,92
+102,contractor,James,Byron,non-binary,1965-02-20,Finance,,Procurement,Team Leader,3,102,3
+103,temporary full time,Cantu,Dianne,female,1963-04-18,Finance,,Procurement,Senior Procurement Officer,2,103,102
+104,permanent full time,Potts,Gabriel,male,2000-03-13,Finance,,Procurement,Senior Contract Analyst,3,104,102
+105,temporary full time,Sierra,Isabelle,female,1998-09-05,Finance,,Procurement,Junior Procurement Officer,0,105,102
+106,permanent full time,Merritt,Timothy,male,1974-03-11,Finance,,Procurement,Associate Procurement Officer,0,106,102
+107,temporary part time,French,Aaron,male,1973-08-27,Finance,,Procurement,Graduate Business Support Officer,0,107,102
+108,permanent full time,Friedman,River,male,1963-08-18,Finance,,Procurement,Contract Analyst,1,108,102
+109,permanent full time,Mullen,Laura,female,1995-08-02,Finance,,Procurement,Senior Contract Analyst,2,109,102
+110,temporary full time,Dorsey,Wesley,non-binary,2002-06-07,Finance,,Procurement,Senior Contract Analyst,2,110,102
+111,permanent full time,Sanford,Trudy,female,1998-06-22,Finance,,Procurement,Senior Contract Analyst,2,111,102
+112,permanent full time,Webster,Jared,male,1969-10-07,People,,Office of the CPO,Team Leader,3,112,3
+113,temporary full time,Harper,Charlotte,female,2000-02-20,People,,Office of the CPO,Senior Business Support Officer,2,113,112
+114,permanent full time,Howard,Abby,non-binary,1981-08-20,People,,Office of the CPO,Junior Business Support Officer,0,114,112
+115,permanent full time,Castillo,Martin,male,1976-12-01,People,,Office of the CPO,Senior Administration Officer,2,115,112
+116,permanent full time,Rosas,Jaxson,male,1964-05-12,People,,Office of the CPO,Business Support Officer,1,116,112
+117,contractor,Chapman,Jorja,female,1961-09-05,People,,Legal,Team Leader,3,117,3
+118,permanent full time,Carpenter,Shelley,female,1967-05-18,People,,Legal,Senior Business Support Officer,3,118,117
+119,permanent part time,Suarez,Tori,non-binary,1996-06-12,People,,Legal,Business Support Officer,1,119,117
+120,temporary full time,Stewart,Brittney,female,1971-01-03,People,,Legal,Legal Officer,1,120,117
+121,permanent full time,Graves,Neville,male,1990-02-04,People,,Legal,Senior Lawyer,3,121,117
+122,permanent full time,Wall,Candice,non-binary,2002-11-16,People,Projects and Planning,Project Management Office,Team Leader,3,122,3
+123,temporary full time,Barnett,Seth,male,1998-06-25,People,Projects and Planning,Project Management Office,Business Analyst,1,123,122
+124,temporary full time,Dudley,Jack,non-binary,1979-08-14,People,Projects and Planning,Project Management Office,Planning Officer,1,124,122
+125,contractor,Callahan,Elise,female,1971-02-02,People,Projects and Planning,Project Management Office,Project Officer,1,125,122
+126,temporary part time,Roach,Theodore,male,1985-09-19,People,Projects and Planning,Project Management Office,Senior Project Officer,3,126,122
+127,permanent full time,Mayo,Fletcher,male,1958-02-11,People,Projects and Planning,Project Management Office,Senior Planning Officer,2,127,122
+128,permanent full time,Travis,Brianna,female,1982-10-27,People,Projects and Planning,Project Management Office,Business Analyst,1,128,122
+129,permanent full time,Buchanan,Krystle,female,1967-01-08,People,Projects and Planning,Project Management Office,Senior Reporting Analyst,3,129,122
+130,permanent full time,Holt,Jane,female,1974-03-19,People,Projects and Planning,Project Management Office,Senior Business Analyst,3,130,122
+131,permanent full time,Douglas,Hudson,male,1997-12-04,People,Projects and Planning,Project Management Office,Business Analyst,1,131,122
+132,temporary full time,Moon,Molly,female,1962-08-19,People,Projects and Planning,HR Helpdesk,Team Leader,3,132,3
+133,permanent full time,Nelson,Tracy,non-binary,1995-10-02,People,Projects and Planning,HR Helpdesk,Senior Training Advisor,2,133,132
+134,permanent full time,Patel,Lucy,female,1989-06-26,People,Projects and Planning,HR Helpdesk,Senior Training Advisor,3,134,132
+135,permanent full time,Ross,Kelly,female,1998-10-08,People,Projects and Planning,HR Helpdesk,Junior Training Advisor,0,135,132
+136,contractor,Nunez,Toby,male,1957-12-16,People,Projects and Planning,HR Helpdesk,Junior Helpdesk Officer,0,136,132
+137,permanent full time,Fitzgerald,Frederick,male,1984-07-23,People,Projects and Planning,HR Helpdesk,Senior Training Advisor,3,137,132
+138,permanent part time,Coffey,Keira,non-binary,1973-12-06,People,Projects and Planning,HR Helpdesk,Graduate Helpdesk Officer,0,138,132
+139,temporary full time,Herrera,Nan,male,1957-02-15,People,Projects and Planning,HR Helpdesk,Helpdesk Officer,1,139,132
+140,permanent full time,Stout,Courtney,female,1966-12-14,People,Projects and Planning,HR Helpdesk,Helpdesk Officer,1,140,132
+141,temporary full time,Goodwin,Taj,male,1978-09-20,People,Projects and Planning,HR Helpdesk,Training Advisor,1,141,132
+142,permanent full time,Hutchinson,Dylan,male,1958-10-29,People,Training and Development,Learning Design,Team Leader,3,142,3
+143,permanent full time,Austin,Taylah,female,2000-09-23,People,Training and Development,Learning Design,Senior Learning Designer,3,143,142
+144,permanent full time,Ford,Kai,non-binary,1997-03-26,People,Training and Development,Learning Design,Senior Learning Designer,2,144,142
+145,permanent full time,Dorsey,Fletcher,male,1961-03-12,People,Training and Development,Learning Design,Senior Systems Analyst,3,145,142
+146,permanent full time,Lynn,Raymond,male,2001-09-18,People,Training and Development,Learning Design,Graduate Learning Designer,0,146,142
+147,contractor,Cameron,Dennis,male,1975-10-14,People,Training and Development,Learning Design,Systems Analyst,1,147,142
+148,permanent full time,Greene,Jax,male,1975-10-20,People,Training and Development,Learning Design,Senior Learning Designer,2,148,142
+149,permanent full time,Andrews,Jodie,female,1980-10-02,People,Training and Development,Learning Design,Systems Analyst,1,149,142
+150,contractor,Lawrence,Cooper,male,1986-02-05,People,Training and Development,Learning Design,Learning Designer,1,150,142
+151,permanent full time,Kirk,Barry,male,1966-09-22,People,Training and Development,Learning Design,Senior Systems Analyst,2,151,142
+152,permanent full time,Owens,Paris,female,1979-09-18,People,Training and Development,Training,Team Leader,3,152,3
+153,permanent full time,Nichols,Parker,male,1983-11-27,People,Training and Development,Training,Junior Business Support Officer,0,153,152
+154,temporary full time,Barber,Finn,non-binary,1963-06-09,People,Training and Development,Training,Senior Training Advisor,2,154,152
+155,permanent full time,Rodgers,Murray,male,1978-06-30,People,Training and Development,Training,Business Support Officer,1,155,152
+156,temporary full time,Schultz,Nicole,female,1965-05-02,People,Training and Development,Training,Associate Business Support Officer,0,156,152
+157,permanent full time,Villalobos,Kelvin,male,2001-02-11,People,Training and Development,Training,Graduate Business Support Officer,0,157,152
+158,permanent full time,Dean,Courtney,female,1974-09-04,People,Training and Development,Training,Senior Training Advisor,3,158,152
+159,permanent full time,Molina,Isabella,female,1968-07-22,People,Training and Development,Training,Senior Business Support Officer,3,159,152
+160,temporary full time,Mcclure,Megan,female,1998-10-06,People,Training and Development,Training,Business Support Officer,1,160,152
+161,permanent part time,Chambers,Neil,male,1999-07-23,People,Training and Development,Training,Senior Training Advisor,3,161,152
+162,permanent full time,Garrett,Kasey,female,1980-12-13,IT,,Office of the CIO,Team Leader,3,162,3
+163,contractor,Meadows,Shaun,male,1968-08-28,IT,,Office of the CIO,Senior Vendor Management Analyst,3,163,162
+164,temporary full time,Duncan,Brian,male,2000-01-02,IT,,Office of the CIO,Senior Project Officer,2,164,162
+165,temporary full time,Daugherty,Faith,female,1996-06-13,IT,,Office of the CIO,Senior Business Analyst,2,165,162
+166,casual,George,Kerri,female,1988-01-19,IT,,Office of the CIO,Senior Project Officer,3,166,162
+167,temporary full time,Pham,Donald,male,1964-03-10,IT,Technology Support,Executive Support,Team Leader,3,167,3
+168,permanent part time,Pratt,Braxton,non-binary,1989-04-28,IT,Technology Support,Executive Support,Associate System Administrator,0,168,167
+169,permanent full time,Luna,Bronwyn,female,1982-12-10,IT,Technology Support,Executive Support,Senior Technology Support Officer,3,169,167
+170,temporary full time,Hernandez,Janine,female,1985-10-03,IT,Technology Support,Executive Support,Graduate Technology Support Officer,0,170,167
+171,permanent full time,Drake,Chelsea,female,1998-01-24,IT,Technology Support,Executive Support,Associate System Administrator,0,171,167
+172,permanent full time,Mccann,Tania,non-binary,1969-09-09,IT,Technology Support,Desktop Support,Team Leader,3,172,3
+173,permanent full time,Norton,Troy,non-binary,1959-03-10,IT,Technology Support,Desktop Support,Technology Support Officer,1,173,172
+174,permanent part time,Sosa,Colleen,female,1961-01-29,IT,Technology Support,Desktop Support,Senior Technology Support Officer,3,174,172
+175,permanent full time,Navarro,Ashleigh,female,1996-06-14,IT,Technology Support,Desktop Support,Technology Support Officer,1,175,172
+176,permanent full time,Atkins,Elias,male,1980-01-12,IT,Technology Support,Desktop Support,Senior Technology Support Officer,3,176,172
+177,permanent full time,Reeves,Elias,male,1986-08-07,IT,Technology Support,Desktop Support,Senior Technology Support Officer,2,177,172
+178,permanent full time,Clarke,Nathan,male,1978-02-17,IT,Technology Support,Desktop Support,Senior Technology Support Officer,3,178,172
+179,temporary full time,Nunez,Maria,female,1958-08-04,IT,Technology Support,Desktop Support,Associate Technology Support Officer,0,179,172
+180,contractor,Rowe,Victoria,female,1968-12-18,IT,Technology Support,Desktop Support,Senior Technology Support Officer,3,180,172
+181,permanent full time,Nelson,Eric,male,1975-09-06,IT,Technology Support,Desktop Support,Associate Technology Support Officer,0,181,172
+182,permanent full time,Casey,Evie,female,1999-05-09,IT,Technology Support,Desktop Support,Graduate Technology Support Officer,0,182,172
+183,temporary full time,Moss,Stacey,non-binary,1957-07-12,IT,Technology Support,Desktop Support,Senior Technology Support Officer,2,183,172
+184,permanent part time,Hoover,Alan,non-binary,1989-09-14,IT,Technology Support,Desktop Support,Senior Technology Support Officer,3,184,172
+185,permanent full time,Blackwell,Charlotte,female,2001-01-08,IT,Technology Support,Desktop Support,Senior Technology Support Officer,3,185,172
+186,permanent full time,Conner,Felix,male,1993-07-16,IT,Technology Support,Desktop Support,Senior Technology Support Officer,3,186,172
+187,permanent part time,Corona,Nan,male,1980-11-12,IT,Technology Support,Desktop Support,Technology Support Officer,1,187,172
+188,permanent full time,Thomas,Luca,male,1963-04-09,IT,Technology Support,Desktop Support,Senior Technology Support Officer,2,188,172
+189,contractor,Hebert,Benjamin,male,1990-01-31,IT,Technology Support,Desktop Support,Senior Technology Support Officer,3,189,172
+190,permanent full time,Wagner,Kirra,female,1991-10-24,IT,Technology Support,Desktop Support,Graduate Technology Support Officer,0,190,172
+191,permanent full time,George,Hayden,male,1959-11-24,IT,Technology Support,Desktop Support,Senior Technology Support Officer,3,191,172
+192,temporary full time,Finley,Keith,non-binary,1983-10-08,IT,Technology Support,IT Helpdesk,Team Leader,3,192,3
+193,temporary full time,Boone,George,non-binary,1988-05-11,IT,Technology Support,IT Helpdesk,Associate Helpdesk Officer,0,193,192
+194,permanent full time,Hensley,Kelvin,male,1963-08-03,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,2,194,192
+195,permanent full time,Castillo,Phoebe,non-binary,1967-01-01,IT,Technology Support,IT Helpdesk,Helpdesk Officer,1,195,192
+196,permanent full time,Aguilar,Tracy,non-binary,1983-11-26,IT,Technology Support,IT Helpdesk,Helpdesk Officer,1,196,192
+197,temporary part time,Daugherty,Hayden,male,1960-05-05,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,2,197,192
+198,temporary full time,Sanchez,Maeve,female,1985-02-13,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,3,198,192
+199,permanent full time,Martinez,Margaret,female,1957-02-26,IT,Technology Support,IT Helpdesk,Junior Helpdesk Officer,0,199,192
+200,permanent full time,Booth,Mitchell,non-binary,1994-03-02,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,2,200,192
+201,permanent full time,Griffin,Poppy,non-binary,1990-04-21,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,2,201,192
+202,temporary full time,Lowe,Mary,female,2000-10-29,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,3,202,192
+203,temporary full time,Horton,Jonathon,male,1986-02-15,IT,Technology Support,IT Helpdesk,Helpdesk Officer,1,203,192
+204,contractor,Bradshaw,Sofia,female,1971-02-27,IT,Technology Support,IT Helpdesk,Graduate Helpdesk Officer,0,204,192
+205,temporary full time,Monroe,Eli,male,1965-06-04,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,3,205,192
+206,contractor,Diaz,Leanne,female,1974-01-11,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,3,206,192
+207,permanent full time,Owens,Lynette,female,1998-07-11,IT,Technology Support,IT Helpdesk,Associate Helpdesk Officer,0,207,192
+208,permanent full time,Kane,Theresa,female,1986-09-24,IT,Technology Support,IT Helpdesk,Junior Helpdesk Officer,0,208,192
+209,permanent part time,Moon,Leonie,non-binary,1958-02-17,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,2,209,192
+210,contractor,Mccoy,Susan,female,1968-09-12,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,3,210,192
+211,permanent full time,Rodgers,Trevor,male,1992-01-23,IT,Technology Support,IT Helpdesk,Associate Helpdesk Officer,0,211,192
+212,permanent full time,Dennis,Nicola,non-binary,1987-11-16,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,2,212,192
+213,permanent full time,Horne,Mitchell,non-binary,2002-05-01,IT,Technology Support,IT Helpdesk,Junior Helpdesk Officer,0,213,192
+214,casual,Travis,John,male,1996-11-07,IT,Technology Support,IT Helpdesk,Helpdesk Officer,1,214,192
+215,permanent full time,Cain,Daryl,male,1992-01-30,IT,Technology Support,IT Helpdesk,Helpdesk Officer,1,215,192
+216,contractor,Valentine,Laurence,non-binary,2000-12-05,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,2,216,192
+217,casual,Humphrey,Erin,female,2001-01-25,IT,Technology Support,IT Helpdesk,Junior Helpdesk Officer,0,217,192
+218,temporary full time,Butler,Hallie,non-binary,1958-05-13,IT,Technology Support,IT Helpdesk,Junior Helpdesk Officer,0,218,192
+219,contractor,Bowen,Hayden,male,1969-05-02,IT,Technology Support,IT Helpdesk,Senior Helpdesk Officer,3,219,192
+220,permanent full time,Graves,Theresa,female,1991-03-11,IT,Technology Support,IT Helpdesk,Helpdesk Officer,1,220,192
+221,permanent part time,Compton,Leslie,male,1985-03-27,IT,Operations and Infrastructure,Cloud DevOps,Team Leader,3,221,3
+222,temporary full time,Macias,Kenneth,male,1965-03-03,IT,Operations and Infrastructure,Cloud DevOps,DevOps Engineer,1,222,221
+223,temporary full time,Orr,Lloyd,non-binary,1976-04-05,IT,Operations and Infrastructure,Cloud DevOps,Senior DevOps Engineer,3,223,221
+224,temporary full time,Yu,Francis,male,1994-09-13,IT,Operations and Infrastructure,Cloud DevOps,Graduate DevOps Engineer,0,224,221
+225,permanent full time,Colon,Drew,male,1965-02-07,IT,Operations and Infrastructure,Cloud DevOps,Graduate DevOps Engineer,0,225,221
+226,permanent full time,Pratt,Kyle,male,1963-08-18,IT,Operations and Infrastructure,Cloud DevOps,DevOps Engineer,1,226,221
+227,permanent part time,Whitney,Aaron,male,1987-12-03,IT,Operations and Infrastructure,Cloud DevOps,Graduate DevOps Engineer,0,227,221
+228,temporary part time,Nixon,Janine,female,1958-03-28,IT,Operations and Infrastructure,Cloud DevOps,DevOps Engineer,1,228,221
+229,permanent full time,Rodriguez,Russell,male,1988-12-19,IT,Operations and Infrastructure,Cloud DevOps,DevOps Engineer,1,229,221
+230,permanent part time,Ellison,Kirsty,female,1976-09-12,IT,Operations and Infrastructure,Cloud DevOps,DevOps Engineer,1,230,221
+231,permanent part time,Marsh,Hayley,female,1970-10-21,IT,Operations and Infrastructure,Integration,Team Leader,3,231,3
+232,permanent full time,Peterson,Elizabeth,female,1999-10-29,IT,Operations and Infrastructure,Integration,Senior System Administrator,3,232,231
+233,temporary full time,Morgan,Leon,male,1957-02-26,IT,Operations and Infrastructure,Integration,Senior Developer,2,233,231
+234,permanent part time,Horton,Tiffany,female,1961-10-19,IT,Operations and Infrastructure,Integration,Developer,1,234,231
+235,temporary full time,Sellers,Clinton,male,1993-12-26,IT,Operations and Infrastructure,Integration,Senior Developer,2,235,231
+236,permanent full time,Yu,Sarah,female,1962-06-16,IT,Operations and Infrastructure,Integration,Junior System Administrator,0,236,231
+237,permanent full time,Gillespie,Jan,female,1979-11-20,IT,Operations and Infrastructure,Integration,Junior Developer,0,237,231
+238,permanent full time,Reynolds,Diana,female,1961-03-15,IT,Operations and Infrastructure,Integration,Senior System Administrator,2,238,231
+239,permanent full time,Hendrix,Tori,non-binary,1975-08-11,IT,Operations and Infrastructure,Integration,Junior System Administrator,0,239,231
+240,permanent full time,Barnett,Veronica,non-binary,1999-12-27,IT,Operations and Infrastructure,Integration,Senior Developer,2,240,231
+241,permanent full time,Mullen,Alyssa,non-binary,1970-12-25,IT,Operations and Infrastructure,Networking,Team Leader,3,241,3
+242,permanent part time,Ellison,Casey,female,2002-11-15,IT,Operations and Infrastructure,Networking,Associate Network Engineer,0,242,241
+243,contractor,Goodwin,Ivy,non-binary,1989-04-19,IT,Operations and Infrastructure,Networking,Graduate Technology Support Officer,0,243,241
+244,temporary full time,Stephens,Daisy,female,1998-12-25,IT,Operations and Infrastructure,Networking,Junior System Administrator,0,244,241
+245,temporary full time,Galvan,Emilia,female,1978-07-29,IT,Operations and Infrastructure,Networking,Senior System Administrator,2,245,241
+246,permanent full time,Knight,Annette,non-binary,1993-10-13,IT,Operations and Infrastructure,Networking,Associate Network Engineer,0,246,241
+247,temporary full time,Cook,Caitlin,female,1981-04-23,IT,Operations and Infrastructure,Networking,Associate Technology Support Officer,0,247,241
+248,casual,Pierce,Lloyd,non-binary,1963-06-14,IT,Operations and Infrastructure,Networking,Senior Technology Support Officer,2,248,241
+249,permanent full time,Gill,Laurence,non-binary,1995-03-13,IT,Operations and Infrastructure,Networking,Senior System Administrator,2,249,241
+250,contractor,Bryant,Belinda,female,1958-02-10,IT,Operations and Infrastructure,Networking,Junior Network Engineer,0,250,241
+251,permanent full time,Benton,Annette,non-binary,2002-08-14,IT,Operations and Infrastructure,Networking,Senior Technology Support Officer,3,251,241
+252,permanent full time,Parks,Natalie,non-binary,1986-06-14,IT,Operations and Infrastructure,Networking,Network Engineer,1,252,241
+253,permanent full time,Blair,Tristan,male,1989-08-04,IT,Operations and Infrastructure,Networking,Graduate System Administrator,0,253,241
+254,permanent full time,Waters,Sandra,female,1962-03-08,IT,Operations and Infrastructure,Networking,Senior Network Engineer,3,254,241
+255,temporary full time,Gallegos,Nan,male,1961-12-20,IT,Operations and Infrastructure,Networking,Senior Technology Support Officer,3,255,241
+256,permanent full time,Wilson,Tracey,female,2002-03-13,IT,Operations and Infrastructure,Networking,Technology Support Officer,1,256,241
+257,permanent full time,Chung,Toby,male,1962-10-27,IT,Operations and Infrastructure,Networking,Senior System Administrator,3,257,241
+258,permanent full time,Galindo,Dane,male,1968-12-21,IT,Operations and Infrastructure,Networking,Associate Network Engineer,0,258,241
+259,permanent full time,Wells,Nate,male,1979-10-16,IT,Operations and Infrastructure,Networking,Senior System Administrator,3,259,241
+260,permanent full time,Liu,Katie,female,1995-09-06,IT,Operations and Infrastructure,Networking,Senior System Administrator,3,260,241
+261,temporary full time,Rosales,Micheal,male,1988-09-03,IT,Corporate Applications,Website,Team Leader,3,261,3
+262,permanent full time,Proctor,Nicola,non-binary,1997-05-08,IT,Corporate Applications,Website,UX Analyst,1,262,261
+263,permanent full time,Romero,Andrea,female,1966-12-17,IT,Corporate Applications,Website,Web Developer,1,263,261
+264,contractor,Strong,Maya,female,1968-01-26,IT,Corporate Applications,Website,Senior Web Developer,3,264,261
+265,temporary part time,Saunders,David,non-binary,1960-03-25,IT,Corporate Applications,Website,Senior Web Developer,3,265,261
+266,permanent full time,Weeks,Eric,male,1965-07-01,IT,Corporate Applications,Website,Senior Web Developer,2,266,261
+267,permanent full time,Clements,Mathew,male,1972-01-26,IT,Corporate Applications,Website,UX Analyst,1,267,261
+268,permanent full time,Benitez,Travis,male,1997-07-03,IT,Corporate Applications,Website,Web Developer,1,268,261
+269,temporary full time,Hendrix,Krystal,female,1963-06-16,IT,Corporate Applications,Website,Senior UX Analyst,3,269,261
+270,contractor,Raymond,Laurence,non-binary,1968-04-14,IT,Corporate Applications,Website,Associate Web Developer,0,270,261
+271,contractor,Scott,Zachary,non-binary,1957-10-26,IT,Corporate Applications,Website,Senior Web Developer,3,271,261
+272,contractor,Abbott,Margaret,female,1974-09-08,IT,Corporate Applications,Website,Senior UX Analyst,2,272,261
+273,permanent full time,Rosales,Cameron,non-binary,1968-06-07,IT,Corporate Applications,Website,Senior Web Developer,3,273,261
+274,temporary full time,Mays,Elise,female,1995-07-07,IT,Corporate Applications,Website,Senior Web Developer,3,274,261
+275,permanent full time,Harper,Christina,non-binary,1990-03-04,IT,Corporate Applications,Website,Associate Web Developer,0,275,261
+276,temporary part time,Bender,Vanessa,female,1960-05-13,IT,Corporate Applications,Website,UX Analyst,1,276,261
+277,permanent full time,Burgess,Mason,male,1985-03-15,IT,Corporate Applications,Website,Senior UX Analyst,2,277,261
+278,contractor,Bryan,Jeanette,female,1985-08-05,IT,Corporate Applications,Website,Senior UX Analyst,3,278,261
+279,temporary full time,Richard,Murray,male,1957-12-19,IT,Corporate Applications,Website,Graduate UX Analyst,0,279,261
+280,permanent full time,Willis,Kate,female,2001-03-28,IT,Corporate Applications,Website,UX Analyst,1,280,261
+281,permanent part time,Lamb,Nate,male,1995-01-06,IT,Corporate Applications,Business Systems,Team Leader,3,281,3
+282,temporary full time,Lynch,Gary,male,1994-11-08,IT,Corporate Applications,Business Systems,Associate Business Support Officer,0,282,281
+283,casual,Henson,Michelle,female,1989-03-09,IT,Corporate Applications,Business Systems,Senior Business Support Officer,2,283,281
+284,temporary part time,Conner,Indigo,non-binary,1961-07-26,IT,Corporate Applications,Business Systems,Senior Developer,2,284,281
+285,permanent full time,Schmidt,Lee,male,1976-05-01,IT,Corporate Applications,Business Systems,Senior Developer,3,285,281
+286,permanent full time,Whitehead,Kate,female,1978-12-19,IT,Corporate Applications,Business Systems,Graduate Business Support Officer,0,286,281
+287,permanent part time,Watkins,Melinda,female,1968-05-13,IT,Corporate Applications,Business Systems,Business Support Officer,1,287,281
+288,permanent full time,Moyer,Tristan,male,1975-11-19,IT,Corporate Applications,Business Systems,Associate System Administrator,0,288,281
+289,temporary part time,Shelton,Oliver,male,1997-03-29,IT,Corporate Applications,Business Systems,Business Support Officer,1,289,281
+290,temporary full time,Silva,Zachary,non-binary,1991-05-11,IT,Corporate Applications,Business Systems,Associate System Administrator,0,290,281
+291,permanent full time,Maynard,Tara,female,1958-07-23,Operations,,Office of the COO,Team Leader,3,291,3
+292,temporary full time,Farley,Jane,female,2000-06-29,Operations,,Office of the COO,Analyst,1,292,291
+293,temporary full time,Rivers,Kurt,male,1979-07-06,Operations,,Office of the COO,Graduate Analyst,0,293,291
+294,permanent full time,Lopez,Eleanor,female,1982-01-16,Operations,,Office of the COO,Graduate Administration Officer,0,294,291
+295,permanent full time,Hull,Jonathan,male,2000-09-06,Operations,,Office of the COO,Senior Administration Officer,2,295,291
+296,temporary part time,Fowler,Sophia,female,1988-04-10,Operations,Sales,National Sales - East,Team Leader,3,296,3
+297,permanent part time,Jacobs,Bodhi,non-binary,1991-02-19,Operations,Sales,National Sales - East,Business Support Officer,1,297,296
+298,permanent full time,Knox,Matthew,male,1958-10-27,Operations,Sales,National Sales - East,Senior Business Support Officer,3,298,296
+299,permanent full time,Hartman,Tyrone,non-binary,1980-06-27,Operations,Sales,National Sales - East,Graduate Business Support Officer,0,299,296
+300,contractor,Zimmerman,Harlow,female,1959-07-08,Operations,Sales,National Sales - East,Senior Sales Executive,2,300,296
+301,permanent full time,Ballard,Gary,male,1964-11-09,Operations,Sales,National Sales - East,Senior Business Support Officer,2,301,296
+302,temporary part time,Trejo,Nate,male,1965-03-16,Operations,Sales,National Sales - East,Junior Sales Executive,0,302,296
+303,permanent full time,Johns,Flynn,male,1986-08-10,Operations,Sales,National Sales - East,Senior Business Support Officer,2,303,296
+304,permanent full time,Colon,Tania,non-binary,1995-08-18,Operations,Sales,National Sales - East,Business Support Officer,1,304,296
+305,temporary full time,Bradshaw,Carter,male,1972-09-20,Operations,Sales,National Sales - East,Sales Executive,1,305,296
+306,permanent full time,Burgess,Vanessa,female,1977-12-26,Operations,Sales,National Sales - East,Graduate Sales Executive,0,306,296
+307,permanent full time,Byrd,Stacey,non-binary,1994-11-08,Operations,Sales,National Sales - East,Senior Business Support Officer,2,307,296
+308,permanent full time,Farley,Hudson,male,2002-09-18,Operations,Sales,National Sales - East,Sales Executive,1,308,296
+309,permanent full time,Vaughn,Justin,non-binary,2000-10-01,Operations,Sales,National Sales - East,Associate Sales Executive,0,309,296
+310,casual,Shepherd,Madeline,female,1991-01-21,Operations,Sales,National Sales - East,Sales Executive,1,310,296
+311,temporary full time,Mccann,Jemma,female,1957-08-23,Operations,Sales,National Sales - East,Senior Business Support Officer,2,311,296
+312,permanent full time,Andrade,Belinda,female,1990-01-07,Operations,Sales,National Sales - East,Associate Sales Executive,0,312,296
+313,casual,Decker,Kasey,female,1999-10-19,Operations,Sales,National Sales - East,Business Support Officer,1,313,296
+314,casual,Keller,Jasmin,female,1980-05-22,Operations,Sales,National Sales - East,Senior Sales Executive,2,314,296
+315,permanent full time,Spence,Shaun,male,1978-12-10,Operations,Sales,National Sales - East,Sales Executive,1,315,296
+316,permanent full time,Castaneda,Terry,male,1999-07-02,Operations,Sales,National Sales - East,Business Support Officer,1,316,296
+317,permanent full time,Flores,Simone,female,1963-07-18,Operations,Sales,National Sales - East,Sales Executive,1,317,296
+318,permanent full time,Alvarado,Jennifer,female,1978-03-18,Operations,Sales,National Sales - East,Business Support Officer,1,318,296
+319,permanent part time,Clarke,Gabriella,female,1995-03-04,Operations,Sales,National Sales - East,Senior Sales Executive,3,319,296
+320,temporary full time,Jackson,Arlo,male,1996-06-08,Operations,Sales,National Sales - East,Junior Business Support Officer,0,320,296
+321,temporary full time,Mcguire,Beau,male,1999-08-25,Operations,Sales,National Sales - East,Senior Sales Executive,2,321,296
+322,temporary full time,Cervantes,Jesse,male,1990-10-07,Operations,Sales,National Sales - East,Associate Sales Executive,0,322,296
+323,permanent full time,Koch,Ben,male,1975-09-01,Operations,Sales,National Sales - East,Business Support Officer,1,323,296
+324,temporary full time,Clarke,James,male,2002-02-18,Operations,Sales,National Sales - East,Business Support Officer,1,324,296
+325,temporary full time,Hoffman,Audrey,non-binary,1964-02-23,Operations,Sales,National Sales - East,Senior Business Support Officer,2,325,296
+326,temporary full time,Gould,Maxwell,male,1958-03-02,Operations,Sales,National Sales - East,Graduate Business Support Officer,0,326,296
+327,temporary full time,Mays,Trevor,male,1998-07-07,Operations,Sales,National Sales - East,Associate Sales Executive,0,327,296
+328,permanent full time,Pierce,Ryder,non-binary,1984-06-22,Operations,Sales,National Sales - East,Senior Business Support Officer,2,328,296
+329,permanent full time,Hardin,Kye,male,1972-09-09,Operations,Sales,National Sales - East,Senior Business Support Officer,2,329,296
+330,temporary full time,Norris,Tiana,female,1962-01-03,Operations,Sales,National Sales - East,Business Support Officer,1,330,296
+331,permanent full time,Hoffman,Zoe,female,1998-03-24,Operations,Sales,National Sales - East,Senior Sales Executive,2,331,296
+332,permanent full time,Burke,Keira,non-binary,1969-09-04,Operations,Sales,National Sales - East,Business Support Officer,1,332,296
+333,permanent full time,Manning,Susan,female,1999-05-29,Operations,Sales,National Sales - East,Senior Sales Executive,2,333,296
+334,permanent full time,Rush,Alexandra,non-binary,1995-08-08,Operations,Sales,National Sales - East,Graduate Sales Executive,0,334,296
+335,temporary part time,Gibson,Sofia,female,1977-08-26,Operations,Sales,National Sales - West,Team Leader,3,335,3
+336,permanent full time,Rosas,Casey,female,1967-08-15,Operations,Sales,National Sales - West,Graduate Sales Executive,0,336,335
+337,permanent full time,Hobbs,Anthony,male,2000-04-25,Operations,Sales,National Sales - West,Junior Business Support Officer,0,337,335
+338,permanent full time,Gilmore,Shirley,non-binary,1983-06-25,Operations,Sales,National Sales - West,Business Support Officer,1,338,335
+339,permanent full time,Madden,Beverley,female,1966-09-27,Operations,Sales,National Sales - West,Junior Sales Executive,0,339,335
+340,permanent full time,Leonard,Chantelle,female,1981-10-18,Operations,Sales,National Sales - West,Senior Business Support Officer,2,340,335
+341,temporary full time,Winters,Shania,non-binary,1993-01-08,Operations,Sales,National Sales - West,Senior Sales Executive,3,341,335
+342,permanent full time,Snyder,Jo-anne,female,1984-11-09,Operations,Sales,National Sales - West,Senior Sales Executive,3,342,335
+343,temporary full time,Harmon,Kaitlyn,non-binary,1998-04-10,Operations,Sales,National Sales - West,Senior Sales Executive,2,343,335
+344,permanent full time,Daniels,Luke,male,1980-08-11,Operations,Sales,National Sales - West,Senior Business Support Officer,2,344,335
+345,temporary full time,Berg,Brenda,non-binary,1959-12-07,Operations,Sales,National Sales - West,Sales Executive,1,345,335
+346,temporary full time,Hickman,Sebastian,male,1962-12-16,Operations,Sales,National Sales - West,Senior Business Support Officer,3,346,335
+347,permanent full time,Cuevas,Robert,male,1969-12-02,Operations,Sales,National Sales - West,Senior Sales Executive,3,347,335
+348,permanent full time,Bridges,Alfie,non-binary,1962-07-05,Operations,Sales,National Sales - West,Sales Executive,1,348,335
+349,permanent full time,Reeves,Jorja,female,1998-09-27,Operations,Sales,National Sales - West,Junior Business Support Officer,0,349,335
+350,permanent full time,Ashley,Leigh,non-binary,2002-12-28,Operations,Sales,National Sales - West,Senior Sales Executive,2,350,335
+351,contractor,Walter,Caleb,male,1993-04-29,Operations,Sales,National Sales - West,Associate Business Support Officer,0,351,335
+352,permanent full time,Galvan,Noel,male,1958-10-06,Operations,Sales,National Sales - West,Business Support Officer,1,352,335
+353,temporary full time,Carrillo,Pippa,female,1973-09-25,Operations,Sales,National Sales - West,Business Support Officer,1,353,335
+354,temporary full time,Hardy,Joel,male,1960-11-01,Operations,Sales,National Sales - West,Sales Executive,1,354,335
+355,permanent part time,Pope,Maree,female,1958-04-14,Operations,Sales,National Sales - West,Business Support Officer,1,355,335
+356,permanent full time,Hood,Andrea,female,1990-02-03,Operations,Sales,National Sales - West,Senior Sales Executive,3,356,335
+357,permanent full time,Griffin,Andrew,male,2001-08-06,Operations,Sales,National Sales - West,Sales Executive,1,357,335
+358,permanent full time,Jarvis,Trevor,male,1984-04-24,Operations,Sales,National Sales - West,Sales Executive,1,358,335
+359,permanent full time,Reilly,Nathaniel,male,2000-01-18,Operations,Sales,National Sales - West,Business Support Officer,1,359,335
+360,temporary full time,Cervantes,Brian,male,1987-12-16,Operations,Sales,National Sales - West,Senior Sales Executive,3,360,335
+361,permanent full time,Galindo,Sophia,female,1997-11-07,Operations,Sales,National Sales - West,Graduate Business Support Officer,0,361,335
+362,permanent full time,Lucero,Madison,non-binary,1998-06-05,Operations,Sales,National Sales - West,Senior Sales Executive,2,362,335
+363,contractor,Nicholson,Sean,male,1965-09-19,Operations,Sales,National Sales - West,Senior Business Support Officer,2,363,335
+364,casual,Mclaughlin,Rhys,male,1963-08-29,Operations,Sales,National Sales - West,Senior Sales Executive,3,364,335
+365,permanent full time,Bauer,Clare,female,1988-04-10,Operations,Sales,National Sales - West,Senior Business Support Officer,2,365,335
+366,permanent full time,Medrano,Cameron,non-binary,1980-07-29,Operations,Sales,National Sales - West,Senior Sales Executive,2,366,335
+367,permanent full time,Wiley,Breanna,non-binary,1983-07-21,Operations,Sales,National Sales - West,Business Support Officer,1,367,335
+368,permanent full time,Truong,Liam,male,1962-09-01,Operations,Sales,National Sales - West,Sales Executive,1,368,335
+369,permanent full time,Atkinson,Koa,non-binary,1988-06-29,Operations,Sales,National Sales - West,Business Support Officer,1,369,335
+370,casual,Yu,Maverick,male,1989-03-26,Operations,Sales,National Sales - West,Business Support Officer,1,370,335
+371,permanent full time,Xiong,Sharon,non-binary,1958-02-07,Operations,Sales,National Sales - West,Senior Business Support Officer,3,371,335
+372,permanent full time,Nielsen,Maria,female,2002-02-04,Operations,Sales,National Sales - West,Graduate Sales Executive,0,372,335
+373,temporary full time,Combs,Indigo,non-binary,1976-08-23,Operations,Sales,National Sales - West,Senior Business Support Officer,2,373,335
+374,permanent full time,Duncan,Peter,male,1975-09-19,Operations,Sales,National Sales - West,Junior Business Support Officer,0,374,335
+375,permanent full time,Hanson,Alice,female,1999-01-30,Operations,Sales,National Sales - West,Senior Business Support Officer,2,375,335
+376,permanent full time,Knight,Owen,non-binary,1980-09-03,Operations,Sales,National Sales - West,Senior Sales Executive,2,376,335
+377,temporary full time,Sanders,Samuel,male,1984-12-31,Operations,Sales,National Sales - West,Business Support Officer,1,377,335
+378,permanent full time,Acevedo,Emily,non-binary,1984-05-11,Operations,Sales,National Sales - West,Business Support Officer,1,378,335
+379,permanent full time,Rowe,Leo,male,1991-08-29,Operations,Sales,National Sales - West,Associate Business Support Officer,0,379,335
+380,permanent full time,Skinner,Ryder,non-binary,1973-11-09,Operations,Sales,National Sales - West,Associate Business Support Officer,0,380,335
+381,temporary full time,Nixon,Stewart,male,1979-10-25,Operations,Sales,National Sales - West,Sales Executive,1,381,335
+382,permanent full time,Landry,Gavin,non-binary,1963-12-16,Operations,Sales,National Sales - West,Senior Business Support Officer,2,382,335
+383,permanent full time,Becker,Jai,male,1992-11-26,Operations,Sales,National Sales - West,Senior Business Support Officer,2,383,335
+384,permanent part time,Fisher,Asher,male,1996-11-03,Operations,Sales,National Sales - West,Senior Business Support Officer,3,384,335
+385,temporary full time,Roberson,Darren,non-binary,1974-11-24,Operations,Sales,National Sales - West,Associate Sales Executive,0,385,335
+386,permanent full time,Phillips,George,non-binary,1961-06-26,Operations,Sales,National Sales - West,Senior Sales Executive,3,386,335
+387,permanent full time,Krueger,Phillip,male,1957-05-28,Operations,Sales,National Sales - West,Associate Business Support Officer,0,387,335
+388,permanent full time,Tanner,Phoebe,non-binary,1988-07-13,Operations,Sales,National Sales - West,Associate Business Support Officer,0,388,335
+389,contractor,Morgan,Barbara,female,1962-09-16,Operations,Sales,National Sales - West,Associate Sales Executive,0,389,335
+390,temporary part time,Patel,Melinda,female,1990-10-24,Operations,Sales,National Sales - West,Senior Business Support Officer,3,390,335
+391,permanent part time,Washington,Tony,non-binary,1970-08-16,Operations,Sales,National Sales - West,Sales Executive,1,391,335
+392,temporary full time,Figueroa,Jonathan,male,1974-08-07,Operations,Sales,National Sales - West,Sales Executive,1,392,335
+393,casual,Booker,Aaliyah,female,1994-11-11,Operations,Sales,National Sales - West,Senior Business Support Officer,3,393,335
+394,contractor,Holloway,Katherine,female,1985-01-17,Operations,Sales,National Sales - South,Team Leader,3,394,3
+395,permanent full time,Ware,Heidi,female,1978-01-22,Operations,Sales,National Sales - South,Senior Business Support Officer,3,395,394
+396,permanent full time,Castaneda,Felicity,non-binary,2002-04-06,Operations,Sales,National Sales - South,Sales Executive,1,396,394
+397,permanent full time,Hernandez,Gemma,female,1994-03-31,Operations,Sales,National Sales - South,Graduate Business Support Officer,0,397,394
+398,permanent full time,Moyer,Crystal,female,1997-09-20,Operations,Sales,National Sales - South,Senior Business Support Officer,2,398,394
+399,permanent full time,Woods,Damien,male,1978-08-17,Operations,Sales,National Sales - South,Associate Sales Executive,0,399,394
+400,permanent full time,Morales,Christopher,male,1959-08-21,Operations,Sales,National Sales - South,Senior Sales Executive,3,400,394
+401,casual,Kemp,Jarrod,male,1967-03-04,Operations,Sales,National Sales - South,Senior Sales Executive,3,401,394
+402,permanent full time,Sparks,Byron,non-binary,2001-10-22,Operations,Sales,National Sales - South,Senior Business Support Officer,2,402,394
+403,temporary full time,Welch,Courtney,female,1988-07-20,Operations,Sales,National Sales - South,Senior Sales Executive,2,403,394
+404,contractor,Weeks,Loretta,female,1965-05-29,Operations,Sales,National Sales - South,Graduate Business Support Officer,0,404,394
+405,permanent full time,Lu,Jasmin,female,1964-02-22,Operations,Sales,National Sales - South,Senior Sales Executive,3,405,394
+406,permanent full time,Sims,Stella,female,2000-07-09,Operations,Sales,National Sales - South,Senior Business Support Officer,2,406,394
+407,permanent full time,Glass,Megan,female,1987-01-25,Operations,Sales,National Sales - South,Senior Business Support Officer,3,407,394
+408,permanent full time,Perkins,Jared,male,1979-07-03,Operations,Sales,National Sales - South,Sales Executive,1,408,394
+409,permanent full time,Mclaughlin,Breanna,non-binary,1972-03-13,Operations,Sales,National Sales - South,Senior Business Support Officer,2,409,394
+410,permanent full time,Trejo,Samantha,female,1990-01-28,Operations,Sales,National Sales - South,Sales Executive,1,410,394
+411,permanent full time,Atkinson,Tracey,female,1996-11-04,Operations,Sales,National Sales - South,Senior Business Support Officer,3,411,394
+412,temporary part time,Jordan,Ruby,non-binary,1996-06-08,Operations,Sales,National Sales - South,Associate Business Support Officer,0,412,394
+413,temporary full time,Reed,Murray,male,1963-06-26,Operations,Sales,National Sales - South,Sales Executive,1,413,394
+414,temporary full time,Navarro,Brooke,female,1997-07-15,Operations,Sales,National Sales - South,Associate Business Support Officer,0,414,394
+415,temporary full time,Melton,Kelli,female,1980-06-15,Operations,Sales,National Sales - South,Business Support Officer,1,415,394
+416,permanent full time,Howe,Kathleen,female,1976-08-14,Operations,Sales,National Sales - South,Senior Sales Executive,2,416,394
+417,temporary full time,Sharp,Elena,female,1986-04-19,Operations,Sales,National Sales - South,Junior Sales Executive,0,417,394
+418,contractor,May,Kathleen,female,1989-08-22,Operations,Sales,National Sales - South,Senior Business Support Officer,3,418,394
+419,temporary full time,Johnston,Evelyn,female,1970-09-07,Operations,Sales,National Sales - South,Senior Sales Executive,2,419,394
+420,temporary full time,Baxter,Tammy,female,1995-09-05,Operations,Sales,National Sales - South,Sales Executive,1,420,394
+421,permanent full time,Simmons,Kay,female,1989-11-19,Operations,Sales,National Sales - South,Junior Sales Executive,0,421,394
+422,permanent full time,Gray,Dean,male,1996-04-26,Operations,Sales,National Sales - South,Business Support Officer,1,422,394
+423,temporary full time,Fitzgerald,Lorraine,female,1963-09-13,Operations,Sales,National Sales - South,Senior Sales Executive,3,423,394
+424,permanent full time,Esparza,Remi,non-binary,1993-12-11,Operations,Sales,National Sales - South,Senior Sales Executive,2,424,394
+425,permanent full time,Nash,Rhonda,female,1962-12-11,Operations,Sales,National Sales - South,Graduate Business Support Officer,0,425,394
+426,permanent full time,Blevins,Maxwell,male,1977-02-01,Operations,Sales,National Sales - South,Business Support Officer,1,426,394
+427,permanent full time,Trevino,Maverick,male,1962-02-16,Operations,Sales,National Sales - South,Senior Business Support Officer,2,427,394
+428,permanent part time,Delarosa,Ann,female,1962-10-14,Operations,Sales,National Sales - South,Sales Executive,1,428,394
+429,permanent full time,Odonnell,Daisy,female,1998-09-16,Operations,Sales,National Sales - South,Sales Executive,1,429,394
+430,permanent full time,Church,Melissa,non-binary,1964-05-30,Operations,Sales,National Sales - South,Associate Business Support Officer,0,430,394
+431,contractor,Washington,Yvonne,female,1979-07-03,Operations,Sales,National Sales - South,Senior Sales Executive,3,431,394
+432,casual,Parsons,Damien,male,1972-03-26,Operations,Sales,National Sales - South,Senior Sales Executive,3,432,394
+433,permanent full time,Livingston,Alfie,non-binary,1968-01-04,Operations,Sales,National Sales - South,Sales Executive,1,433,394
+434,temporary full time,Maxwell,Nevaeh,female,1982-04-23,Operations,Sales,National Sales - South,Senior Sales Executive,2,434,394
+435,temporary part time,Navarro,Isabel,non-binary,1998-03-28,Operations,Sales,National Sales - South,Sales Executive,1,435,394
+436,permanent full time,Hoover,Peter,male,1980-07-13,Operations,Sales,National Sales - South,Senior Business Support Officer,3,436,394
+437,permanent full time,Romero,Gregory,male,1965-07-26,Operations,Sales,National Sales - South,Senior Business Support Officer,2,437,394
+438,permanent part time,Jennings,Bernard,male,1962-09-04,Operations,Sales,National Sales - South,Senior Sales Executive,3,438,394
+439,permanent full time,Shields,Harriet,female,1974-12-01,Operations,Sales,National Sales - South,Junior Sales Executive,0,439,394
+440,contractor,Weaver,Cara,female,2000-01-07,Operations,Sales,National Sales - South,Senior Sales Executive,3,440,394
+441,permanent part time,Rogers,Katelyn,female,1980-07-15,Operations,Sales,National Sales - South,Business Support Officer,1,441,394
+442,contractor,West,Maisie,female,1961-07-01,Operations,Sales,National Sales - South,Junior Business Support Officer,0,442,394
+443,contractor,Quinn,Sienna,female,1991-02-25,Operations,Sales,National Sales - North,Team Leader,3,443,3
+444,permanent full time,Meza,Addison,female,1990-01-08,Operations,Sales,National Sales - North,Senior Business Support Officer,2,444,443
+445,temporary part time,Soto,Lewis,male,1980-12-06,Operations,Sales,National Sales - North,Senior Business Support Officer,2,445,443
+446,temporary full time,Shelton,Tristan,male,1993-01-11,Operations,Sales,National Sales - North,Graduate Sales Executive,0,446,443
+447,permanent full time,Olson,David,non-binary,1961-07-24,Operations,Sales,National Sales - North,Sales Executive,1,447,443
+448,casual,Portillo,Samuel,male,1994-07-15,Operations,Sales,National Sales - North,Sales Executive,1,448,443
+449,permanent full time,Dyer,Heidi,female,1995-05-23,Operations,Sales,National Sales - North,Senior Business Support Officer,3,449,443
+450,contractor,Yang,Hayley,female,1971-11-23,Operations,Sales,National Sales - North,Senior Sales Executive,3,450,443
+451,permanent part time,Compton,Delilah,female,1989-04-13,Operations,Sales,National Sales - North,Senior Business Support Officer,2,451,443
+452,permanent full time,Neal,Phillip,male,1972-09-02,Operations,Sales,National Sales - North,Senior Sales Executive,2,452,443
+453,permanent full time,Guerrero,Thomas,non-binary,1994-11-06,Operations,Sales,National Sales - North,Junior Business Support Officer,0,453,443
+454,temporary full time,Kramer,Hugh,male,1982-02-19,Operations,Sales,National Sales - North,Associate Sales Executive,0,454,443
+455,permanent full time,Payne,Elias,male,1965-10-25,Operations,Sales,National Sales - North,Junior Sales Executive,0,455,443
+456,contractor,Reid,Lewis,male,1958-08-01,Operations,Sales,National Sales - North,Sales Executive,1,456,443
+457,permanent full time,Gould,Oscar,male,1971-08-27,Operations,Sales,National Sales - North,Senior Sales Executive,3,457,443
+458,temporary full time,Chandler,Tanya,female,1972-01-03,Operations,Sales,National Sales - North,Sales Executive,1,458,443
+459,permanent part time,Rose,Maggie,female,1960-02-09,Operations,Sales,National Sales - North,Senior Business Support Officer,3,459,443
+460,permanent full time,Ellis,Quinn,female,1994-08-16,Operations,Sales,National Sales - North,Sales Executive,1,460,443
+461,temporary full time,Holloway,Colin,male,1998-04-14,Operations,Sales,National Sales - North,Business Support Officer,1,461,443
+462,permanent part time,Velez,Katie,female,1964-07-27,Operations,Sales,National Sales - North,Sales Executive,1,462,443
+463,permanent full time,Delacruz,Shane,male,1957-10-22,Operations,Sales,National Sales - North,Sales Executive,1,463,443
+464,contractor,Horn,Malcolm,male,1977-07-29,Operations,Sales,National Sales - North,Senior Business Support Officer,2,464,443
+465,temporary full time,Morse,Warren,male,1968-11-25,Operations,Sales,National Sales - North,Senior Sales Executive,2,465,443
+466,permanent full time,Mcdaniel,Abby,non-binary,1978-03-01,Operations,Sales,National Sales - North,Senior Sales Executive,2,466,443
+467,contractor,Hebert,Luna,non-binary,1985-01-05,Operations,Sales,National Sales - North,Senior Business Support Officer,3,467,443
+468,permanent full time,Bauer,Brodie,male,1992-01-30,Operations,Sales,National Sales - North,Senior Sales Executive,2,468,443
+469,permanent full time,Miller,Taylah,female,1994-11-17,Operations,Sales,National Sales - North,Sales Executive,1,469,443
+470,permanent full time,Johnson,Jarrod,male,1991-06-27,Operations,Sales,National Sales - North,Senior Sales Executive,2,470,443
+471,casual,Thomas,Jan,female,1971-12-11,Operations,Sales,National Sales - North,Junior Business Support Officer,0,471,443
+472,temporary full time,Bernal,Linda,non-binary,1957-02-04,Operations,Sales,International Sales,Team Leader,3,472,3
+473,permanent full time,Briggs,Gracie,female,1999-06-19,Operations,Sales,International Sales,Senior Business Support Officer,3,473,472
+474,permanent full time,Lin,Frankie,female,1991-07-08,Operations,Sales,International Sales,Senior Business Support Officer,2,474,472
+475,permanent full time,Blevins,Alexandra,non-binary,1997-03-02,Operations,Sales,International Sales,Senior Business Support Officer,2,475,472
+476,permanent full time,Gillespie,Ashton,non-binary,1990-09-19,Operations,Sales,International Sales,Associate Translator,0,476,472
+477,temporary full time,Bowen,Nicola,non-binary,1986-01-01,Operations,Sales,International Sales,Senior Business Support Officer,2,477,472
+478,temporary full time,Mueller,Lilly,female,1992-11-23,Operations,Sales,International Sales,Sales Executive,1,478,472
+479,casual,Gomez,Brooklyn,female,1967-11-09,Operations,Sales,International Sales,Senior Translator,2,479,472
+480,permanent full time,Greer,Chloe,female,1964-06-28,Operations,Sales,International Sales,Business Support Officer,1,480,472
+481,casual,Blackburn,Patricia,female,1966-04-22,Operations,Sales,International Sales,Graduate Business Support Officer,0,481,472
+482,temporary full time,Chase,Graeme,male,1983-08-09,Operations,Sales,International Sales,Senior Business Support Officer,2,482,472
+483,temporary full time,Owens,Frederick,male,1961-07-14,Operations,Sales,International Sales,Graduate Translator,0,483,472
+484,casual,Mckee,Indie,female,1987-01-17,Operations,Sales,International Sales,Sales Executive,1,484,472
+485,temporary full time,Wilson,Elizabeth,female,1996-11-11,Operations,Sales,International Sales,Graduate Sales Executive,0,485,472
+486,permanent part time,Matthews,Kerrie,female,2000-02-22,Operations,Sales,International Sales,Sales Executive,1,486,472
+487,permanent full time,Duke,Jennifer,female,1985-01-26,Operations,Sales,International Sales,Graduate Business Support Officer,0,487,472
+488,contractor,Chambers,Ellen,female,1967-08-24,Operations,Sales,International Sales,Business Support Officer,1,488,472
+489,contractor,Sosa,Eric,male,1966-04-12,Operations,Sales,International Sales,Translator,1,489,472
+490,permanent full time,Garza,Beverley,female,1959-10-26,Operations,Sales,International Sales,Senior Translator,2,490,472
+491,permanent full time,Daniels,Sebastian,male,1975-12-17,Operations,Sales,International Sales,Sales Executive,1,491,472
+492,permanent full time,Walton,Frank,male,1995-08-02,Operations,Sales,International Sales,Graduate Sales Executive,0,492,472
+493,contractor,Holland,Samuel,male,1959-01-29,Operations,Sales,International Sales,Senior Business Support Officer,2,493,472
+494,temporary part time,Webster,Samantha,female,1991-11-12,Operations,Sales,International Sales,Associate Sales Executive,0,494,472
+495,temporary full time,Moss,Tia,non-binary,1967-07-02,Operations,Sales,International Sales,Senior Translator,2,495,472
+496,permanent full time,Stanley,Faith,female,1980-07-31,Operations,Sales,International Sales,Senior Sales Executive,3,496,472
+497,permanent full time,Vargas,Leonardo,male,1999-08-28,Operations,Sales,International Sales,Junior Sales Executive,0,497,472
+498,permanent full time,Ross,Caitlin,female,1999-09-22,Operations,Sales,International Sales,Senior Sales Executive,2,498,472
+499,permanent full time,Oconnor,Rachel,female,1998-03-02,Operations,Sales,International Sales,Senior Business Support Officer,2,499,472
+500,permanent full time,Tanner,Bryce,non-binary,1997-02-14,Operations,Sales,International Sales,Sales Executive,1,500,472
+501,permanent full time,Huffman,Richard,male,1964-08-03,Operations,Sales,International Sales,Senior Sales Executive,3,501,472
+502,temporary full time,Buchanan,Addison,female,1982-11-24,Operations,Sales,International Sales,Associate Translator,0,502,472
+503,permanent full time,Harmon,Joel,male,1974-06-30,Operations,Sales,International Sales,Associate Translator,0,503,472
+504,permanent full time,Oneill,Tom,male,1963-03-29,Operations,Sales,International Sales,Translator,1,504,472
+505,contractor,Harding,Tiana,female,1999-11-21,Operations,Sales,International Sales,Sales Executive,1,505,472
+506,permanent full time,Hickman,Ryan,male,1980-01-04,Operations,Sales,International Sales,Associate Translator,0,506,472
+507,permanent full time,Burgess,Jay,male,1966-05-22,Operations,Sales,International Sales,Junior Sales Executive,0,507,472
+508,permanent full time,Chen,Morgan,female,1973-06-10,Operations,Sales,International Sales,Junior Business Support Officer,0,508,472
+509,permanent full time,Chung,April,non-binary,1986-02-12,Operations,Sales,International Sales,Sales Executive,1,509,472
+510,temporary full time,Lim,Hamish,male,1976-12-12,Operations,Sales,International Sales,Associate Sales Executive,0,510,472
+511,permanent full time,Villarreal,Kurt,male,1976-08-20,Operations,Marketing,Customer Strategy,Team Leader,3,511,3
+512,temporary full time,Sandoval,Terence,male,1992-09-17,Operations,Marketing,Customer Strategy,Senior Data Analyst,2,512,511
+513,contractor,Webster,Keith,non-binary,1957-12-07,Operations,Marketing,Customer Strategy,Senior Data Analyst,3,513,511
+514,permanent full time,Mcclain,Luna,non-binary,1985-04-07,Operations,Marketing,Customer Strategy,Associate Data Analyst,0,514,511
+515,temporary full time,Roberts,Kiara,female,1971-03-17,Operations,Marketing,Customer Strategy,Data Analyst,1,515,511
+516,permanent full time,Byrd,Paul,male,2001-10-18,Operations,Marketing,Customer Strategy,Senior Marketing Officer,2,516,511
+517,permanent full time,Lloyd,Lawrence,male,1972-03-05,Operations,Marketing,Customer Strategy,Data Analyst,1,517,511
+518,permanent full time,Huber,Chantelle,female,1981-04-17,Operations,Marketing,Customer Strategy,Data Analyst,1,518,511
+519,permanent full time,Hull,Florence,female,2000-07-09,Operations,Marketing,Customer Strategy,Associate Marketing Officer,0,519,511
+520,permanent full time,Blevins,Paul,male,1959-10-07,Operations,Marketing,Customer Strategy,Data Analyst,1,520,511
+521,permanent full time,Wiggins,Lorraine,female,1961-12-28,Operations,Marketing,Customer Strategy,Senior Data Analyst,3,521,511
+522,permanent part time,Kennedy,Janet,non-binary,1961-07-03,Operations,Marketing,Customer Strategy,Senior Marketing Officer,2,522,511
+523,permanent full time,Golden,Leonie,non-binary,1999-06-26,Operations,Marketing,Customer Strategy,Marketing Officer,1,523,511
+524,temporary full time,Horne,Luka,male,1964-12-10,Operations,Marketing,Customer Strategy,Marketing Officer,1,524,511
+525,permanent part time,Shields,Hamish,male,1960-01-24,Operations,Marketing,Customer Strategy,Data Analyst,1,525,511
+526,contractor,Murphy,Lawrence,male,1975-04-20,Operations,Marketing,Customer Strategy,Associate Data Analyst,0,526,511
+527,temporary full time,Chung,Pamela,non-binary,1980-11-20,Operations,Marketing,Customer Strategy,Graduate Marketing Officer,0,527,511
+528,permanent full time,Francis,Ariana,non-binary,1968-02-24,Operations,Marketing,Customer Strategy,Marketing Officer,1,528,511
+529,temporary full time,Hancock,Hayden,male,1977-07-25,Operations,Marketing,Customer Strategy,Senior Marketing Officer,2,529,511
+530,permanent part time,Obrien,Shelley,female,1969-01-21,Operations,Marketing,Customer Strategy,Junior Data Analyst,0,530,511
+531,casual,Parra,Ethan,male,1979-01-10,Operations,Marketing,Customer Strategy,Junior Marketing Officer,0,531,511
+532,permanent full time,Estrada,Loretta,female,1973-10-26,Operations,Marketing,Customer Strategy,Data Analyst,1,532,511
+533,temporary full time,Simpson,Tanya,female,1982-09-07,Operations,Marketing,Customer Strategy,Associate Data Analyst,0,533,511
+534,temporary part time,Bernal,Owen,non-binary,1993-02-16,Operations,Marketing,Customer Strategy,Marketing Officer,1,534,511
+535,permanent full time,Matthews,Declan,non-binary,1989-04-29,Operations,Marketing,Customer Strategy,Graduate Marketing Officer,0,535,511
+536,permanent part time,Howe,Nicole,female,1984-03-05,Operations,Marketing,Customer Strategy,Senior Marketing Officer,2,536,511
+537,permanent part time,Donaldson,Terence,male,1957-04-25,Operations,Marketing,Customer Strategy,Senior Data Analyst,2,537,511
+538,temporary full time,Morrison,Lewis,male,1986-05-03,Operations,Marketing,Customer Strategy,Senior Data Analyst,3,538,511
+539,temporary full time,Hanson,Mikaela,female,1997-03-19,Operations,Marketing,Customer Strategy,Data Analyst,1,539,511
+540,temporary full time,Mayo,Alfie,non-binary,1959-04-27,Operations,Marketing,Customer Strategy,Senior Marketing Officer,3,540,511
+541,permanent part time,Wyatt,Blake,male,2001-02-19,Operations,Marketing,Customer Strategy,Associate Data Analyst,0,541,511
+542,permanent full time,Velez,Adrian,male,1971-05-09,Operations,Marketing,Customer Strategy,Marketing Officer,1,542,511
+543,temporary full time,Stewart,Kathryn,female,1988-01-01,Operations,Marketing,Customer Strategy,Senior Marketing Officer,2,543,511
+544,temporary full time,Mack,Molly,female,1963-05-10,Operations,Marketing,Customer Strategy,Junior Marketing Officer,0,544,511
+545,contractor,Hess,Kayla,non-binary,1975-05-21,Operations,Marketing,Customer Strategy,Senior Marketing Officer,3,545,511
+546,temporary full time,Wilcox,Gerard,male,1973-02-15,Operations,Marketing,Customer Strategy,Marketing Officer,1,546,511
+547,permanent full time,Mcdaniel,Kristy,female,1996-04-23,Operations,Marketing,Customer Strategy,Marketing Officer,1,547,511
+548,temporary full time,Le,Annette,non-binary,1962-12-27,Operations,Marketing,Customer Strategy,Senior Data Analyst,2,548,511
+549,permanent full time,Trevino,Matthew,male,1997-01-01,Operations,Marketing,Customer Strategy,Associate Marketing Officer,0,549,511
+550,permanent full time,Berry,Nigel,male,1985-08-29,Operations,Marketing,Customer Strategy,Data Analyst,1,550,511
+551,permanent full time,Sharp,Luka,male,1985-03-04,Operations,Marketing,Customer Strategy,Senior Marketing Officer,3,551,511
+552,permanent full time,Ali,Parker,male,1983-04-19,Operations,Marketing,Customer Strategy,Senior Marketing Officer,3,552,511
+553,casual,Robbins,Leslie,male,1996-08-20,Operations,Marketing,Customer Strategy,Associate Data Analyst,0,553,511
+554,permanent full time,Oneal,Warren,male,1996-09-03,Operations,Marketing,Customer Strategy,Senior Data Analyst,3,554,511
+555,permanent full time,Andersen,Trinity,female,1959-03-10,Operations,Marketing,Customer Strategy,Marketing Officer,1,555,511
+556,permanent full time,Greene,Mikaela,female,1983-11-08,Operations,Marketing,Customer Strategy,Data Analyst,1,556,511
+557,contractor,Wong,Susan,female,2001-09-20,Operations,Marketing,Customer Strategy,Data Analyst,1,557,511
+558,permanent full time,Moses,Patricia,female,1957-05-06,Operations,Marketing,Customer Strategy,Marketing Officer,1,558,511
+559,permanent full time,Austin,Kirra,female,2001-06-30,Operations,Marketing,Customer Strategy,Marketing Officer,1,559,511
+560,permanent full time,Huffman,Trudy,female,1995-01-11,Operations,Marketing,Business to Business,Team Leader,3,560,3
+561,temporary full time,Baker,Jai,male,1986-04-28,Operations,Marketing,Business to Business,Senior Data Analyst,3,561,560
+562,permanent full time,Brewer,Elena,female,1978-07-30,Operations,Marketing,Business to Business,Data Analyst,1,562,560
+563,permanent full time,Moran,Ashton,non-binary,1968-03-21,Operations,Marketing,Business to Business,Senior Data Analyst,2,563,560
+564,permanent part time,Evans,Harley,male,1982-01-20,Operations,Marketing,Business to Business,Senior Data Analyst,3,564,560
+565,permanent part time,Griffin,Nan,male,1988-07-14,Operations,Marketing,Business to Business,Graduate Marketing Officer,0,565,560
+566,permanent full time,Escobar,Wyatt,male,1972-01-21,Operations,Marketing,Business to Business,Data Analyst,1,566,560
+567,permanent full time,Booker,Philip,male,2000-07-06,Operations,Marketing,Business to Business,Junior Marketing Officer,0,567,560
+568,permanent full time,Gray,Tom,male,1969-06-15,Operations,Marketing,Business to Business,Data Analyst,1,568,560
+569,contractor,Middleton,Ava,female,1972-07-01,Operations,Marketing,Business to Business,Junior Marketing Officer,0,569,560
+570,permanent part time,Strong,Patrick,male,1973-01-28,Operations,Marketing,Business to Business,Senior Marketing Officer,2,570,560
+571,temporary full time,Ayers,Mikayla,female,2001-11-04,Operations,Marketing,Business to Business,Senior Marketing Officer,2,571,560
+572,permanent full time,Whitehead,Indigo,non-binary,1995-11-16,Operations,Marketing,Business to Business,Junior Marketing Officer,0,572,560
+573,permanent full time,Guerra,Lincoln,male,1995-02-11,Operations,Marketing,Business to Business,Associate Marketing Officer,0,573,560
+574,casual,Martinez,Sonia,female,2002-08-10,Operations,Marketing,Business to Business,Senior Data Analyst,2,574,560
+575,permanent full time,Melton,Grace,female,1977-01-23,Operations,Marketing,Business to Business,Senior Marketing Officer,2,575,560
+576,permanent full time,Farrell,Hamish,male,1974-07-14,Operations,Marketing,Business to Business,Senior Data Analyst,3,576,560
+577,permanent full time,Alfaro,Carly,non-binary,1995-09-06,Operations,Marketing,Business to Business,Associate Data Analyst,0,577,560
+578,permanent full time,Grant,Thea,female,1992-01-14,Operations,Marketing,Business to Business,Senior Marketing Officer,2,578,560
+579,casual,Schneider,Jett,male,1985-01-27,Operations,Marketing,Business to Business,Senior Data Analyst,3,579,560
+580,permanent full time,Davila,Jack,non-binary,1959-04-14,Operations,Marketing,Business to Business,Senior Data Analyst,3,580,560
+581,temporary part time,Sierra,Kurt,male,1964-04-26,Operations,Marketing,Business to Business,Senior Data Analyst,3,581,560
+582,permanent full time,Rich,Brittany,female,1975-09-01,Operations,Marketing,Business to Business,Data Analyst,1,582,560
+583,temporary full time,Fry,Theodore,male,1974-07-16,Operations,Marketing,Business to Business,Senior Marketing Officer,2,583,560
+584,permanent full time,Correa,Lyla,female,1999-06-26,Operations,Marketing,Business to Business,Senior Data Analyst,2,584,560
+585,casual,Strickland,Emma,non-binary,1957-01-11,Operations,Marketing,Business to Business,Associate Marketing Officer,0,585,560
+586,casual,Baldwin,Mackenzie,female,1995-11-26,Operations,Marketing,Business to Business,Marketing Officer,1,586,560
+587,casual,Ponce,Madison,non-binary,2002-02-07,Operations,Marketing,Business to Business,Associate Data Analyst,0,587,560
+588,permanent full time,Beck,Lachlan,male,1998-09-07,Operations,Marketing,Business to Business,Graduate Data Analyst,0,588,560
+589,permanent full time,Jackson,Renae,non-binary,1961-03-13,Operations,Marketing,Business to Business,Senior Data Analyst,2,589,560
+590,permanent full time,Phillips,Ella,female,1997-04-08,Operations,Marketing,Business to Business,Associate Data Analyst,0,590,560
+591,contractor,Guerrero,Bruce,male,1964-03-19,Operations,Marketing,Business to Business,Associate Data Analyst,0,591,560
+592,permanent full time,Reynolds,Leanne,female,1963-07-30,Operations,Marketing,Business to Business,Senior Marketing Officer,2,592,560
+593,contractor,Carlson,Gavin,non-binary,1997-10-02,Operations,Marketing,Business to Business,Junior Marketing Officer,0,593,560
+594,permanent full time,Caldwell,Tyrone,non-binary,1995-05-19,Operations,Marketing,Business to Business,Graduate Marketing Officer,0,594,560
+595,permanent full time,Valencia,Austin,male,1966-04-24,Operations,Marketing,Business to Business,Junior Data Analyst,0,595,560
+596,permanent full time,Tanner,Loretta,female,2000-11-11,Operations,Marketing,Business to Business,Data Analyst,1,596,560
+597,permanent full time,Buck,Kym,female,1978-01-13,Operations,Marketing,Business to Business,Senior Data Analyst,3,597,560
+598,temporary full time,Sanchez,Grant,male,1996-01-13,Operations,Marketing,Business to Business,Graduate Marketing Officer,0,598,560
+599,permanent full time,Peters,Nathan,male,1970-12-30,Operations,Warehouse,Warehouse - East & North,Team Leader,3,599,3
+600,temporary full time,Dawson,Georgia,female,1968-09-23,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,600,599
+601,permanent full time,Henson,Summer,female,2001-01-21,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,601,599
+602,permanent full time,Rivers,Audrey,non-binary,2002-10-09,Operations,Warehouse,Warehouse - East & North,Associate Warehouse Specialist,0,602,599
+603,permanent full time,Hogan,Penelope,female,1996-06-05,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,603,599
+604,temporary full time,Espinoza,Shelley,female,1964-07-29,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,604,599
+605,temporary part time,Gibson,Michele,female,1980-03-11,Operations,Warehouse,Warehouse - East & North,Junior Delivery Officer,0,605,599
+606,temporary part time,Avalos,Neil,male,1976-12-06,Operations,Warehouse,Warehouse - East & North,Graduate Warehouse Specialist,0,606,599
+607,permanent part time,Cline,Colleen,female,1984-10-26,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,607,599
+608,casual,Schmitt,Will,male,1986-04-12,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,3,608,599
+609,temporary full time,Parker,Bernard,male,1975-10-17,Operations,Warehouse,Warehouse - East & North,Junior Warehouse Specialist,0,609,599
+610,permanent part time,Mcpherson,Jayden,male,1969-10-12,Operations,Warehouse,Warehouse - East & North,Graduate Delivery Officer,0,610,599
+611,temporary full time,Gilmore,Nicholas,male,2001-06-03,Operations,Warehouse,Warehouse - East & North,Warehouse Specialist,1,611,599
+612,permanent full time,Krueger,Raymond,male,1985-01-13,Operations,Warehouse,Warehouse - East & North,Warehouse Specialist,1,612,599
+613,contractor,Maxwell,Madonna,non-binary,1982-02-15,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,613,599
+614,contractor,Arroyo,Lucas,male,1998-01-15,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,614,599
+615,permanent full time,Stein,Melissa,non-binary,1979-07-25,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,3,615,599
+616,permanent full time,Warner,Ross,male,1995-07-01,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,616,599
+617,casual,Spence,Kirsty,female,1988-09-10,Operations,Warehouse,Warehouse - East & North,Warehouse Specialist,1,617,599
+618,permanent full time,Randolph,Bailey,male,1985-09-06,Operations,Warehouse,Warehouse - East & North,Graduate Warehouse Specialist,0,618,599
+619,permanent part time,Pitts,Lee,male,1986-07-31,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,619,599
+620,permanent part time,Townsend,Stewart,male,1984-02-17,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,620,599
+621,contractor,Zimmerman,Amity,female,1962-12-05,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,3,621,599
+622,casual,Keller,Alyssa,non-binary,1995-04-30,Operations,Warehouse,Warehouse - East & North,Warehouse Specialist,1,622,599
+623,permanent part time,Barton,Gregory,male,1974-04-24,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,623,599
+624,temporary full time,Rich,Cooper,male,1986-05-04,Operations,Warehouse,Warehouse - East & North,Junior Warehouse Specialist,0,624,599
+625,temporary full time,Melton,Vicki,female,1982-09-28,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,625,599
+626,permanent full time,Hodge,Nicola,non-binary,1987-01-27,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,626,599
+627,temporary full time,Pace,Shelley,female,1980-02-16,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,627,599
+628,permanent part time,Blevins,Alicia,female,1997-08-16,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,628,599
+629,permanent full time,Gibbs,Aurora,female,1978-02-11,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,629,599
+630,permanent part time,Silva,Dane,male,1996-12-13,Operations,Warehouse,Warehouse - East & North,Graduate Warehouse Specialist,0,630,599
+631,permanent part time,Henson,Deborah,female,1961-11-26,Operations,Warehouse,Warehouse - East & North,Associate Delivery Officer,0,631,599
+632,permanent part time,Snyder,Tom,male,1969-10-13,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,632,599
+633,temporary full time,Callahan,Cameron,non-binary,1970-05-09,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,633,599
+634,temporary full time,Estes,Ethan,male,1973-03-03,Operations,Warehouse,Warehouse - East & North,Warehouse Specialist,1,634,599
+635,permanent full time,Christian,Curtis,male,2002-09-22,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,3,635,599
+636,contractor,Peters,Tammy,female,1963-10-05,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,636,599
+637,contractor,Gordon,Gail,female,1981-06-24,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,637,599
+638,permanent full time,Dennis,Ryder,non-binary,1997-10-10,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,3,638,599
+639,permanent part time,Gallagher,Brodie,male,1999-09-02,Operations,Warehouse,Warehouse - East & North,Associate Warehouse Specialist,0,639,599
+640,permanent part time,Bowman,Quinn,female,1984-07-02,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,640,599
+641,permanent full time,Mendoza,Malcolm,male,1978-05-28,Operations,Warehouse,Warehouse - East & North,Junior Warehouse Specialist,0,641,599
+642,temporary full time,Hail,Nicole,female,1980-01-25,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,642,599
+643,permanent full time,Luna,Madeline,female,1982-05-01,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,643,599
+644,contractor,Marks,Kellie,non-binary,1967-03-01,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,644,599
+645,permanent full time,Robinson,Shakira,female,1958-10-27,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,3,645,599
+646,permanent full time,Willis,Rodney,male,1989-12-29,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,646,599
+647,casual,Fletcher,Theodore,male,1980-12-05,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,647,599
+648,permanent part time,Lam,Isla,non-binary,1983-01-16,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,648,599
+649,permanent full time,Heath,Neil,male,1999-07-15,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,649,599
+650,temporary full time,Winters,Veronica,non-binary,1983-06-16,Operations,Warehouse,Warehouse - East & North,Warehouse Specialist,1,650,599
+651,permanent full time,Shields,Theodore,male,1974-01-21,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,651,599
+652,permanent full time,Allison,Morgan,female,1964-05-22,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,3,652,599
+653,temporary full time,Higgins,Charlie,female,1975-04-19,Operations,Warehouse,Warehouse - East & North,Graduate Delivery Officer,0,653,599
+654,permanent part time,Reilly,Jody,female,2001-10-31,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,654,599
+655,permanent full time,Xiong,Taj,male,1968-05-21,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,655,599
+656,temporary full time,Bruce,Lucas,male,1957-05-01,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,656,599
+657,contractor,Huang,Asher,male,1961-01-29,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,657,599
+658,permanent part time,Walker,Angela,non-binary,1974-05-30,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,658,599
+659,casual,Howell,Willow,female,1982-02-27,Operations,Warehouse,Warehouse - East & North,Graduate Delivery Officer,0,659,599
+660,permanent full time,Gomez,Hamish,male,1988-04-01,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,660,599
+661,permanent part time,Dyer,Hayden,male,1967-04-18,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,661,599
+662,contractor,Kelly,Annette,non-binary,1989-08-23,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,2,662,599
+663,permanent full time,Bartlett,Heidi,female,1987-10-08,Operations,Warehouse,Warehouse - East & North,Warehouse Specialist,1,663,599
+664,temporary part time,Hickman,Tara,female,1980-01-21,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,664,599
+665,permanent full time,Wilson,Nigel,male,1964-07-22,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,665,599
+666,temporary full time,Harrington,Leisa,female,1960-12-27,Operations,Warehouse,Warehouse - East & North,Junior Warehouse Specialist,0,666,599
+667,permanent full time,Contreras,Rachel,female,1991-10-21,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,667,599
+668,contractor,Vance,Summer,female,1982-03-30,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,668,599
+669,temporary full time,Cline,Marcus,male,1989-08-12,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,669,599
+670,permanent full time,Cervantes,Adrian,male,1996-04-03,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,670,599
+671,permanent full time,Mccall,Gerard,male,1980-01-03,Operations,Warehouse,Warehouse - East & North,Warehouse Specialist,1,671,599
+672,permanent full time,Mcgee,Evelyn,female,1988-12-21,Operations,Warehouse,Warehouse - East & North,Graduate Warehouse Specialist,0,672,599
+673,permanent full time,Clarke,Kristy,female,1957-11-17,Operations,Warehouse,Warehouse - East & North,Delivery Officer,1,673,599
+674,permanent full time,Little,Kristine,female,1964-10-10,Operations,Warehouse,Warehouse - East & North,Associate Delivery Officer,0,674,599
+675,permanent full time,Wolf,James,male,1998-10-06,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,675,599
+676,temporary part time,Espinoza,Madison,non-binary,1987-12-21,Operations,Warehouse,Warehouse - East & North,Senior Delivery Officer,3,676,599
+677,contractor,Vance,Nathan,male,1992-12-19,Operations,Warehouse,Warehouse - East & North,Senior Warehouse Specialist,2,677,599
+678,permanent full time,Miles,Damian,male,1986-09-04,Operations,Warehouse,Warehouse - South & West,Team Leader,3,678,3
+679,permanent full time,Vo,Olivia,non-binary,1996-09-18,Operations,Warehouse,Warehouse - South & West,Warehouse Specialist,1,679,678
+680,contractor,Ballard,Warren,male,1963-01-05,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,3,680,678
+681,temporary part time,Marquez,Murray,male,1969-11-29,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,2,681,678
+682,temporary full time,Zhang,Tiffany,female,1998-05-12,Operations,Warehouse,Warehouse - South & West,Junior Warehouse Specialist,0,682,678
+683,permanent full time,Arellano,Clint,male,1990-06-14,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,2,683,678
+684,temporary full time,Xiong,Bonnie,female,1983-03-21,Operations,Warehouse,Warehouse - South & West,Delivery Officer,1,684,678
+685,permanent full time,Espinosa,Carolyn,female,1986-03-31,Operations,Warehouse,Warehouse - South & West,Warehouse Specialist,1,685,678
+686,temporary full time,Zhang,Alan,non-binary,1964-10-29,Operations,Warehouse,Warehouse - South & West,Graduate Delivery Officer,0,686,678
+687,permanent full time,Moss,Diana,female,1981-02-02,Operations,Warehouse,Warehouse - South & West,Warehouse Specialist,1,687,678
+688,permanent full time,Robbins,Rebekah,non-binary,1965-05-03,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,3,688,678
+689,temporary full time,Bean,Clare,female,1970-07-28,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,689,678
+690,temporary full time,Meyer,River,male,1976-06-22,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,690,678
+691,permanent full time,Allison,Rhys,male,1973-10-06,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,691,678
+692,permanent part time,Esparza,Tiffany,female,1967-11-30,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,692,678
+693,contractor,Horton,Louie,male,1963-11-07,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,693,678
+694,casual,Simpson,Bernadette,non-binary,1990-12-15,Operations,Warehouse,Warehouse - South & West,Warehouse Specialist,1,694,678
+695,temporary full time,Arnold,Willow,female,1969-07-11,Operations,Warehouse,Warehouse - South & West,Delivery Officer,1,695,678
+696,permanent full time,Lam,Abbey,non-binary,1971-06-15,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,3,696,678
+697,temporary part time,Francis,Charlie,female,1984-06-11,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,2,697,678
+698,temporary full time,Browning,Carmen,female,1999-09-04,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,698,678
+699,permanent full time,Weiss,Jodi,female,1975-07-02,Operations,Warehouse,Warehouse - South & West,Delivery Officer,1,699,678
+700,temporary full time,Dalton,Taj,male,1993-06-20,Operations,Warehouse,Warehouse - South & West,Graduate Delivery Officer,0,700,678
+701,permanent full time,Lindsey,Jonathan,male,1957-04-17,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,2,701,678
+702,temporary full time,Rice,Terry,male,1990-03-21,Operations,Warehouse,Warehouse - South & West,Delivery Officer,1,702,678
+703,permanent part time,Velez,Darcy,male,1982-09-06,Operations,Warehouse,Warehouse - South & West,Warehouse Specialist,1,703,678
+704,contractor,Harper,Levi,male,1978-10-22,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,3,704,678
+705,permanent full time,Taylor,Sonny,male,1974-11-04,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,2,705,678
+706,contractor,Ali,Lynda,female,1963-04-10,Operations,Warehouse,Warehouse - South & West,Warehouse Specialist,1,706,678
+707,permanent full time,Richard,Rachael,female,1990-10-15,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,2,707,678
+708,permanent full time,Bowman,Lachlan,male,1984-06-24,Operations,Warehouse,Warehouse - South & West,Graduate Delivery Officer,0,708,678
+709,permanent full time,Cordova,Eliza,female,1959-05-19,Operations,Warehouse,Warehouse - South & West,Junior Warehouse Specialist,0,709,678
+710,permanent full time,Melendez,Gerard,male,1973-09-12,Operations,Warehouse,Warehouse - South & West,Associate Delivery Officer,0,710,678
+711,permanent full time,Hill,Mathew,male,1964-02-08,Operations,Warehouse,Warehouse - South & West,Associate Warehouse Specialist,0,711,678
+712,permanent part time,Nguyen,Bryce,non-binary,1972-02-14,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,2,712,678
+713,permanent full time,Dyer,Lawrence,male,1987-11-10,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,3,713,678
+714,contractor,Odom,Nevaeh,female,1982-04-10,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,2,714,678
+715,permanent full time,Yang,Hazel,female,2000-06-26,Operations,Warehouse,Warehouse - South & West,Junior Warehouse Specialist,0,715,678
+716,permanent full time,Decker,Roman,male,1977-04-18,Operations,Warehouse,Warehouse - South & West,Associate Delivery Officer,0,716,678
+717,temporary full time,Livingston,Makayla,female,1985-12-10,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,717,678
+718,contractor,Shah,Andrew,male,1984-01-14,Operations,Warehouse,Warehouse - South & West,Graduate Warehouse Specialist,0,718,678
+719,permanent part time,Tanner,Amelia,female,1985-03-10,Operations,Warehouse,Warehouse - South & West,Graduate Warehouse Specialist,0,719,678
+720,casual,Hampton,Emma,non-binary,1966-06-12,Operations,Warehouse,Warehouse - South & West,Graduate Delivery Officer,0,720,678
+721,temporary part time,Nelson,Kristen,female,1999-12-09,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,2,721,678
+722,temporary full time,Arroyo,Brett,male,1983-11-28,Operations,Warehouse,Warehouse - South & West,Delivery Officer,1,722,678
+723,casual,Choi,Dale,male,1977-03-23,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,2,723,678
+724,temporary full time,Bryant,Alison,female,1957-11-16,Operations,Warehouse,Warehouse - South & West,Associate Warehouse Specialist,0,724,678
+725,permanent full time,Mendoza,Keely,non-binary,1969-02-05,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,725,678
+726,permanent part time,Davidson,Morgan,female,1974-07-15,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,726,678
+727,temporary part time,Horne,Ezekiel,non-binary,1996-02-20,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,2,727,678
+728,permanent part time,Washington,Tori,non-binary,1982-06-11,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,2,728,678
+729,permanent full time,Meadows,Felix,male,2001-02-21,Operations,Warehouse,Warehouse - South & West,Junior Delivery Officer,0,729,678
+730,permanent full time,Guzman,Darcy,male,1964-02-25,Operations,Warehouse,Warehouse - South & West,Graduate Delivery Officer,0,730,678
+731,temporary full time,Mccarthy,Adam,male,1960-08-18,Operations,Warehouse,Warehouse - South & West,Junior Warehouse Specialist,0,731,678
+732,permanent full time,Harrington,Bernadette,non-binary,1984-02-09,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,2,732,678
+733,permanent part time,Person,Vanessa,female,1959-09-14,Operations,Warehouse,Warehouse - South & West,Warehouse Specialist,1,733,678
+734,permanent full time,Shepherd,Michaela,female,1960-06-17,Operations,Warehouse,Warehouse - South & West,Junior Delivery Officer,0,734,678
+735,permanent full time,Valenzuela,Nigel,male,1974-01-30,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,735,678
+736,temporary full time,Vincent,Lorraine,female,1995-02-07,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,2,736,678
+737,permanent full time,Leon,Debra,female,1983-12-07,Operations,Warehouse,Warehouse - South & West,Delivery Officer,1,737,678
+738,casual,Price,Natasha,female,1997-05-09,Operations,Warehouse,Warehouse - South & West,Delivery Officer,1,738,678
+739,permanent full time,Peters,Diana,female,1984-08-31,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,739,678
+740,permanent full time,Schneider,Travis,male,1969-09-21,Operations,Warehouse,Warehouse - South & West,Graduate Delivery Officer,0,740,678
+741,permanent full time,Austin,Jaime,female,2001-09-13,Operations,Warehouse,Warehouse - South & West,Graduate Delivery Officer,0,741,678
+742,temporary full time,Dunn,Samantha,female,1977-09-21,Operations,Warehouse,Warehouse - South & West,Associate Delivery Officer,0,742,678
+743,permanent part time,Welch,Alexander,male,1990-08-18,Operations,Warehouse,Warehouse - South & West,Senior Delivery Officer,3,743,678
+744,permanent part time,Bryant,Elias,male,2001-11-20,Operations,Warehouse,Warehouse - South & West,Graduate Warehouse Specialist,0,744,678
+745,permanent full time,Pruitt,Jennifer,female,1989-02-12,Operations,Warehouse,Warehouse - South & West,Senior Warehouse Specialist,3,745,678
+746,temporary full time,Marquez,Tania,non-binary,1985-02-12,Operations,Warehouse,Warehouse - South & West,Warehouse Specialist,1,746,678
+747,permanent full time,Rowland,Glenda,female,1978-09-06,Operations,Manufacturing,Vendor Management,Team Leader,3,747,3
+748,temporary full time,Shannon,Zara,female,1962-01-27,Operations,Manufacturing,Vendor Management,Associate Business Support Officer,0,748,747
+749,permanent full time,Potter,William,male,1972-01-24,Operations,Manufacturing,Vendor Management,Vendor Management Analyst,1,749,747
+750,permanent full time,Rojas,Mackenzie,female,1974-01-18,Operations,Manufacturing,Vendor Management,Business Support Officer,1,750,747
+751,contractor,Briggs,Lachlan,male,1986-05-20,Operations,Manufacturing,Vendor Management,Senior Business Support Officer,2,751,747
+752,permanent part time,Shepherd,Toby,male,1986-05-16,Operations,Manufacturing,Vendor Management,Vendor Management Analyst,1,752,747
+753,temporary full time,Le,Kirra,female,1991-05-10,Operations,Manufacturing,Vendor Management,Junior Vendor Management Analyst,0,753,747
+754,casual,Elliott,Jared,male,1999-02-10,Operations,Manufacturing,Vendor Management,Business Support Officer,1,754,747
+755,permanent full time,Conway,Ross,male,1959-07-10,Operations,Manufacturing,Vendor Management,Business Support Officer,1,755,747
+756,permanent full time,Logan,Sam,male,1997-03-04,Operations,Manufacturing,Vendor Management,Senior Business Support Officer,3,756,747
+757,permanent full time,Estrada,Braxton,non-binary,1993-12-28,Operations,Manufacturing,Vendor Management,Senior Business Support Officer,3,757,747
+758,temporary full time,Hale,Gary,male,1960-09-22,Operations,Manufacturing,Vendor Management,Senior Vendor Management Analyst,3,758,747
+759,permanent full time,Gill,Kate,female,2001-05-28,Operations,Manufacturing,Vendor Management,Business Support Officer,1,759,747
+760,temporary full time,Hensley,Adam,male,1998-04-27,Operations,Manufacturing,Vendor Management,Associate Business Support Officer,0,760,747
+761,permanent full time,Klein,Vincent,male,1983-04-24,Operations,Manufacturing,Vendor Management,Senior Vendor Management Analyst,2,761,747
+762,temporary part time,Mueller,Carl,male,1987-05-15,Operations,Manufacturing,Vendor Management,Business Support Officer,1,762,747
+763,permanent full time,Novak,Theresa,female,1989-03-26,Operations,Manufacturing,Vendor Management,Senior Vendor Management Analyst,2,763,747
+764,permanent full time,Bell,Tracey,female,1967-09-07,Operations,Manufacturing,Vendor Management,Senior Vendor Management Analyst,2,764,747
+765,casual,Jarvis,Carolyn,female,1996-12-06,Operations,Manufacturing,Vendor Management,Vendor Management Analyst,1,765,747
+766,permanent full time,Paul,Hayden,male,1974-12-12,Operations,Manufacturing,Vendor Management,Senior Vendor Management Analyst,2,766,747
+767,permanent full time,Correa,Ava,female,1984-11-26,Operations,Manufacturing,Manufacturing Hub Alpha,Team Leader,3,767,3
+768,permanent full time,Sharp,Angus,male,1980-01-24,Operations,Manufacturing,Manufacturing Hub Alpha,Associate Widget Builder,0,768,767
+769,permanent full time,Lloyd,Daryl,male,1968-06-04,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,769,767
+770,permanent full time,Barron,Lisa,female,1971-05-19,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,770,767
+771,permanent full time,Rowe,Kiara,female,1993-12-07,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,771,767
+772,temporary full time,Swanson,Alexander,male,1964-10-30,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,772,767
+773,temporary part time,Marsh,Audrey,non-binary,1993-05-20,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,773,767
+774,permanent full time,Steele,Renae,non-binary,1989-06-06,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,774,767
+775,permanent full time,Cordova,Veronica,non-binary,1983-11-13,Operations,Manufacturing,Manufacturing Hub Alpha,Junior Whatsit Maker,0,775,767
+776,permanent full time,Juarez,Nevaeh,female,1988-01-08,Operations,Manufacturing,Manufacturing Hub Alpha,Associate Widget Builder,0,776,767
+777,permanent full time,Hood,Kyle,male,1978-10-31,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,777,767
+778,permanent full time,Erickson,Jayden,male,1963-10-19,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,778,767
+779,permanent full time,Hancock,Allan,male,1963-04-30,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,779,767
+780,permanent full time,Travis,Todd,male,1973-12-17,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,780,767
+781,temporary full time,Mccullough,Ann,female,1983-10-19,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,781,767
+782,temporary full time,Le,Lynda,female,1999-06-15,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Widget Builder,0,782,767
+783,contractor,Peters,Anita,female,1997-09-20,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,783,767
+784,permanent full time,Vincent,Harry,male,1965-08-19,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,784,767
+785,temporary part time,Mendoza,Indigo,non-binary,2000-07-19,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,785,767
+786,permanent full time,Valencia,Madeline,female,1971-12-08,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Widget Builder,0,786,767
+787,permanent full time,Arias,Kristine,female,1987-01-14,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,787,767
+788,temporary part time,Harrison,Bryan,male,1962-04-22,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,788,767
+789,permanent full time,Harper,Aaron,male,1980-10-27,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,789,767
+790,permanent full time,Booker,Tracey,female,1978-12-18,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Widget Builder,0,790,767
+791,permanent full time,Medrano,Simon,male,1962-08-10,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,791,767
+792,casual,Mckee,Tony,non-binary,1997-01-23,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,792,767
+793,permanent full time,Jordan,Poppy,non-binary,1960-10-06,Operations,Manufacturing,Manufacturing Hub Alpha,Junior Widget Builder,0,793,767
+794,temporary full time,Barber,Imogen,female,1982-08-23,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,794,767
+795,permanent full time,James,Todd,male,1963-11-28,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,2,795,767
+796,permanent full time,Richards,Mackenzie,female,1998-05-03,Operations,Manufacturing,Manufacturing Hub Alpha,Associate Widget Builder,0,796,767
+797,temporary full time,Thomas,Seth,male,1997-02-27,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,797,767
+798,temporary full time,Hamilton,Harvey,non-binary,1957-02-12,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,798,767
+799,permanent full time,Trejo,Leisa,female,1970-06-15,Operations,Manufacturing,Manufacturing Hub Alpha,Associate Widget Builder,0,799,767
+800,permanent part time,Cline,Parker,male,1977-04-12,Operations,Manufacturing,Manufacturing Hub Alpha,Associate Widget Builder,0,800,767
+801,temporary full time,Martinez,Lola,female,1957-06-09,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,801,767
+802,permanent part time,Craig,Casey,female,1976-05-16,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,802,767
+803,temporary part time,King,Archie,male,1999-03-24,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,803,767
+804,permanent part time,Terrell,Linda,non-binary,1980-05-01,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,804,767
+805,permanent full time,Wallace,Sonya,female,1998-04-18,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,805,767
+806,permanent full time,Lowe,Damian,male,1961-07-28,Operations,Manufacturing,Manufacturing Hub Alpha,Associate Whatsit Maker,0,806,767
+807,permanent part time,Bowen,Kara,female,1987-05-04,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,807,767
+808,temporary full time,Salinas,Carol,non-binary,1973-02-16,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,808,767
+809,permanent full time,Waller,Lisa,female,1984-12-02,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,809,767
+810,permanent full time,Clayton,Lillian,female,1958-03-31,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,810,767
+811,permanent full time,George,Rhonda,female,1958-10-21,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,811,767
+812,temporary full time,Tyler,Patrick,male,1959-10-06,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,812,767
+813,temporary full time,Peters,Mila,non-binary,1967-02-19,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,813,767
+814,contractor,Campbell,Kurt,male,2000-07-20,Operations,Manufacturing,Manufacturing Hub Alpha,Junior Widget Builder,0,814,767
+815,permanent part time,Cortez,Brenda,non-binary,1987-11-16,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,815,767
+816,temporary full time,Simmons,Addison,female,1978-05-21,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,816,767
+817,permanent full time,Chung,Olivia,non-binary,1992-08-26,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,817,767
+818,contractor,Lucas,Kathryn,female,1964-12-08,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,818,767
+819,contractor,Sullivan,Simone,female,1960-11-25,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,819,767
+820,permanent full time,Burton,Lisa,female,1966-02-06,Operations,Manufacturing,Manufacturing Hub Alpha,Junior Whatsit Maker,0,820,767
+821,permanent full time,Duran,Riley,male,1965-01-28,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,821,767
+822,permanent full time,Hart,Drew,male,1987-05-30,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,822,767
+823,permanent full time,Cortes,Millie,female,1967-02-03,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,2,823,767
+824,contractor,Browning,Elise,female,1963-05-26,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,824,767
+825,temporary full time,Li,Ethan,male,1960-03-25,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,825,767
+826,permanent full time,Pitts,Beverley,female,1997-02-17,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,826,767
+827,temporary full time,Lozano,Eli,male,1982-02-17,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,827,767
+828,permanent full time,Williamson,Audrey,non-binary,1975-05-26,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,828,767
+829,permanent full time,Mcbride,Jade,female,1988-07-29,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,829,767
+830,permanent full time,Jacobs,Steven,male,1998-12-03,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,830,767
+831,contractor,Keith,Damien,male,1972-09-28,Operations,Manufacturing,Manufacturing Hub Alpha,Junior Widget Builder,0,831,767
+832,temporary full time,Doyle,Frank,male,1958-03-29,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,832,767
+833,permanent full time,Fitzgerald,Braxton,non-binary,1966-01-18,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,833,767
+834,temporary part time,Hubbard,Shayne,male,1976-07-26,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,2,834,767
+835,permanent full time,Wilkins,Kara,female,1991-12-09,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,835,767
+836,contractor,Fisher,Janice,female,1996-03-17,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,836,767
+837,permanent full time,Giles,Jack,non-binary,1981-07-04,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,2,837,767
+838,permanent full time,Glass,Maeve,female,1960-01-19,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,838,767
+839,temporary full time,Bernal,Maria,female,1984-11-02,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,839,767
+840,temporary full time,Hutchinson,Frances,non-binary,1961-10-17,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,840,767
+841,permanent full time,Tran,Leesa,non-binary,1999-11-06,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,841,767
+842,permanent part time,Hodges,Emily,non-binary,1996-12-07,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,842,767
+843,permanent full time,Mercado,Morgan,female,1982-02-14,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,843,767
+844,casual,Willis,Declan,non-binary,1986-03-12,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,844,767
+845,temporary full time,Jacobson,Tina,female,1975-01-16,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,845,767
+846,temporary full time,Sheppard,Audrey,non-binary,1965-08-11,Operations,Manufacturing,Manufacturing Hub Alpha,Junior Whatsit Maker,0,846,767
+847,permanent full time,Palacios,Bryan,male,1962-08-14,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,847,767
+848,permanent full time,Drake,Tony,non-binary,1965-04-16,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,848,767
+849,contractor,Duncan,Gracie,female,1988-04-25,Operations,Manufacturing,Manufacturing Hub Alpha,Junior Widget Builder,0,849,767
+850,permanent full time,Kemp,Audrey,non-binary,1992-01-29,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,850,767
+851,permanent full time,Burgess,Julia,female,2002-09-02,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,2,851,767
+852,permanent full time,Rush,Samantha,female,1957-05-09,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,852,767
+853,permanent full time,Lozano,Sean,male,1985-10-02,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,853,767
+854,permanent full time,Brady,Amber,female,1967-04-21,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,854,767
+855,temporary part time,Flynn,Austin,male,1971-03-09,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,855,767
+856,permanent full time,Nguyen,Blake,male,1969-04-23,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,856,767
+857,permanent full time,Mullen,Lucy,female,1960-08-26,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,857,767
+858,permanent full time,Hernandez,Addison,female,1981-05-11,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,858,767
+859,permanent full time,Wolfe,Denise,female,1966-09-19,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,859,767
+860,permanent full time,Good,Heather,female,1986-11-10,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,2,860,767
+861,permanent full time,Patrick,John,male,2000-12-09,Operations,Manufacturing,Manufacturing Hub Alpha,Junior Widget Builder,0,861,767
+862,permanent full time,Shaffer,Tiana,female,1984-08-30,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,862,767
+863,permanent full time,Morrison,Paul,male,1972-11-26,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,863,767
+864,permanent full time,Conley,Anne,female,1975-08-17,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,864,767
+865,permanent full time,Branch,Dennis,male,1977-06-11,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,865,767
+866,contractor,Mccoy,Adeline,female,1983-05-10,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,866,767
+867,permanent full time,Middleton,Laura,female,1977-04-04,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,867,767
+868,permanent full time,Garcia,Reece,male,1991-11-16,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,868,767
+869,contractor,Stevens,Gracie,female,1963-12-19,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,869,767
+870,permanent full time,Franco,Layla,female,1999-09-14,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,870,767
+871,permanent full time,Schmidt,Mia,female,1959-01-17,Operations,Manufacturing,Manufacturing Hub Alpha,Associate Whatsit Maker,0,871,767
+872,permanent full time,Campos,Ben,male,1973-03-18,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,872,767
+873,permanent full time,Mathews,Michael,male,1989-12-11,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,873,767
+874,temporary full time,Harper,Jemma,female,1979-09-16,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,874,767
+875,temporary full time,Miller,Ashley,female,1988-09-25,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,875,767
+876,permanent full time,Golden,Ayla,female,1988-03-24,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,876,767
+877,permanent part time,Reeves,Lawrence,male,1977-01-27,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,877,767
+878,temporary full time,Salas,Angela,non-binary,1958-01-15,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,2,878,767
+879,temporary full time,Peralta,Maisie,female,1987-03-28,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,879,767
+880,permanent full time,Herman,Oliver,male,1970-05-06,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,880,767
+881,temporary full time,Conner,Ava,female,1958-01-17,Operations,Manufacturing,Manufacturing Hub Alpha,Whatsit Maker,1,881,767
+882,temporary full time,Bass,Darren,non-binary,1960-05-30,Operations,Manufacturing,Manufacturing Hub Alpha,Associate Widget Builder,0,882,767
+883,permanent full time,Chung,Maxwell,male,1967-05-24,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Widget Builder,0,883,767
+884,permanent full time,Villarreal,Kaleb,male,2002-03-02,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,884,767
+885,temporary full time,Atkinson,Maisie,female,1970-05-09,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,885,767
+886,permanent part time,Miles,Lance,male,1963-01-01,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,886,767
+887,permanent full time,Galvan,Harley,male,1960-02-22,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,887,767
+888,temporary full time,Bowers,Samuel,male,1990-04-21,Operations,Manufacturing,Manufacturing Hub Alpha,Widget Builder,1,888,767
+889,permanent full time,Anthony,Kenneth,male,1962-05-22,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,889,767
+890,permanent full time,Torres,Nathan,male,1980-08-04,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Widget Builder,0,890,767
+891,permanent full time,Moyer,Jason,male,1976-12-23,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Whatsit Maker,3,891,767
+892,permanent full time,Hogan,Melinda,female,1961-09-14,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,2,892,767
+893,temporary part time,Herrera,Gregory,male,1992-02-16,Operations,Manufacturing,Manufacturing Hub Alpha,Senior Widget Builder,3,893,767
+894,temporary full time,Mccall,Charles,male,1990-10-17,Operations,Manufacturing,Manufacturing Hub Alpha,Graduate Whatsit Maker,0,894,767
+895,temporary part time,Marshall,Toni,female,1967-01-23,Operations,Manufacturing,Manufacturing Hub Beta,Team Leader,3,895,3
+896,permanent full time,Torres,Maxwell,male,1959-07-01,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,896,895
+897,permanent full time,Wilkins,Lacey,non-binary,1958-07-29,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,897,895
+898,permanent part time,Drake,Clare,female,1977-07-12,Operations,Manufacturing,Manufacturing Hub Beta,Associate Whatsit Maker,0,898,895
+899,contractor,Huynh,Trevor,male,1965-10-26,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,899,895
+900,permanent full time,Jacobs,Flynn,male,1959-03-02,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,900,895
+901,contractor,Everett,Ben,male,1969-06-07,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,901,895
+902,temporary full time,Madden,Bethany,female,1994-10-14,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,902,895
+903,permanent full time,Rangel,Marcus,male,1997-07-09,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,903,895
+904,permanent full time,Ray,Maya,female,1977-02-24,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,904,895
+905,casual,Ibarra,Ian,male,1963-02-23,Operations,Manufacturing,Manufacturing Hub Beta,Graduate Widget Builder,0,905,895
+906,contractor,Welch,Damon,male,1972-10-07,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,906,895
+907,permanent full time,Newton,Rosie,female,1995-01-07,Operations,Manufacturing,Manufacturing Hub Beta,Whatsit Maker,1,907,895
+908,temporary part time,Floyd,Julia,female,1980-03-08,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,908,895
+909,casual,Fleming,Katherine,female,1992-04-14,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,909,895
+910,temporary full time,Cross,Ben,male,1965-12-12,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,910,895
+911,permanent full time,Mcconnell,Heidi,female,1973-01-23,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,911,895
+912,permanent full time,Hampton,Clare,female,2001-05-15,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,912,895
+913,casual,Todd,Eden,female,1982-02-02,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,913,895
+914,temporary full time,Pearson,Harley,male,1979-08-30,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,914,895
+915,temporary part time,Oneal,Jemma,female,1979-04-15,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,915,895
+916,permanent full time,Sandoval,Deanne,female,1972-05-11,Operations,Manufacturing,Manufacturing Hub Beta,Junior Widget Builder,0,916,895
+917,permanent full time,Dorsey,Asher,male,1958-02-25,Operations,Manufacturing,Manufacturing Hub Beta,Junior Whatsit Maker,0,917,895
+918,permanent full time,Murray,Ian,male,1958-12-31,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,918,895
+919,permanent full time,Lin,Huxley,male,1963-10-25,Operations,Manufacturing,Manufacturing Hub Beta,Junior Whatsit Maker,0,919,895
+920,permanent part time,Livingston,Bernard,male,1990-06-27,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,920,895
+921,permanent full time,Miller,Lloyd,non-binary,1976-06-19,Operations,Manufacturing,Manufacturing Hub Beta,Junior Whatsit Maker,0,921,895
+922,permanent part time,Johnson,Michelle,female,1996-06-19,Operations,Manufacturing,Manufacturing Hub Beta,Graduate Whatsit Maker,0,922,895
+923,permanent full time,Fernandez,Toni,female,1999-10-18,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,923,895
+924,temporary part time,Moses,Seth,male,2000-08-04,Operations,Manufacturing,Manufacturing Hub Beta,Associate Widget Builder,0,924,895
+925,permanent full time,Pennington,Brady,male,1991-09-03,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,925,895
+926,permanent full time,Kim,Shane,male,1982-04-19,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,926,895
+927,permanent full time,Graham,Samantha,female,1982-02-27,Operations,Manufacturing,Manufacturing Hub Beta,Graduate Whatsit Maker,0,927,895
+928,permanent full time,Rosales,Breanna,non-binary,1959-05-02,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,928,895
+929,casual,Owens,Felicity,non-binary,1985-12-06,Operations,Manufacturing,Manufacturing Hub Beta,Associate Widget Builder,0,929,895
+930,temporary full time,Hobbs,Hallie,non-binary,1993-05-19,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,930,895
+931,temporary part time,Jones,Cara,female,1963-03-07,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,931,895
+932,permanent part time,Velazquez,Tyson,male,1996-10-22,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,932,895
+933,temporary full time,Lewis,Lachlan,male,1958-07-31,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,933,895
+934,permanent full time,Delarosa,Ashlee,female,1987-07-14,Operations,Manufacturing,Manufacturing Hub Beta,Associate Whatsit Maker,0,934,895
+935,temporary full time,Griffin,Brendon,male,1976-05-28,Operations,Manufacturing,Manufacturing Hub Beta,Junior Widget Builder,0,935,895
+936,temporary full time,Cline,Poppy,non-binary,1989-08-24,Operations,Manufacturing,Manufacturing Hub Beta,Whatsit Maker,1,936,895
+937,temporary part time,Thornton,Cassie,female,1985-02-23,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,937,895
+938,permanent full time,Paul,Frederick,male,1983-07-11,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,938,895
+939,permanent full time,Valencia,Nigel,male,1985-03-27,Operations,Manufacturing,Manufacturing Hub Beta,Whatsit Maker,1,939,895
+940,contractor,Armstrong,Cheryl,female,1976-11-23,Operations,Manufacturing,Manufacturing Hub Beta,Graduate Widget Builder,0,940,895
+941,temporary full time,Harding,Anne,female,1993-08-23,Operations,Manufacturing,Manufacturing Hub Beta,Graduate Whatsit Maker,0,941,895
+942,permanent full time,Kramer,Kai,non-binary,1959-02-10,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,942,895
+943,permanent full time,Richard,Molly,female,2001-03-31,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,943,895
+944,permanent full time,Trevino,Jeffrey,male,1971-06-06,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,944,895
+945,temporary full time,Houston,Sam,male,1962-09-17,Operations,Manufacturing,Manufacturing Hub Beta,Whatsit Maker,1,945,895
+946,permanent full time,Hodges,Brett,male,1985-10-08,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,946,895
+947,permanent full time,Vega,Colin,male,1976-05-17,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,947,895
+948,permanent full time,Duran,Ethan,male,1986-07-23,Operations,Manufacturing,Manufacturing Hub Beta,Whatsit Maker,1,948,895
+949,permanent full time,Weber,David,non-binary,1980-10-20,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,949,895
+950,permanent full time,Leonard,Tyrone,non-binary,2001-11-25,Operations,Manufacturing,Manufacturing Hub Beta,Junior Widget Builder,0,950,895
+951,contractor,Marin,Charles,male,1963-06-29,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,951,895
+952,temporary full time,Huff,Ann,female,1985-05-24,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,952,895
+953,permanent full time,Reeves,Arthur,non-binary,1960-09-07,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,953,895
+954,permanent full time,Gilbert,Tina,female,2001-01-11,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,954,895
+955,permanent full time,Hayes,Denise,female,1962-05-04,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,955,895
+956,permanent full time,Hobbs,Luke,male,1982-06-04,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,956,895
+957,permanent full time,Welch,Isaac,male,1995-04-04,Operations,Manufacturing,Manufacturing Hub Beta,Associate Widget Builder,0,957,895
+958,permanent part time,Galvan,Diana,female,1967-11-18,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,958,895
+959,permanent full time,Ramos,Remi,non-binary,2002-01-02,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,959,895
+960,contractor,Martinez,Mackenzie,female,1973-05-08,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,960,895
+961,permanent full time,Jacobson,Daisy,female,1968-08-09,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,961,895
+962,temporary full time,Huber,Ezekiel,non-binary,1967-10-09,Operations,Manufacturing,Manufacturing Hub Beta,Associate Widget Builder,0,962,895
+963,permanent full time,Chung,Rebecca,female,1982-05-30,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,963,895
+964,temporary full time,Glass,Tiana,female,1997-02-04,Operations,Manufacturing,Manufacturing Hub Beta,Graduate Whatsit Maker,0,964,895
+965,permanent full time,Castillo,Stella,female,1995-11-17,Operations,Manufacturing,Manufacturing Hub Beta,Whatsit Maker,1,965,895
+966,temporary full time,Mcpherson,Frances,non-binary,1981-09-22,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,966,895
+967,contractor,Chambers,Brooklyn,female,1996-02-28,Operations,Manufacturing,Manufacturing Hub Beta,Whatsit Maker,1,967,895
+968,permanent full time,Montes,Phoenix,male,1970-08-28,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,968,895
+969,temporary part time,Vega,Grace,female,1980-09-08,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,969,895
+970,permanent full time,Heath,Trevor,male,1989-01-07,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,970,895
+971,permanent part time,Russo,Georgia,female,1968-01-28,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,971,895
+972,temporary full time,Wu,Gordon,male,1976-05-10,Operations,Manufacturing,Manufacturing Hub Beta,Whatsit Maker,1,972,895
+973,contractor,Acosta,Piper,female,1993-02-18,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,973,895
+974,temporary part time,Hensley,Koa,non-binary,1999-05-18,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,974,895
+975,temporary full time,Humphrey,Elias,male,1974-03-03,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,975,895
+976,permanent part time,Bond,Sonny,male,1970-12-28,Operations,Manufacturing,Manufacturing Hub Beta,Junior Widget Builder,0,976,895
+977,permanent full time,Lucas,Kellie,non-binary,1987-09-15,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,977,895
+978,temporary full time,Hill,Aaron,male,1969-05-05,Operations,Manufacturing,Manufacturing Hub Beta,Widget Builder,1,978,895
+979,permanent full time,Oneal,Dianne,female,1959-10-24,Operations,Manufacturing,Manufacturing Hub Beta,Associate Widget Builder,0,979,895
+980,casual,Sweeney,Felix,male,1997-06-18,Operations,Manufacturing,Manufacturing Hub Beta,Junior Whatsit Maker,0,980,895
+981,contractor,Gardner,Arlo,male,1993-06-04,Operations,Manufacturing,Manufacturing Hub Beta,Associate Whatsit Maker,0,981,895
+982,casual,Gonzalez,Gabriel,male,1979-02-22,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,982,895
+983,contractor,Melton,Kurt,male,1996-08-14,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,2,983,895
+984,casual,Lawson,Sophie,female,1959-10-17,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,984,895
+985,permanent full time,Bates,Bryan,male,1985-10-11,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,985,895
+986,contractor,Henderson,Maya,female,1960-05-09,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,986,895
+987,temporary full time,Strong,Carter,male,1994-03-12,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,987,895
+988,permanent full time,Baxter,Christian,male,1977-04-13,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,988,895
+989,permanent full time,Ahmed,Pippa,female,1958-08-04,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,989,895
+990,temporary full time,Morse,Bernard,male,1974-03-19,Operations,Manufacturing,Manufacturing Hub Beta,Junior Widget Builder,0,990,895
+991,permanent full time,Page,Maggie,female,1974-07-23,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,991,895
+992,permanent full time,Norris,Zane,male,1999-08-10,Operations,Manufacturing,Manufacturing Hub Beta,Whatsit Maker,1,992,895
+993,permanent full time,Lindsey,Alana,female,1996-06-13,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,993,895
+994,permanent part time,Vo,John,male,1999-01-21,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,3,994,895
+995,permanent part time,Mcmillan,Indi,female,1983-02-20,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,995,895
+996,temporary part time,Bradley,Brittney,female,1961-04-19,Operations,Manufacturing,Manufacturing Hub Beta,Associate Whatsit Maker,0,996,895
+997,permanent full time,Wilkerson,Andrea,female,1984-04-29,Operations,Manufacturing,Manufacturing Hub Beta,Senior Widget Builder,2,997,895
+998,contractor,Jacobson,Harley,male,1997-07-03,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,998,895
+999,permanent part time,Schmidt,Richard,male,1997-08-12,Operations,Manufacturing,Manufacturing Hub Beta,Senior Whatsit Maker,3,999,895

@@ -25,7 +25,7 @@ given_names_by_sex = {
   , 'female'    : given_names[given_names['sex'] == 'female']
   , 'male'      : given_names[given_names['sex'] == 'male']
 }
-for key in given_names_by_sex.items():
+for key in given_names_by_sex.keys():
   given_names_by_sex[key].reset_index(drop = True, inplace = True)
 
 def validate_mix_percentages(mix):
@@ -154,7 +154,7 @@ min_employee_list_length = min(
     len(employee_type_list)
   , len(employee_name_and_sex_list)
   , len(employee_age_list)
-) + 1
+)
 
 
 employee_demographics_list = list([])
@@ -213,7 +213,7 @@ company_teams.insert(2, 'employee_offset_end'  , -1)
 
 company_elt_team_offset_start             = 0
 company_elt_team_offset_end               = len(company_executive_leadership_team)
-company_department_head_team_offset_start = company_elt_team_offset_end + 1
+company_department_head_team_offset_start = company_elt_team_offset_end
 company_department_head_team_offset_end   = company_department_head_team_offset_start + len(company_departments)
 
 next_team_offset_start = company_department_head_team_offset_end + 1
@@ -266,7 +266,7 @@ for i in range(company_elt_team_offset_start, company_elt_team_offset_end):
 company_executive_leadership_team_length = len(company_executive_leadership_team)
 company_departments_length = len(company_departments)
 for i in range(company_department_head_team_offset_start, company_department_head_team_offset_end):
-  current_slt_department_index = i - company_executive_leadership_team_length - 1
+  current_slt_department_index = i - company_executive_leadership_team_length
   current_slt_position_index   = randint(0, len(company_department_head_positions) - 1)
   current_slt_head_query       = 'team == "Executive Leadership Team" and division == "' + company_departments.loc[current_slt_department_index, 'division'] + '"'
 
@@ -327,6 +327,9 @@ for team_index in range(0, company_teams_length):
       employees.loc[employee_index, 'position'  ] = 'Team Leader'
       employees.loc[employee_index, 'level'     ] = 3
       employees.loc[employee_index, 'reports_to'] = department_head_id
+
+      if employees.loc[employee_index, 'employee_type'] == 'casual':
+        employees.loc[employee_index, 'employee_type'] = 'permanent full time'
     else:
       # To do remove this randomisation of levels and change it to use the defined team mixes.
       level = randint(0, 3)
@@ -352,4 +355,4 @@ for team_index in range(0, company_teams_length):
   employees_processed_at_current_team  = employees_processed
   employees_to_process_at_current_team = employees_to_process
 
-employees.to_csv(join(dir_dataset_modelled, 'test_employees.csv'))
+employees.to_csv(join(dir_dataset_modelled, 'test_employees.csv'), index = False)

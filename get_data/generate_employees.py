@@ -355,7 +355,19 @@ for team_index in range(0, company_teams_length):
   employees_processed_at_current_team  = employees_processed
   employees_to_process_at_current_team = employees_to_process
 
-# From our monolothic employee object derive fact and dimension datasets.
 
+
+# From our monolothic employee object derive fact and dimension datasets.
+# Current logic has this at the end due to early design decisions e.g. creating
+# ELT and SLT teams rather than having them defined in the list of teams.
+# Should look to refactoring this so the process starts by end users defining
+# dimensions and then the facts are generated rather than having it a bit
+# jumbled up.
+
+dim_employment_type                             = pd.DataFrame(data = {'Employment Type Key': [-1], 'Employment Type': ['-']})
+dim_employment_type_swap                        = employees.filter(['employment_type']).drop_duplicates().reset_index(drop = True)
+dim_employment_type_swap['Employment Type Key'] = dim_employment_type_swap.index
+dim_employment_type_swap['Employment Type'    ] = dim_employment_type_swap['employment_type']
+dim_employment_type                             = pd.concat([dim_employment_type, dim_employment_type_swap[['Employment Type Key', 'Employment Type']]]).reset_index(drop = True)
 
 employees.to_csv(join(dir_dataset_modelled, 'test_employees.csv'), index = False)

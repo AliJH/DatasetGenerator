@@ -25,7 +25,7 @@ given_names_by_sex = {
   , 'female'    : given_names[given_names['sex'] == 'female']
   , 'male'      : given_names[given_names['sex'] == 'male']
 }
-for key in given_names_by_sex.items():
+for key in given_names_by_sex.keys():
   given_names_by_sex[key].reset_index(drop = True, inplace = True)
 
 def validate_mix_percentages(mix):
@@ -85,8 +85,8 @@ days_in_month_by_month_number = {
 organisation_size = 1000
 
 
-# Start: Generate Employee Type #
-default_employee_type_mix = {
+# Start: Generate Employment Type #
+default_employment_type_mix = {
     'permanent full time': .50
   , 'permanent part time': .10
   , 'temporary full time': .20
@@ -95,11 +95,11 @@ default_employee_type_mix = {
   , 'contractor'         : .10
   , 'volunteer'          : .00
 }
-default_employee_type_mix_validation_result = validate_mix_percentages(default_employee_type_mix)
+default_employment_type_mix_validation_result = validate_mix_percentages(default_employment_type_mix)
 
-employee_type_list = list([])
-for key, value in default_employee_type_mix.items():
-  employee_type_list.extend(key for i in range(int(organisation_size * value)))
+employment_type_list = list([])
+for key, value in default_employment_type_mix.items():
+  employment_type_list.extend(key for i in range(int(organisation_size * value)))
 # End: Generate Employee Type #
 
 # Start: Generate Employee Name and Sex #
@@ -144,23 +144,23 @@ for key, value in default_age_mix.items():
 # Start: Prepare lists for merging.
 # Shuffling is required otherwise final output will be skewed towards position
 # of mix types across the different mixes.
-shuffle(employee_type_list)
+shuffle(employment_type_list)
 shuffle(employee_name_and_sex_list)
 shuffle(employee_age_list)
 
 # Lengths may differ between lists due to rounding of the mix type values when
 # applied to the organisation size.
 min_employee_list_length = min(
-    len(employee_type_list)
+    len(employment_type_list)
   , len(employee_name_and_sex_list)
   , len(employee_age_list)
-) + 1
+)
 
 
 employee_demographics_list = list([])
 for i in range(0, min_employee_list_length):
   employee_demographics_list.append([
-      employee_type_list[i]
+      employment_type_list[i]
     , employee_name_and_sex_list[i][0]
     , employee_name_and_sex_list[i][1]
     , employee_name_and_sex_list[i][2]
@@ -177,7 +177,7 @@ for i in range(0, min_employee_list_length):
 employees = pd.DataFrame(
     employee_demographics_list
   , columns=[
-      'employee_type'
+      'employment_type'
     , 'family_name'
     , 'given_name'
     , 'sex'
@@ -213,7 +213,7 @@ company_teams.insert(2, 'employee_offset_end'  , -1)
 
 company_elt_team_offset_start             = 0
 company_elt_team_offset_end               = len(company_executive_leadership_team)
-company_department_head_team_offset_start = company_elt_team_offset_end + 1
+company_department_head_team_offset_start = company_elt_team_offset_end
 company_department_head_team_offset_end   = company_department_head_team_offset_start + len(company_departments)
 
 next_team_offset_start = company_department_head_team_offset_end + 1
@@ -237,14 +237,14 @@ minimum_age_for_leaders = 30
 ceo_employee_id = company_executive_leadership_team.index[company_executive_leadership_team['executive'] == 'Chief Executive Officer'].tolist()[0]
 
 for i in range(company_elt_team_offset_start, company_elt_team_offset_end):
-  employees.loc[i, 'employee_type'] = 'executive leader'
-  employees.loc[i, 'division'     ] = company_executive_leadership_team.loc[i, 'division']
-  employees.loc[i, 'department'   ] = ''
-  employees.loc[i, 'team'         ] = 'Executive Leadership Team'
-  employees.loc[i, 'position'     ] = company_executive_leadership_team.loc[i, 'executive']
-  employees.loc[i, 'level'        ] = 5 # should be made to dynamically get the level for the ELT positions but I am tired
-  employees.loc[i, 'employee_id'  ] = i
-  employees.loc[i, 'reports_to'   ] = ceo_employee_id
+  employees.loc[i, 'employment_type'] = 'executive leader'
+  employees.loc[i, 'division'       ] = company_executive_leadership_team.loc[i, 'division']
+  employees.loc[i, 'department'     ] = ''
+  employees.loc[i, 'team'           ] = 'Executive Leadership Team'
+  employees.loc[i, 'position'       ] = company_executive_leadership_team.loc[i, 'executive']
+  employees.loc[i, 'level'          ] = 5 # should be made to dynamically get the level for the ELT positions but I am tired
+  employees.loc[i, 'employee_id'    ] = i
+  employees.loc[i, 'reports_to'     ] = ceo_employee_id
 
   # Set the CEO to report to nobody.
   if i == ceo_employee_id:
@@ -266,18 +266,18 @@ for i in range(company_elt_team_offset_start, company_elt_team_offset_end):
 company_executive_leadership_team_length = len(company_executive_leadership_team)
 company_departments_length = len(company_departments)
 for i in range(company_department_head_team_offset_start, company_department_head_team_offset_end):
-  current_slt_department_index = i - company_executive_leadership_team_length - 1
+  current_slt_department_index = i - company_executive_leadership_team_length
   current_slt_position_index   = randint(0, len(company_department_head_positions) - 1)
   current_slt_head_query       = 'team == "Executive Leadership Team" and division == "' + company_departments.loc[current_slt_department_index, 'division'] + '"'
 
-  employees.loc[i, 'employee_type'] = 'senior leader'
-  employees.loc[i, 'division'     ] = company_departments.loc[current_slt_department_index, 'division']
-  employees.loc[i, 'department'   ] = company_departments.loc[current_slt_department_index, 'department']
-  employees.loc[i, 'team'         ] = 'Senior Leadership Team'
-  employees.loc[i, 'position'     ] = company_department_head_positions.loc[current_slt_position_index, 'modifier']
-  employees.loc[i, 'level'        ] = company_department_head_positions.loc[current_slt_position_index, 'level']
-  employees.loc[i, 'employee_id'  ] = i
-  employees.loc[i, 'reports_to'   ] = employees.query(current_slt_head_query).reset_index().loc[0, 'employee_id']
+  employees.loc[i, 'employment_type'] = 'senior leader'
+  employees.loc[i, 'division'       ] = company_departments.loc[current_slt_department_index, 'division']
+  employees.loc[i, 'department'     ] = company_departments.loc[current_slt_department_index, 'department']
+  employees.loc[i, 'team'           ] = 'Senior Leadership Team'
+  employees.loc[i, 'position'       ] = company_department_head_positions.loc[current_slt_position_index, 'modifier']
+  employees.loc[i, 'level'          ] = company_department_head_positions.loc[current_slt_position_index, 'level']
+  employees.loc[i, 'employee_id'    ] = i
+  employees.loc[i, 'reports_to'     ] = employees.query(current_slt_head_query).reset_index().loc[0, 'employee_id']
 
   current_employee_age_years = current_year - employees.loc[i, 'date_of_birth'].year
   if current_employee_age_years < minimum_age_for_leaders:
@@ -327,6 +327,9 @@ for team_index in range(0, company_teams_length):
       employees.loc[employee_index, 'position'  ] = 'Team Leader'
       employees.loc[employee_index, 'level'     ] = 3
       employees.loc[employee_index, 'reports_to'] = department_head_id
+
+      if employees.loc[employee_index, 'employment_type'] == 'casual':
+         employees.loc[employee_index, 'employment_type'] = 'permanent full time'
     else:
       # To do remove this randomisation of levels and change it to use the defined team mixes.
       level = randint(0, 3)
@@ -352,4 +355,19 @@ for team_index in range(0, company_teams_length):
   employees_processed_at_current_team  = employees_processed
   employees_to_process_at_current_team = employees_to_process
 
-employees.to_csv(join(dir_dataset_modelled, 'test_employees.csv'))
+
+
+# From our monolothic employee object derive fact and dimension datasets.
+# Current logic has this at the end due to early design decisions e.g. creating
+# ELT and SLT teams rather than having them defined in the list of teams.
+# Should look to refactoring this so the process starts by end users defining
+# dimensions and then the facts are generated rather than having it a bit
+# jumbled up.
+
+dim_employment_type                             = pd.DataFrame(data = {'Employment Type Key': [-1], 'Employment Type': ['-']})
+dim_employment_type_swap                        = employees.filter(['employment_type']).drop_duplicates().reset_index(drop = True)
+dim_employment_type_swap['Employment Type Key'] = dim_employment_type_swap.index
+dim_employment_type_swap['Employment Type'    ] = dim_employment_type_swap['employment_type']
+dim_employment_type                             = pd.concat([dim_employment_type, dim_employment_type_swap[['Employment Type Key', 'Employment Type']]]).reset_index(drop = True)
+
+employees.to_csv(join(dir_dataset_modelled, 'test_employees.csv'), index = False)

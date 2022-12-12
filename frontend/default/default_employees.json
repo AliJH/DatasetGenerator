@@ -13,15 +13,36 @@
         },
         "employment_type_mix": {
             "description": "Employment Type Mix (percentage)",
-            "values": {
-                "permanent full time": 0.5,
-                "permanent part time": 0.1,
-                "temporary full time": 0.2,
-                "temporary part time": 0.05,
-                "casual": 0.05,
-                "contractor": 0.1,
-                "volunteer": 0.0
-            }
+            "values": [
+                {
+                    "mix_name": "permanent full time",
+                    "mix_percentage": 0.5
+                },
+                {
+                    "mix_name": "permanent part time",
+                    "mix_percentage": 0.1
+                },
+                {
+                    "mix_name": "temporary full time",
+                    "mix_percentage": 0.2
+                },
+                {
+                    "mix_name": "temporary part time",
+                    "mix_percentage": 0.05
+                },
+                {
+                    "mix_name": "casual",
+                    "mix_percentage": 0.05
+                },
+                {
+                    "mix_name": "contractor",
+                    "mix_percentage": 0.1
+                },
+                {
+                    "mix_name": "volunteer",
+                    "mix_percentage": 0.0
+                }
+            ]
         },
         "position_level_modifiers": {
             "description": "Position Level Modifers",

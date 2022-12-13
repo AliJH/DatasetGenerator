@@ -2,13 +2,12 @@
     "overview": {
         "dataset_details": {
             "configuration_name": "default",
-            "last_modified": "2022-12-08T04:02:31.820Z",
+            "last_modified": "2022-12-13 03:14:32.672564+00:00",
             "dataset_name": "employees"
         }
     },
     "employee_properties": {
         "organisation_size": {
-            "description": "Organisation Size",
             "value": 1000
         },
         "employment_type_mix": {
@@ -50,66 +49,60 @@
                 {
                     "modifier_name": "Junior",
                     "modifier_position": "pre",
-                    "modifier_level": 0
+                    "modifier_level": 1
                 },
                 {
                     "modifier_name": "Graduate",
                     "modifier_position": "pre",
-                    "modifier_level": 0
+                    "modifier_level": 1
                 },
                 {
                     "modifier_name": "Associate",
                     "modifier_position": "pre",
-                    "modifier_level": 0
+                    "modifier_level": 1
                 },
                 {
                     "modifier_name": "Vanilla",
                     "modifier_position": "pre",
-                    "modifier_level": 1
+                    "modifier_level": 2
                 },
                 {
                     "modifier_name": "Senior",
                     "modifier_position": "pre",
-                    "modifier_level": 2
+                    "modifier_level": 3
                 },
                 {
                     "modifier_name": "Principal",
                     "modifier_position": "pre",
-                    "modifier_level": 3
+                    "modifier_level": 4
                 },
                 {
                     "modifier_name": "Team Leader",
                     "modifier_position": "replace",
-                    "modifier_level": 3
+                    "modifier_level": 4
                 },
                 {
                     "modifier_name": "Lead",
                     "modifier_position": "pre",
-                    "modifier_level": 3
+                    "modifier_level": 4
                 },
                 {
                     "modifier_name": "Manager",
                     "modifier_position": "replace",
-                    "modifier_level": 4
+                    "modifier_level": 5
                 },
                 {
                     "modifier_name": "Associate Director",
                     "modifier_position": "replace",
-                    "modifier_level": 4
+                    "modifier_level": 5
                 },
                 {
                     "modifier_name": "Director",
                     "modifier_position": "replace",
-                    "modifier_level": 4
-                },
-                {
-                    "modifier_name": "Chief",
-                    "modifier_position": "pre",
                     "modifier_level": 5
                 }
             ]
         }
     },
-    "divisions": {},
-    "teams": {}
+    "org_structure": {}
 }

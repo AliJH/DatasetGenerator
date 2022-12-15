@@ -75,6 +75,30 @@
     }
   },
   "org_structure": {
+    "locations": {
+      "values": [
+        {
+          "location_name": "HQ",
+          "location_purpose": "Office",
+          "location_occupancy_type": "Leased"
+        },
+        {
+          "location_name": "Manufacturing Hub Alpha",
+          "location_purpose": "Manufacturing",
+          "location_occupancy_type": "Owned"
+        },
+        {
+          "location_name": "Manufacturing Hub Beta",
+          "location_purpose": "Manufacturing",
+          "location_occupancy_type": "Leased"
+        },
+        {
+          "location_name": "Western Sales",
+          "location_purpose": "Office",
+          "location_occupancy_type": "Leased"
+        }
+      ]
+    },
     "divisions": {
       "values": [
         {
@@ -175,6 +199,7 @@
           "team_leader": "Executive Officer",
           "division": "Office of the CEO",
           "department": null,
+          "primary_location": "Head Office",
           "titles": [
             "Administration Officer",
             "Business Support Officer"
@@ -188,6 +213,7 @@
           "team_leader": "Executive Officer",
           "division": "Finance",
           "department": null,
+          "primary_location": "Head Office",
           "titles": [
             "Analyst",
             "Administration Officer",
@@ -202,6 +228,7 @@
           "team_leader": "Principal Treasury Analyst",
           "division": "Finance",
           "department": null,
+          "primary_location": "Head Office",
           "titles": [
             "Accountant",
             "Treasury Analyst",
@@ -216,6 +243,7 @@
           "team_leader": "Team Leader",
           "division": "Finance",
           "department": "Accounting",
+          "primary_location": "Head Office",
           "titles": [
             "Accountant",
             "Business Support Officer"
@@ -229,6 +257,7 @@
           "team_leader": "Team Leader",
           "division": "Finance",
           "department": "Accounting",
+          "primary_location": "Head Office",
           "titles": [
             "Accountant",
             "Business Support Officer"
@@ -242,6 +271,7 @@
           "team_leader": "Principal Payroll Officer",
           "division": "Finance",
           "department": "Accounting",
+          "primary_location": "Head Office",
           "titles": [
             "Accountant",
             "Business Support Officer"

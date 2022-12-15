@@ -8,6 +8,7 @@
   },
   "employee_properties": {
     "organisation_size": {
+      "description": "Organisation Size",
       "value": 1000
     },
     "employment_type_mix": {
@@ -76,6 +77,7 @@
   },
   "org_structure": {
     "locations": {
+      "description": "Locations",
       "values": [
         {
           "location_name": "HQ",
@@ -100,6 +102,7 @@
       ]
     },
     "divisions": {
+      "description": "Divisions",
       "values": [
         {
           "division_name": "Office of the CEO",
@@ -129,6 +132,7 @@
       ]
     },
     "departments": {
+      "description": "Departments",
       "values": [
         {
           "department_name": "Accounting",
@@ -193,6 +197,7 @@
       ]
     },
     "teams": {
+      "description": "Teams",
       "values": [
         {
           "team_name": "Office of the CEO",

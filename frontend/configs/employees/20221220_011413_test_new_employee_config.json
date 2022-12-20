@@ -1,0 +1,293 @@
+{
+      "overview": {
+            "dataset_details": {
+                  "configuration_name": "test new employee config",
+                  "last_modified": "2022-12-20 01:14:13.072774+00:00",
+                  "dataset_name": "employees",
+                  "validation_passed": true,
+                  "validation_messages": []
+            }
+      },
+      "employee_properties": {
+            "organisation_size": {
+                  "description": "Organisation Size",
+                  "value": 1023
+            },
+            "employment_type_mix": {
+                  "description": "Employment Type Mix (percentage)",
+                  "values": [
+                        {
+                              "mix_name": "permanent full time",
+                              "mix_percentage": 0.5
+                        },
+                        {
+                              "mix_name": "permanent part time",
+                              "mix_percentage": 0.1
+                        },
+                        {
+                              "mix_name": "temporary full time",
+                              "mix_percentage": 0.2
+                        },
+                        {
+                              "mix_name": "temporary part time",
+                              "mix_percentage": 0.05
+                        },
+                        {
+                              "mix_name": "casual",
+                              "mix_percentage": 0.05
+                        },
+                        {
+                              "mix_name": "contractor",
+                              "mix_percentage": 0.1
+                        },
+                        {
+                              "mix_name": "volunteer",
+                              "mix_percentage": 0.0
+                        }
+                  ]
+            },
+            "position_level_modifiers": {
+                  "description": "Position Level Modifers",
+                  "values": [
+                        {
+                              "modifier_name": "Junior",
+                              "modifier_position": "pre",
+                              "modifier_level": 1
+                        },
+                        {
+                              "modifier_name": "Graduate",
+                              "modifier_position": "pre",
+                              "modifier_level": 1
+                        },
+                        {
+                              "modifier_name": "Associate",
+                              "modifier_position": "pre",
+                              "modifier_level": 1
+                        },
+                        {
+                              "modifier_name": "Vanilla",
+                              "modifier_position": "pre",
+                              "modifier_level": 2
+                        },
+                        {
+                              "modifier_name": "Senior",
+                              "modifier_position": "pre",
+                              "modifier_level": 3
+                        }
+                  ]
+            }
+      },
+      "org_structure": {
+            "locations": {
+                  "description": "Locations",
+                  "values": [
+                        {
+                              "location_name": "HQ",
+                              "location_purpose": "Office",
+                              "location_occupancy_type": "Leased"
+                        },
+                        {
+                              "location_name": "Manufacturing Hub Alpha",
+                              "location_purpose": "Manufacturing",
+                              "location_occupancy_type": "Owned"
+                        },
+                        {
+                              "location_name": "Manufacturing Hub Beta",
+                              "location_purpose": "Manufacturing",
+                              "location_occupancy_type": "Leased"
+                        },
+                        {
+                              "location_name": "Western Sales",
+                              "location_purpose": "Office",
+                              "location_occupancy_type": "Leased"
+                        }
+                  ]
+            },
+            "divisions": {
+                  "description": "Divisions",
+                  "values": [
+                        {
+                              "division_name": "Office of the CEO",
+                              "division_leader": "Chief Executive Officer",
+                              "division_leader_is_head_of_organisation": true
+                        },
+                        {
+                              "division_name": "Operations",
+                              "division_leader": "Chief Operations Officer",
+                              "division_leader_is_head_of_organisation": false
+                        },
+                        {
+                              "division_name": "Finance",
+                              "division_leader": "Chief Finance Officer",
+                              "division_leader_is_head_of_organisation": false
+                        },
+                        {
+                              "division_name": "People",
+                              "division_leader": "Chief People Officer",
+                              "division_leader_is_head_of_organisation": false
+                        },
+                        {
+                              "division_name": "IT",
+                              "division_leader": "Chief Information Officer",
+                              "division_leader_is_head_of_organisation": false
+                        }
+                  ]
+            },
+            "departments": {
+                  "description": "Departments",
+                  "values": [
+                        {
+                              "department_name": "Accounting",
+                              "department_leader": "Associate Director",
+                              "division": "Finance"
+                        },
+                        {
+                              "department_name": "Audit",
+                              "department_leader": "Manager",
+                              "division": "Finance"
+                        },
+                        {
+                              "department_name": "Financial Planning and Analysis",
+                              "department_leader": "Director",
+                              "division": "Finance"
+                        },
+                        {
+                              "department_name": "Projects and Planning",
+                              "department_leader": "Director",
+                              "division": "People"
+                        },
+                        {
+                              "department_name": "Training and Development",
+                              "department_leader": "Manager",
+                              "division": "People"
+                        },
+                        {
+                              "department_name": "Technology Support",
+                              "department_leader": "Manager",
+                              "division": "IT"
+                        },
+                        {
+                              "department_name": "Operations and Infrastructure",
+                              "department_leader": "Director",
+                              "division": "IT"
+                        },
+                        {
+                              "department_name": "Corporate Applications",
+                              "department_leader": "Associate Director",
+                              "division": "IT"
+                        },
+                        {
+                              "department_name": "Sales",
+                              "department_leader": "Director",
+                              "division": "Operations"
+                        },
+                        {
+                              "department_name": "Marketing",
+                              "department_leader": "Director",
+                              "division": "Operations"
+                        },
+                        {
+                              "department_name": "Warehouse",
+                              "department_leader": "Manager",
+                              "division": "Operations"
+                        },
+                        {
+                              "department_name": "Manufacturing",
+                              "department_leader": "Manager",
+                              "division": "Operations"
+                        }
+                  ]
+            }
+      },
+      "teams": {
+            "description": "Teams",
+            "values": [
+                  {
+                        "team_name": "Office of the CEO",
+                        "team_leader": "Executive Officer",
+                        "division": "Office of the CEO",
+                        "department": null,
+                        "location": "HQ",
+                        "titles": [
+                              "Administration Officer",
+                              "Business Support Officer"
+                        ],
+                        "level_1_percent": 30,
+                        "level_2_percent": 40,
+                        "level_3_percent": 30
+                  },
+                  {
+                        "team_name": "Office of the CFO",
+                        "team_leader": "Executive Officer",
+                        "division": "Finance",
+                        "department": null,
+                        "location": "HQ",
+                        "titles": [
+                              "Analyst",
+                              "Administration Officer",
+                              "Business Support Officer"
+                        ],
+                        "level_1_percent": 50,
+                        "level_2_percent": 25,
+                        "level_3_percent": 25
+                  },
+                  {
+                        "team_name": "Treasury",
+                        "team_leader": "Principal Treasury Analyst",
+                        "division": "Finance",
+                        "department": null,
+                        "location": "HQ",
+                        "titles": [
+                              "Accountant",
+                              "Treasury Analyst",
+                              "Planning Officer"
+                        ],
+                        "level_1_percent": 20,
+                        "level_2_percent": 50,
+                        "level_3_percent": 30
+                  },
+                  {
+                        "team_name": "Accounts Payable",
+                        "team_leader": "Team Leader",
+                        "division": "Finance",
+                        "department": "Accounting",
+                        "location": "HQ",
+                        "titles": [
+                              "Accountant",
+                              "Business Support Officer"
+                        ],
+                        "level_1_percent": 50,
+                        "level_2_percent": 25,
+                        "level_3_percent": 25
+                  },
+                  {
+                        "team_name": "Accounts Receivable",
+                        "team_leader": "Team Leader",
+                        "division": "Finance",
+                        "department": "Accounting",
+                        "location": "HQ",
+                        "titles": [
+                              "Accountant",
+                              "Business Support Officer"
+                        ],
+                        "level_1_percent": 50,
+                        "level_2_percent": 25,
+                        "level_3_percent": 25
+                  },
+                  {
+                        "team_name": "Payroll",
+                        "team_leader": "Principal Payroll Officer",
+                        "division": "Finance",
+                        "department": "Accounting",
+                        "location": "HQ",
+                        "titles": [
+                              "Accountant",
+                              "Business Support Officer"
+                        ],
+                        "level_1_percent": 50,
+                        "level_2_percent": 25,
+                        "level_3_percent": 25
+                  }
+            ]
+      }
+}

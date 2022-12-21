@@ -204,12 +204,11 @@
     "values": [
       {
         "team_name": "Office of the CEO",
-        "team_leader": "team leader",
+        "team_leader": "Executive Officer",
         "division": "Office of the CEO",
         "department": "unassigned",
         "location": "HQ",
         "titles": [
-          "Executive Officer",
           "Administration Officer",
           "Business Support Officer"
         ],
@@ -220,7 +219,7 @@
       },
       {
         "team_name": "Office of the CFO",
-        "team_leader": "team leader",
+        "team_leader": "Executive Officer",
         "division": "Finance",
         "department": "unassigned",
         "location": "HQ",
@@ -236,7 +235,7 @@
       },
       {
         "team_name": "Treasury",
-        "team_leader": "team leader",
+        "team_leader": "Principal Accountant",
         "division": "Finance",
         "department": "unassigned",
         "location": "HQ",
@@ -252,7 +251,7 @@
       },
       {
         "team_name": "Accounts Payable",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "Finance",
         "department": "Accounting",
         "location": "HQ",
@@ -267,7 +266,7 @@
       },
       {
         "team_name": "Accounts Receivable",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "Finance",
         "department": "Accounting",
         "location": "HQ",
@@ -282,7 +281,7 @@
       },
       {
         "team_name": "Payroll",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "Finance",
         "department": "Accounting",
         "location": "HQ",
@@ -297,7 +296,7 @@
       },
       {
         "team_name": "Financial Audit",
-        "team_leader": "team leader",
+        "team_leader": "Principal Auditor",
         "division": "Finance",
         "department": "Audit",
         "location": "HQ",
@@ -312,7 +311,7 @@
       },
       {
         "team_name": "Governance and Risk",
-        "team_leader": "team leader",
+        "team_leader": "Lead Risk Analyst",
         "division": "Finance",
         "department": "Audit",
         "location": "HQ",
@@ -328,7 +327,7 @@
       },
       {
         "team_name": "Planning",
-        "team_leader": "team leader",
+        "team_leader": "Principal Planning Officer",
         "division": "Finance",
         "department": "Financial Planning and Analysis",
         "location": "HQ",
@@ -343,7 +342,7 @@
       },
       {
         "team_name": "Analytics",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "Finance",
         "department": "Financial Planning and Analysis",
         "location": "HQ",
@@ -358,7 +357,7 @@
       },
       {
         "team_name": "Facilities Management",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "Finance",
         "department": "unassigned",
         "location": "HQ",
@@ -374,7 +373,7 @@
       },
       {
         "team_name": "Procurement",
-        "team_leader": "team leader",
+        "team_leader": "Procurement Manager",
         "division": "Finance",
         "department": "unassigned",
         "location": "HQ",
@@ -390,7 +389,7 @@
       },
       {
         "team_name": "Office of the CPO",
-        "team_leader": "team leader",
+        "team_leader": "Executive Officer",
         "division": "People",
         "department": "unassigned",
         "location": "HQ",
@@ -406,7 +405,7 @@
       },
       {
         "team_name": "Legal",
-        "team_leader": "team leader",
+        "team_leader": "Principal Lawyer",
         "division": "People",
         "department": "unassigned",
         "location": "HQ",
@@ -422,7 +421,7 @@
       },
       {
         "team_name": "Project Management Office",
-        "team_leader": "team leader",
+        "team_leader": "Lead Project Officer",
         "division": "People",
         "department": "Projects and Planning",
         "location": "HQ",
@@ -439,7 +438,7 @@
       },
       {
         "team_name": "HR Helpdesk",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "People",
         "department": "Projects and Planning",
         "location": "HQ",
@@ -454,7 +453,7 @@
       },
       {
         "team_name": "Learning Design",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "People",
         "department": "Training and Development",
         "location": "HQ",
@@ -469,7 +468,7 @@
       },
       {
         "team_name": "Training",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "People",
         "department": "Training and Development",
         "location": "HQ",
@@ -484,7 +483,7 @@
       },
       {
         "team_name": "Office of the CIO",
-        "team_leader": "team leader",
+        "team_leader": "Executive Officer",
         "division": "IT",
         "department": "unassigned",
         "location": "HQ",
@@ -500,7 +499,7 @@
       },
       {
         "team_name": "Executive Support",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "IT",
         "department": "Technology Support",
         "location": "HQ",
@@ -515,7 +514,7 @@
       },
       {
         "team_name": "Desktop Support",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "IT",
         "department": "Technology Support",
         "location": "HQ",
@@ -529,7 +528,7 @@
       },
       {
         "team_name": "IT Helpdesk",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "IT",
         "department": "Technology Support",
         "location": "HQ",
@@ -543,12 +542,12 @@
       },
       {
         "team_name": "Cloud DevOps",
-        "team_leader": "team leader",
+        "team_leader": "Principal Dev Ops Engineer",
         "division": "IT",
         "department": "Operations and Infrastructure",
         "location": "HQ",
         "titles": [
-          "DevOps Engineer"
+          "Dev Ops Engineer"
         ],
         "level_1_percent": 0.25,
         "level_2_percent": 0.5,
@@ -557,7 +556,7 @@
       },
       {
         "team_name": "Integration",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "IT",
         "department": "Operations and Infrastructure",
         "location": "HQ",
@@ -572,7 +571,7 @@
       },
       {
         "team_name": "Networking",
-        "team_leader": "team leader",
+        "team_leader": "Principal Network Engineer",
         "division": "IT",
         "department": "Operations and Infrastructure",
         "location": "HQ",
@@ -588,7 +587,7 @@
       },
       {
         "team_name": "Website",
-        "team_leader": "team leader",
+        "team_leader": "Lead Web Developer",
         "division": "IT",
         "department": "Corporate Applications",
         "location": "HQ",
@@ -603,7 +602,7 @@
       },
       {
         "team_name": "Business Systems",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "IT",
         "department": "Corporate Applications",
         "location": "HQ",
@@ -619,7 +618,7 @@
       },
       {
         "team_name": "Office of the COO",
-        "team_leader": "team leader",
+        "team_leader": "Executive Officer",
         "division": "Operations",
         "department": "unassigned",
         "location": "HQ",
@@ -635,7 +634,7 @@
       },
       {
         "team_name": "National Sales - East",
-        "team_leader": "team leader",
+        "team_leader": "Sales Manager",
         "division": "Operations",
         "department": "Sales",
         "location": "HQ",
@@ -650,10 +649,10 @@
       },
       {
         "team_name": "National Sales - West",
-        "team_leader": "team leader",
+        "team_leader": "Sales Manager",
         "division": "Operations",
         "department": "Sales",
-        "location": "HQ",
+        "location": "Western Sales",
         "titles": [
           "Sales Executive",
           "Business Support Officer"
@@ -665,7 +664,7 @@
       },
       {
         "team_name": "National Sales - South",
-        "team_leader": "team leader",
+        "team_leader": "Sales Manager",
         "division": "Operations",
         "department": "Sales",
         "location": "HQ",
@@ -680,7 +679,7 @@
       },
       {
         "team_name": "National Sales - North",
-        "team_leader": "team leader",
+        "team_leader": "Salse Manager",
         "division": "Operations",
         "department": "Sales",
         "location": "HQ",
@@ -695,10 +694,10 @@
       },
       {
         "team_name": "International Sales",
-        "team_leader": "team leader",
+        "team_leader": "Sales Manager",
         "division": "Operations",
         "department": "Sales",
-        "location": "HQ",
+        "location": "Western Sales",
         "titles": [
           "Sales Executive",
           "Business Support Officer",
@@ -711,7 +710,7 @@
       },
       {
         "team_name": "Customer Strategy",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "Operations",
         "department": "Marketing",
         "location": "HQ",
@@ -726,7 +725,7 @@
       },
       {
         "team_name": "Business to Business",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "Operations",
         "department": "Marketing",
         "location": "HQ",
@@ -741,10 +740,10 @@
       },
       {
         "team_name": "Warehouse - East & North",
-        "team_leader": "team leader",
+        "team_leader": "Warehouse Coordinator",
         "division": "Operations",
         "department": "Warehouse",
-        "location": "HQ",
+        "location": "Manufacturing Hub Alpha",
         "titles": [
           "Warehouse Specialist",
           "Delivery Officer"
@@ -756,10 +755,10 @@
       },
       {
         "team_name": "Warehouse - South & West",
-        "team_leader": "team leader",
+        "team_leader": "Warehouse Coordinator",
         "division": "Operations",
         "department": "Warehouse",
-        "location": "HQ",
+        "location": "Manufacturing Hub Beta",
         "titles": [
           "Warehouse Specialist",
           "Delivery Officer"
@@ -771,10 +770,10 @@
       },
       {
         "team_name": "Vendor Management",
-        "team_leader": "team leader",
+        "team_leader": "Team Leader",
         "division": "Operations",
         "department": "Manufacturing",
-        "location": "HQ",
+        "location": "Manufacturing Hub Beta",
         "titles": [
           "Vendor Management Analyst",
           "Business Support Officer"
@@ -786,10 +785,10 @@
       },
       {
         "team_name": "Manufacturing Hub Alpha",
-        "team_leader": "team leader",
+        "team_leader": "Operations Coordinator",
         "division": "Operations",
         "department": "Manufacturing",
-        "location": "HQ",
+        "location": "Manufacturing Hub Alpha",
         "titles": [
           "Widget Builder",
           "Whatsit Maker"
@@ -801,10 +800,10 @@
       },
       {
         "team_name": "Manufacturing Hub Beta",
-        "team_leader": "team leader",
+        "team_leader": "Operations Coordinator",
         "division": "Operations",
         "department": "Manufacturing",
-        "location": "HQ",
+        "location": "Manufacturing Hub Beta",
         "titles": [
           "Widget Builder",
           "Whatsit Maker"

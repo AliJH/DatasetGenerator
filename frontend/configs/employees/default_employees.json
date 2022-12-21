@@ -204,23 +204,25 @@
     "values": [
       {
         "team_name": "Office of the CEO",
-        "team_leader": "Executive Officer",
+        "team_leader": "team leader",
         "division": "Office of the CEO",
-        "department": null,
+        "department": "unassigned",
         "location": "HQ",
         "titles": [
+          "Executive Officer",
           "Administration Officer",
           "Business Support Officer"
         ],
-        "level_1_percent": 0.3,
-        "level_2_percent": 0.4,
-        "level_3_percent": 0.3
+        "level_1_percent": 0.5,
+        "level_2_percent": 0.25,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.005
       },
       {
         "team_name": "Office of the CFO",
-        "team_leader": "Executive Officer",
+        "team_leader": "team leader",
         "division": "Finance",
-        "department": null,
+        "department": "unassigned",
         "location": "HQ",
         "titles": [
           "Analyst",
@@ -229,26 +231,28 @@
         ],
         "level_1_percent": 0.5,
         "level_2_percent": 0.25,
-        "level_3_percent": 0.25
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.005
       },
       {
         "team_name": "Treasury",
-        "team_leader": "Principal Treasury Analyst",
+        "team_leader": "team leader",
         "division": "Finance",
-        "department": null,
+        "department": "unassigned",
         "location": "HQ",
         "titles": [
           "Accountant",
           "Treasury Analyst",
           "Planning Officer"
         ],
-        "level_1_percent": 0.2,
-        "level_2_percent": 0.5,
-        "level_3_percent": 0.3
+        "level_1_percent": 0.3,
+        "level_2_percent": 0.4,
+        "level_3_percent": 0.3,
+        "organisation_percent": 0.005
       },
       {
         "team_name": "Accounts Payable",
-        "team_leader": "Team Leader",
+        "team_leader": "team leader",
         "division": "Finance",
         "department": "Accounting",
         "location": "HQ",
@@ -256,13 +260,14 @@
           "Accountant",
           "Business Support Officer"
         ],
-        "level_1_percent": 0.5,
-        "level_2_percent": 0.25,
-        "level_3_percent": 0.25
+        "level_1_percent": 0.1,
+        "level_2_percent": 0.6,
+        "level_3_percent": 0.3,
+        "organisation_percent": 0.01
       },
       {
         "team_name": "Accounts Receivable",
-        "team_leader": "Team Leader",
+        "team_leader": "team leader",
         "division": "Finance",
         "department": "Accounting",
         "location": "HQ",
@@ -270,13 +275,14 @@
           "Accountant",
           "Business Support Officer"
         ],
-        "level_1_percent": 0.5,
-        "level_2_percent": 0.25,
-        "level_3_percent": 0.25
+        "level_1_percent": 0.1,
+        "level_2_percent": 0.6,
+        "level_3_percent": 0.3,
+        "organisation_percent": 0.01
       },
       {
         "team_name": "Payroll",
-        "team_leader": "Principal Payroll Officer",
+        "team_leader": "team leader",
         "division": "Finance",
         "department": "Accounting",
         "location": "HQ",
@@ -284,9 +290,529 @@
           "Accountant",
           "Business Support Officer"
         ],
+        "level_1_percent": 0.2,
+        "level_2_percent": 0.7,
+        "level_3_percent": 0.1,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Financial Audit",
+        "team_leader": "team leader",
+        "division": "Finance",
+        "department": "Audit",
+        "location": "HQ",
+        "titles": [
+          "Auditor",
+          "Audit Analyst"
+        ],
+        "level_1_percent": 0.3,
+        "level_2_percent": 0.2,
+        "level_3_percent": 0.5,
+        "organisation_percent": 0.005
+      },
+      {
+        "team_name": "Governance and Risk",
+        "team_leader": "team leader",
+        "division": "Finance",
+        "department": "Audit",
+        "location": "HQ",
+        "titles": [
+          "Governance and Risk Advisor",
+          "Legal Advisor",
+          "Risk Analyst"
+        ],
+        "level_1_percent": 0.5,
+        "level_2_percent": 0.3,
+        "level_3_percent": 0.2,
+        "organisation_percent": 0.005
+      },
+      {
+        "team_name": "Planning",
+        "team_leader": "team leader",
+        "division": "Finance",
+        "department": "Financial Planning and Analysis",
+        "location": "HQ",
+        "titles": [
+          "Planning Officer",
+          "Forecast Analyst"
+        ],
+        "level_1_percent": 0.7,
+        "level_2_percent": 0.15,
+        "level_3_percent": 0.15,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Analytics",
+        "team_leader": "team leader",
+        "division": "Finance",
+        "department": "Financial Planning and Analysis",
+        "location": "HQ",
+        "titles": [
+          "Forecast Analyst",
+          "Reporting Analyst"
+        ],
+        "level_1_percent": 0.5,
+        "level_2_percent": 0.3,
+        "level_3_percent": 0.2,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Facilities Management",
+        "team_leader": "team leader",
+        "division": "Finance",
+        "department": "unassigned",
+        "location": "HQ",
+        "titles": [
+          "Facilities Officer",
+          "Business Support Officer",
+          "Helpdesk Officer"
+        ],
+        "level_1_percent": 0.25,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Procurement",
+        "team_leader": "team leader",
+        "division": "Finance",
+        "department": "unassigned",
+        "location": "HQ",
+        "titles": [
+          "Contract Analyst",
+          "Procurement Officer",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.25,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Office of the CPO",
+        "team_leader": "team leader",
+        "division": "People",
+        "department": "unassigned",
+        "location": "HQ",
+        "titles": [
+          "Analyst",
+          "Administration Officer",
+          "Business Support Officer"
+        ],
         "level_1_percent": 0.5,
         "level_2_percent": 0.25,
-        "level_3_percent": 0.25
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.005
+      },
+      {
+        "team_name": "Legal",
+        "team_leader": "team leader",
+        "division": "People",
+        "department": "unassigned",
+        "location": "HQ",
+        "titles": [
+          "Legal Officer",
+          "Lawyer",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.7,
+        "level_2_percent": 0.2,
+        "level_3_percent": 0.1,
+        "organisation_percent": 0.005
+      },
+      {
+        "team_name": "Project Management Office",
+        "team_leader": "team leader",
+        "division": "People",
+        "department": "Projects and Planning",
+        "location": "HQ",
+        "titles": [
+          "Project Officer",
+          "Reporting Analyst",
+          "Planning Officer",
+          "Business Analyst"
+        ],
+        "level_1_percent": 0.2,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.3,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "HR Helpdesk",
+        "team_leader": "team leader",
+        "division": "People",
+        "department": "Projects and Planning",
+        "location": "HQ",
+        "titles": [
+          "Training Advisor",
+          "Helpdesk Officer"
+        ],
+        "level_1_percent": 0.15,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.35,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Learning Design",
+        "team_leader": "team leader",
+        "division": "People",
+        "department": "Training and Development",
+        "location": "HQ",
+        "titles": [
+          "Learning Designer",
+          "Systems Analyst"
+        ],
+        "level_1_percent": 0.25,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Training",
+        "team_leader": "team leader",
+        "division": "People",
+        "department": "Training and Development",
+        "location": "HQ",
+        "titles": [
+          "Training Advisor",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.15,
+        "level_2_percent": 0.6,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Office of the CIO",
+        "team_leader": "team leader",
+        "division": "IT",
+        "department": "unassigned",
+        "location": "HQ",
+        "titles": [
+          "Project Officer",
+          "Vendor Management Analyst",
+          "Business Analyst"
+        ],
+        "level_1_percent": 0.5,
+        "level_2_percent": 0.25,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.005
+      },
+      {
+        "team_name": "Executive Support",
+        "team_leader": "team leader",
+        "division": "IT",
+        "department": "Technology Support",
+        "location": "HQ",
+        "titles": [
+          "Technology Support Officer",
+          "System Administrator"
+        ],
+        "level_1_percent": 0.75,
+        "level_2_percent": 0.25,
+        "level_3_percent": 0,
+        "organisation_percent": 0.005
+      },
+      {
+        "team_name": "Desktop Support",
+        "team_leader": "team leader",
+        "division": "IT",
+        "department": "Technology Support",
+        "location": "HQ",
+        "titles": [
+          "Technology Support Officer"
+        ],
+        "level_1_percent": 0.5,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0,
+        "organisation_percent": 0.02
+      },
+      {
+        "team_name": "IT Helpdesk",
+        "team_leader": "team leader",
+        "division": "IT",
+        "department": "Technology Support",
+        "location": "HQ",
+        "titles": [
+          "Helpdesk Officer"
+        ],
+        "level_1_percent": 0.1,
+        "level_2_percent": 0.6,
+        "level_3_percent": 0.3,
+        "organisation_percent": 0.03
+      },
+      {
+        "team_name": "Cloud DevOps",
+        "team_leader": "team leader",
+        "division": "IT",
+        "department": "Operations and Infrastructure",
+        "location": "HQ",
+        "titles": [
+          "DevOps Engineer"
+        ],
+        "level_1_percent": 0.25,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Integration",
+        "team_leader": "team leader",
+        "division": "IT",
+        "department": "Operations and Infrastructure",
+        "location": "HQ",
+        "titles": [
+          "System Administrator",
+          "Developer"
+        ],
+        "level_1_percent": 0.3,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.2,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Networking",
+        "team_leader": "team leader",
+        "division": "IT",
+        "department": "Operations and Infrastructure",
+        "location": "HQ",
+        "titles": [
+          "Network Engineer",
+          "System Administrator",
+          "Technology Support Officer"
+        ],
+        "level_1_percent": 0.25,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.02
+      },
+      {
+        "team_name": "Website",
+        "team_leader": "team leader",
+        "division": "IT",
+        "department": "Corporate Applications",
+        "location": "HQ",
+        "titles": [
+          "Web Developer",
+          "UX Analyst"
+        ],
+        "level_1_percent": 0.35,
+        "level_2_percent": 0.45,
+        "level_3_percent": 0.2,
+        "organisation_percent": 0.02
+      },
+      {
+        "team_name": "Business Systems",
+        "team_leader": "team leader",
+        "division": "IT",
+        "department": "Corporate Applications",
+        "location": "HQ",
+        "titles": [
+          "System Administrator",
+          "Developer",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.35,
+        "level_2_percent": 0.35,
+        "level_3_percent": 0.3,
+        "organisation_percent": 0.01
+      },
+      {
+        "team_name": "Office of the COO",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "unassigned",
+        "location": "HQ",
+        "titles": [
+          "Analyst",
+          "Administration Officer",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.35,
+        "level_2_percent": 0.45,
+        "level_3_percent": 0.2,
+        "organisation_percent": 0.005
+      },
+      {
+        "team_name": "National Sales - East",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Sales",
+        "location": "HQ",
+        "titles": [
+          "Sales Executive",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.2,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.3,
+        "organisation_percent": 0.04
+      },
+      {
+        "team_name": "National Sales - West",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Sales",
+        "location": "HQ",
+        "titles": [
+          "Sales Executive",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.2,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.3,
+        "organisation_percent": 0.06
+      },
+      {
+        "team_name": "National Sales - South",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Sales",
+        "location": "HQ",
+        "titles": [
+          "Sales Executive",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.3,
+        "level_2_percent": 0.6,
+        "level_3_percent": 0.1,
+        "organisation_percent": 0.05
+      },
+      {
+        "team_name": "National Sales - North",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Sales",
+        "location": "HQ",
+        "titles": [
+          "Sales Executive",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.25,
+        "level_2_percent": 0.35,
+        "level_3_percent": 0.3,
+        "organisation_percent": 0.03
+      },
+      {
+        "team_name": "International Sales",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Sales",
+        "location": "HQ",
+        "titles": [
+          "Sales Executive",
+          "Business Support Officer",
+          "Translator"
+        ],
+        "level_1_percent": 0.5,
+        "level_2_percent": 0.25,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.04
+      },
+      {
+        "team_name": "Customer Strategy",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Marketing",
+        "location": "HQ",
+        "titles": [
+          "Data Analyst",
+          "Marketing Officer"
+        ],
+        "level_1_percent": 0.2,
+        "level_2_percent": 0.6,
+        "level_3_percent": 0.2,
+        "organisation_percent": 0.05
+      },
+      {
+        "team_name": "Business to Business",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Marketing",
+        "location": "HQ",
+        "titles": [
+          "Data Analyst",
+          "Marketing Officer"
+        ],
+        "level_1_percent": 0.4,
+        "level_2_percent": 0.4,
+        "level_3_percent": 0.2,
+        "organisation_percent": 0.04
+      },
+      {
+        "team_name": "Warehouse - East & North",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Warehouse",
+        "location": "HQ",
+        "titles": [
+          "Warehouse Specialist",
+          "Delivery Officer"
+        ],
+        "level_1_percent": 0.2,
+        "level_2_percent": 0.6,
+        "level_3_percent": 0.2,
+        "organisation_percent": 0.08
+      },
+      {
+        "team_name": "Warehouse - South & West",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Warehouse",
+        "location": "HQ",
+        "titles": [
+          "Warehouse Specialist",
+          "Delivery Officer"
+        ],
+        "level_1_percent": 0.25,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.07
+      },
+      {
+        "team_name": "Vendor Management",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Manufacturing",
+        "location": "HQ",
+        "titles": [
+          "Vendor Management Analyst",
+          "Business Support Officer"
+        ],
+        "level_1_percent": 0.5,
+        "level_2_percent": 0.25,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.02
+      },
+      {
+        "team_name": "Manufacturing Hub Alpha",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Manufacturing",
+        "location": "HQ",
+        "titles": [
+          "Widget Builder",
+          "Whatsit Maker"
+        ],
+        "level_1_percent": 0.2,
+        "level_2_percent": 0.6,
+        "level_3_percent": 0.2,
+        "organisation_percent": 0.13
+      },
+      {
+        "team_name": "Manufacturing Hub Beta",
+        "team_leader": "team leader",
+        "division": "Operations",
+        "department": "Manufacturing",
+        "location": "HQ",
+        "titles": [
+          "Widget Builder",
+          "Whatsit Maker"
+        ],
+        "level_1_percent": 0.25,
+        "level_2_percent": 0.5,
+        "level_3_percent": 0.25,
+        "organisation_percent": 0.11
       }
     ]
   }
